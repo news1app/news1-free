@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "freeMode": true,
   "demo": false,
-  "generatedAtWib": "11 Aug 2026 11:11 WIB",
-  "generatedAtIso": "2026-08-11T11:11:06.349054+07:00",
+  "generatedAtWib": "11 Aug 2026 11:15 WIB",
+  "generatedAtIso": "2026-08-11T11:15:00.525725+07:00",
   "coverageWindow": "24 jam berita • 7 hari kalender",
   "warnings": [
     "NEWS1 Free = rule-based, bukan AI. Interpretasi otomatis tidak menggantikan pembacaan artikel penuh.",
@@ -29,10 +29,10 @@
     {
       "asset": "XAUUSD",
       "symbol": "GC=F",
-      "last": "4,476.80",
-      "lastNumeric": 4476.8,
-      "changePct": 1.917,
-      "change": "+1.92%",
+      "last": "4,477.00",
+      "lastNumeric": 4477.0,
+      "changePct": 1.877,
+      "change": "+1.88%",
       "source": "Yahoo Finance (Gold futures proxy)",
       "sourceUrl": "https://finance.yahoo.com/quote/GC%3DF",
       "stale": false,
@@ -41,10 +41,10 @@
     {
       "asset": "DXY",
       "symbol": "DX-Y.NYB",
-      "last": "99.793",
-      "lastNumeric": 99.793,
-      "changePct": 0.075,
-      "change": "+0.08%",
+      "last": "99.785",
+      "lastNumeric": 99.785,
+      "changePct": 0.067,
+      "change": "+0.07%",
       "source": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/DX-Y.NYB",
       "stale": false,
@@ -65,10 +65,10 @@
     {
       "asset": "USDJPY",
       "symbol": "JPY=X",
-      "last": "159.199",
-      "lastNumeric": 159.199,
-      "changePct": 0.604,
-      "change": "+0.60%",
+      "last": "159.183",
+      "lastNumeric": 159.183,
+      "changePct": 0.579,
+      "change": "+0.58%",
       "source": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/JPY%3DX",
       "stale": false,
@@ -79,8 +79,8 @@
       "symbol": "EURUSD=X",
       "last": "1.15470",
       "lastNumeric": 1.1547,
-      "changePct": -0.049,
-      "change": "-0.05%",
+      "changePct": -0.061,
+      "change": "-0.06%",
       "source": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/EURUSD%3DX",
       "stale": false,
@@ -89,9 +89,9 @@
     {
       "asset": "GBPUSD",
       "symbol": "GBPUSD=X",
-      "last": "1.35110",
-      "lastNumeric": 1.3511,
-      "changePct": 0.185,
+      "last": "1.35120",
+      "lastNumeric": 1.3512,
+      "changePct": 0.187,
       "change": "+0.19%",
       "source": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/GBPUSD%3DX",
@@ -103,8 +103,8 @@
       "symbol": "BZ=F",
       "last": "87.59",
       "lastNumeric": 87.59,
-      "changePct": 3.706,
-      "change": "+3.71%",
+      "changePct": 3.927,
+      "change": "+3.93%",
       "source": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/BZ%3DF",
       "stale": false,
@@ -115,8 +115,8 @@
       "symbol": "CL=F",
       "last": "82.07",
       "lastNumeric": 82.07,
-      "changePct": 4.084,
-      "change": "+4.08%",
+      "changePct": 4.176,
+      "change": "+4.18%",
       "source": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/CL%3DF",
       "stale": false,
@@ -161,10 +161,10 @@
     {
       "asset": "Bitcoin",
       "symbol": "BTC-USD",
-      "last": "64,058.96",
-      "lastNumeric": 64058.96,
-      "changePct": -1.476,
-      "change": "-1.48%",
+      "last": "64,055.09",
+      "lastNumeric": 64055.09,
+      "changePct": -1.405,
+      "change": "-1.41%",
       "source": "Yahoo Finance",
       "sourceUrl": "https://finance.yahoo.com/quote/BTC-USD",
       "stale": false,
@@ -1379,73 +1379,6 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "11 Aug 2026 06:48 WIB",
-      "source": "Trading Economics",
-      "title": "New Zealand Stocks Muted in Morning Trade - Trading Economics",
-      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: New Zealand Stocks Muted in Morning Trade - Trading Economics",
-      "officialStatement": "—",
-      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
-      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
-      "impact": "LOW",
-      "assetImpacts": [
-        {
-          "asset": "XAUUSD",
-          "direction": "↔/mixed",
-          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
-        },
-        {
-          "asset": "DXY",
-          "direction": "↔/mixed",
-          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
-        },
-        {
-          "asset": "US Treasury yields",
-          "direction": "↔/mixed",
-          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
-        },
-        {
-          "asset": "USDJPY",
-          "direction": "↔/mixed",
-          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
-        },
-        {
-          "asset": "EURUSD",
-          "direction": "↔/mixed",
-          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
-        },
-        {
-          "asset": "GBPUSD",
-          "direction": "↔/mixed",
-          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
-        },
-        {
-          "asset": "Brent",
-          "direction": "↔/mixed",
-          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
-        },
-        {
-          "asset": "WTI",
-          "direction": "↔/mixed",
-          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
-        },
-        {
-          "asset": "US equities",
-          "direction": "↔/mixed",
-          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
-        },
-        {
-          "asset": "Bitcoin",
-          "direction": "↔/mixed",
-          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
-        }
-      ],
-      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
-      "contradictions": "—",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE0yQXVoMXI1TGs4WEI2eTNCVzE3ODdpN05DQUtiRUVpanRxT3NvU3JPWWZMZTN6M1YzU1llZXFIRldiSFVicVdVX25YSm5XeHlVN3pXMlphYkNJT0RfVDRnN0kyUGduMHNFdVFNSWVJc2tkRDA?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
       "publishedAtWib": "11 Aug 2026 06:45 WIB",
       "source": "Trading Economics",
       "title": "CAC 40 Edges Higher on Defense Gains - Trading Economics",
@@ -1845,6 +1778,73 @@
       "contradictions": "—",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc3ZDd0Vqc1lWWG4zc1FRbnd5aHJuSWQ0MnBjZTBWR29PVWtianpySUdhWEhwYWhqR1hUNHNQMXg2bmhkMjhXV3ZUU2JZNVMtV0N0dUQ0R1BVQXZxOTU2VWFKMlBtQzlFelQ3VnR3SHlmaHRWdlo5Sjh4dnZXZ2FKS2RVYUFtT0FkZTR4MkxZY0FKR0dWYkNzbUo5SGUyN0dpTkFKbDM2Wm1nYXJtak9z?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:10 WIB",
+      "source": "Forex Factory",
+      "title": "US: July CPI Expected to Bounce Back After Unexpected June Inflation Decline - Forex Factory",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: US: July CPI Expected to Bounce Back After Unexpected June Inflation Decline - Forex Factory",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Data inflasi adalah katalis tinggi; arah akhir memerlukan actual vs forecast dan reaksi yield/DXY.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOLWhtd1JfaFR3ckZBS0RheU9DQzhlYzVYVHpTaUFsYUoxN0NlRmdkalJPVUdXajJZejhiNndPTjIybnQyZnpOUDYwMTVDdGxpUFA5WTR6SWtoQjhtUVZyOC1LSE1jMGVQamJYNnBzQzBvcFdiSzdvdkExMzdnZU1MY2ZKelJfUnE2Q2dj0gGQAUFVX3lxTE85VlJHQzE1R3hINS1HdGpxcFBzOTJWNHVkdWJJZENHMW1xUFZIc0V4b2lUZWp6UGpPbVBjS3NUYlBBUk9xQ3kweThyMGVOeWFKb2hFNGU0VHdoZ2NSTDlibmZSblZ3SHljTXR6NjhJYjF2Z2tFWmtxNE9lY2hGb3NscnVXLW1rLU02OWY5b1FPVg?oc=5",
+      "publisherUrl": "https://www.forexfactory.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     }
   ],
