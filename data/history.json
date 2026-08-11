@@ -1,1 +1,164 @@
-[]
+[
+  {
+    "generatedAtWib": "11 Aug 2026 10:22 WIB",
+    "summary": {
+      "xauusd": "NETRAL",
+      "dxy": "BULLISH",
+      "yield": "NETRAL",
+      "oil": "BULLISH",
+      "dominantAsset": "WTI",
+      "nextCatalyst": "11 Aug 2026 11:30 WIB • Cash Rate",
+      "bullScenario": "XAU bullish rule-based bila DXY dan US10Y melemah bersamaan, terutama jika data AS lebih lunak dari ekspektasi. Oil bullish bila risk premium/supply disruption menguat dan Brent-WTI mengonfirmasi.",
+      "bearScenario": "XAU bearish rule-based bila DXY dan US10Y menguat bersamaan, terutama jika data AS lebih panas/kuat. Oil bearish bila supply normalisasi dan Brent-WTI turun bersamaan.",
+      "confidencePct": 76,
+      "confidenceLabel": "RULE-BASED • bukan analisis AI",
+      "method": "Harga + kalender publik + headline metadata; tanpa membaca paywall dan tanpa paid AI/API."
+    },
+    "marketSnapshot": [
+      {
+        "asset": "XAUUSD",
+        "symbol": "GC=F",
+        "last": "4,474.00",
+        "lastNumeric": 4474.0,
+        "changePct": 1.962,
+        "change": "+1.96%",
+        "source": "Yahoo Finance (Gold futures proxy)",
+        "sourceUrl": "https://finance.yahoo.com/quote/GC%3DF",
+        "stale": false,
+        "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+      },
+      {
+        "asset": "DXY",
+        "symbol": "DX-Y.NYB",
+        "last": "99.804",
+        "lastNumeric": 99.804,
+        "changePct": 0.103,
+        "change": "+0.10%",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/quote/DX-Y.NYB",
+        "stale": false,
+        "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+      },
+      {
+        "asset": "US10Y",
+        "symbol": "^TNX",
+        "last": "4.699%",
+        "lastNumeric": 4.699,
+        "changePct": 0.837,
+        "change": "+0.84%",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/quote/%5ETNX",
+        "stale": false,
+        "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+      },
+      {
+        "asset": "USDJPY",
+        "symbol": "JPY=X",
+        "last": "159.203",
+        "lastNumeric": 159.203,
+        "changePct": 0.663,
+        "change": "+0.66%",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/quote/JPY%3DX",
+        "stale": false,
+        "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+      },
+      {
+        "asset": "EURUSD",
+        "symbol": "EURUSD=X",
+        "last": "1.15460",
+        "lastNumeric": 1.1546,
+        "changePct": -0.069,
+        "change": "-0.07%",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/quote/EURUSD%3DX",
+        "stale": false,
+        "priceResponse": "Harga relatif tertahan/datar."
+      },
+      {
+        "asset": "GBPUSD",
+        "symbol": "GBPUSD=X",
+        "last": "1.35090",
+        "lastNumeric": 1.3509,
+        "changePct": 0.173,
+        "change": "+0.17%",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/quote/GBPUSD%3DX",
+        "stale": false,
+        "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+      },
+      {
+        "asset": "Brent",
+        "symbol": "BZ=F",
+        "last": "87.88",
+        "lastNumeric": 87.88,
+        "changePct": 4.371,
+        "change": "+4.37%",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/quote/BZ%3DF",
+        "stale": false,
+        "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+      },
+      {
+        "asset": "WTI",
+        "symbol": "CL=F",
+        "last": "82.26",
+        "lastNumeric": 82.26,
+        "changePct": 4.59,
+        "change": "+4.59%",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/quote/CL%3DF",
+        "stale": false,
+        "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+      },
+      {
+        "asset": "S&P 500",
+        "symbol": "^GSPC",
+        "last": "7,753.11",
+        "lastNumeric": 7753.11,
+        "changePct": -0.058,
+        "change": "-0.06%",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/quote/%5EGSPC",
+        "stale": false,
+        "priceResponse": "Harga relatif tertahan/datar."
+      },
+      {
+        "asset": "Dow",
+        "symbol": "^DJI",
+        "last": "53,975.98",
+        "lastNumeric": 53975.98,
+        "changePct": -0.113,
+        "change": "-0.11%",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/quote/%5EDJI",
+        "stale": false,
+        "priceResponse": "Harga turun dalam jendela perbandingan terakhir."
+      },
+      {
+        "asset": "Nasdaq",
+        "symbol": "^IXIC",
+        "last": "26,605.36",
+        "lastNumeric": 26605.357,
+        "changePct": -0.319,
+        "change": "-0.32%",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/quote/%5EIXIC",
+        "stale": false,
+        "priceResponse": "Harga turun dalam jendela perbandingan terakhir."
+      },
+      {
+        "asset": "Bitcoin",
+        "symbol": "BTC-USD",
+        "last": "64,085.67",
+        "lastNumeric": 64085.67,
+        "changePct": -1.36,
+        "change": "-1.36%",
+        "source": "Yahoo Finance",
+        "sourceUrl": "https://finance.yahoo.com/quote/BTC-USD",
+        "stale": false,
+        "priceResponse": "Harga turun dalam jendela perbandingan terakhir."
+      }
+    ]
+  }
+]

@@ -1,26 +1,2690 @@
 {
   "schemaVersion": 2,
   "freeMode": true,
-  "demo": true,
-  "generatedAtWib": "Belum menjalankan GitHub Actions",
+  "demo": false,
+  "generatedAtWib": "11 Aug 2026 10:22 WIB",
+  "generatedAtIso": "2026-08-11T10:22:59.241987+07:00",
   "coverageWindow": "24 jam berita • 7 hari kalender",
   "warnings": [
-    "Ini data awal. Jalankan workflow Update NEWS1 Free Data di GitHub Actions.",
-    "NEWS1 Free bersifat rule-based dan tidak membaca isi artikel paywall."
+    "NEWS1 Free = rule-based, bukan AI. Interpretasi otomatis tidak menggantikan pembacaan artikel penuh.",
+    "Artikel paywall tidak dibaca dan tidak direkonstruksi. Fakta berita otomatis dibatasi pada headline/metadata yang terindeks.",
+    "Trading Economics API resmi membutuhkan API key berlangganan; mode gratis tidak mengakses endpoint berbayarnya.",
+    "Endpoint web publik dapat berubah/rate-limit; jika gagal aplikasi menandai data cached/tidak tersedia, bukan mengarang angka.",
+    "Forex Factory calendar feed tidak tersedia (ff_calendar_nextweek.json)."
   ],
   "summary": {
     "xauusd": "NETRAL",
-    "dxy": "NETRAL",
+    "dxy": "BULLISH",
     "yield": "NETRAL",
-    "oil": "NETRAL",
-    "dominantAsset": "—",
-    "nextCatalyst": "Jalankan update data",
-    "bullScenario": "Menunggu data live.",
-    "bearScenario": "Menunggu data live.",
-    "confidencePct": 0,
-    "confidenceLabel": "DEMO"
+    "oil": "BULLISH",
+    "dominantAsset": "WTI",
+    "nextCatalyst": "11 Aug 2026 11:30 WIB • Cash Rate",
+    "bullScenario": "XAU bullish rule-based bila DXY dan US10Y melemah bersamaan, terutama jika data AS lebih lunak dari ekspektasi. Oil bullish bila risk premium/supply disruption menguat dan Brent-WTI mengonfirmasi.",
+    "bearScenario": "XAU bearish rule-based bila DXY dan US10Y menguat bersamaan, terutama jika data AS lebih panas/kuat. Oil bearish bila supply normalisasi dan Brent-WTI turun bersamaan.",
+    "confidencePct": 76,
+    "confidenceLabel": "RULE-BASED • bukan analisis AI",
+    "method": "Harga + kalender publik + headline metadata; tanpa membaca paywall dan tanpa paid AI/API."
   },
-  "marketSnapshot": [],
-  "news": [],
-  "calendar": []
+  "marketSnapshot": [
+    {
+      "asset": "XAUUSD",
+      "symbol": "GC=F",
+      "last": "4,474.00",
+      "lastNumeric": 4474.0,
+      "changePct": 1.962,
+      "change": "+1.96%",
+      "source": "Yahoo Finance (Gold futures proxy)",
+      "sourceUrl": "https://finance.yahoo.com/quote/GC%3DF",
+      "stale": false,
+      "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+    },
+    {
+      "asset": "DXY",
+      "symbol": "DX-Y.NYB",
+      "last": "99.804",
+      "lastNumeric": 99.804,
+      "changePct": 0.103,
+      "change": "+0.10%",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/DX-Y.NYB",
+      "stale": false,
+      "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+    },
+    {
+      "asset": "US10Y",
+      "symbol": "^TNX",
+      "last": "4.699%",
+      "lastNumeric": 4.699,
+      "changePct": 0.837,
+      "change": "+0.84%",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/%5ETNX",
+      "stale": false,
+      "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+    },
+    {
+      "asset": "USDJPY",
+      "symbol": "JPY=X",
+      "last": "159.203",
+      "lastNumeric": 159.203,
+      "changePct": 0.663,
+      "change": "+0.66%",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/JPY%3DX",
+      "stale": false,
+      "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+    },
+    {
+      "asset": "EURUSD",
+      "symbol": "EURUSD=X",
+      "last": "1.15460",
+      "lastNumeric": 1.1546,
+      "changePct": -0.069,
+      "change": "-0.07%",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/EURUSD%3DX",
+      "stale": false,
+      "priceResponse": "Harga relatif tertahan/datar."
+    },
+    {
+      "asset": "GBPUSD",
+      "symbol": "GBPUSD=X",
+      "last": "1.35090",
+      "lastNumeric": 1.3509,
+      "changePct": 0.173,
+      "change": "+0.17%",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/GBPUSD%3DX",
+      "stale": false,
+      "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+    },
+    {
+      "asset": "Brent",
+      "symbol": "BZ=F",
+      "last": "87.88",
+      "lastNumeric": 87.88,
+      "changePct": 4.371,
+      "change": "+4.37%",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/BZ%3DF",
+      "stale": false,
+      "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+    },
+    {
+      "asset": "WTI",
+      "symbol": "CL=F",
+      "last": "82.26",
+      "lastNumeric": 82.26,
+      "changePct": 4.59,
+      "change": "+4.59%",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/CL%3DF",
+      "stale": false,
+      "priceResponse": "Harga naik dalam jendela perbandingan terakhir."
+    },
+    {
+      "asset": "S&P 500",
+      "symbol": "^GSPC",
+      "last": "7,753.11",
+      "lastNumeric": 7753.11,
+      "changePct": -0.058,
+      "change": "-0.06%",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/%5EGSPC",
+      "stale": false,
+      "priceResponse": "Harga relatif tertahan/datar."
+    },
+    {
+      "asset": "Dow",
+      "symbol": "^DJI",
+      "last": "53,975.98",
+      "lastNumeric": 53975.98,
+      "changePct": -0.113,
+      "change": "-0.11%",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/%5EDJI",
+      "stale": false,
+      "priceResponse": "Harga turun dalam jendela perbandingan terakhir."
+    },
+    {
+      "asset": "Nasdaq",
+      "symbol": "^IXIC",
+      "last": "26,605.36",
+      "lastNumeric": 26605.357,
+      "changePct": -0.319,
+      "change": "-0.32%",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/%5EIXIC",
+      "stale": false,
+      "priceResponse": "Harga turun dalam jendela perbandingan terakhir."
+    },
+    {
+      "asset": "Bitcoin",
+      "symbol": "BTC-USD",
+      "last": "64,085.67",
+      "lastNumeric": 64085.67,
+      "changePct": -1.36,
+      "change": "-1.36%",
+      "source": "Yahoo Finance",
+      "sourceUrl": "https://finance.yahoo.com/quote/BTC-USD",
+      "stale": false,
+      "priceResponse": "Harga turun dalam jendela perbandingan terakhir."
+    }
+  ],
+  "news": [
+    {
+      "publishedAtWib": "11 Aug 2026 08:41 WIB",
+      "source": "Reuters",
+      "title": "Oil prices rise, Asia stocks drift amid US-Iran stalemate - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Oil prices rise, Asia stocks drift amid US-Iran stalemate - Reuters",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Rule-based: eskalasi geopolitik/Hormuz biasanya menaikkan risk premium minyak dan safe haven; efek USD/yield dapat campuran.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: TERTAHAN."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MENGIKUTI."
+        }
+      ],
+      "priceResponse": "XAUUSD: MENGIKUTI",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRnpVTlc5WDU3ZUFOMTJjSFRLNGFCWUItblV4clc0UnVXUi05VVBaRkFleHpsdWtmcl9YZDRtN3BkaDhqUy1PTWx1aDhjalNDc09RNGh5eDFYN2FnTGxraUlhRWtFUnl0UTJrbV82Yi1CaFEyNmNwaHlvQVdobElUNEZVaw?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 08:39 WIB",
+      "source": "Bloomberg",
+      "title": "China’s Teapots May Boost Iran Oil Buying as Stockpiles Dwindle - Bloomberg.com",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: China’s Teapots May Boost Iran Oil Buying as Stockpiles Dwindle - Bloomberg.com",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Rule-based: eskalasi geopolitik/Hormuz biasanya menaikkan risk premium minyak dan safe haven; efek USD/yield dapat campuran.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: TERTAHAN."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MENGIKUTI."
+        }
+      ],
+      "priceResponse": "XAUUSD: MENGIKUTI",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQb2FZcUVGenJnRGtYRmRnSUhmbWpCTjJTMEpXakRfQ3g4WjV6RFlnYU5KSVlIOF9ac25rbWpoZXdnazlZeFNUb1JEdzltOW92MjZFT1Z3dHZRXzJiYVZjT3BnSXhRdTIzWkFabVg1Y2ZPdDMxNFFEUWtVWWtkNnQ0SjlIa1NZUWU2ZTNWQ0E0TUdJZVgyaWczNDBZQVNNU0JhUVNlRktxZ2dHZ1pVeVJOR0ZDNXU?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 08:30 WIB",
+      "source": "Bloomberg",
+      "title": "Apple’s Glass-Centric 20th-Anniversary iPhone Remains on Track for 2027 - Bloomberg.com",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Apple’s Glass-Centric 20th-Anniversary iPhone Remains on Track for 2027 - Bloomberg.com",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOT3czVXB6Wjh6RE8zc3BOdWI3NFBHbHBkdGp4VndRWkZtcjJEd3ZHcmRONWhwa2pFUVZybHhJN1VEYWprbUdOclp5WkhkNmVyLTQwX3Rnb0NwZ1BZSXlVb1RNVUdPRkxfSk9iTUQ1aFIzZFFHOXo1cGRsSUlDVk9SVGlwS3NqQW9hSnlZb3pJaUxLcmFCNHFPeGNjcTNFSWVRYXdJYVhHanNrSTRrWjUtRFE0eGNWRXdFTnNwUWZ3RQ?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 08:01 WIB",
+      "source": "Bloomberg",
+      "title": "Gold Climbs Above $4,400 as Traders Turn Focus to US Inflation - Bloomberg.com",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Gold Climbs Above $4,400 as Traders Turn Focus to US Inflation - Bloomberg.com",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Data inflasi adalah katalis tinggi; arah akhir memerlukan actual vs forecast dan reaksi yield/DXY.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQbmZIUFBpdUxJSTNqeXIyU1BGazNWVlFFZnRTMGxodXV0M2ZYeG9CRXJ5WkQ0MWt6cjhSd29fWk9SWjJRWWtodnpCU3hWRTVwUG1sdXNra3Z5X2t2VndBdTVkSXNJR3ZNbm5WNTJGYkhBNnJtTU5tZzR3RENSTmpZUHJOSkxXMVBJem1BbjBXSXBBdGdjVnB6RldCY2NybUZvRjBtdm11X2s4d2xmUnVqMWJ3?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 08:00 WIB",
+      "source": "Bloomberg",
+      "title": "Even Mercedes Can't Stop the Decline of German Cars in China - Bloomberg.com",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Even Mercedes Can't Stop the Decline of German Cars in China - Bloomberg.com",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOLXRTRkF5cEhOTVBidG9RanBfTlZaOUl6Z2RIYUFaT2FGNFJ5cDFTWHpDcG5yMkhIbGx5NTZuS3RVSGs3SG1BRUpEMDVqRXo4eVBsTHRTOG0za3hwcVZXZEh0WDdHQ09sZkhEdmgzYkV4UTVoRkozLXlVVUl3cV9ibjcySUhtVjBtY0N4QlRZYmZnelRBV3BwMW1Bb3dXR3hKRHFzOTdURTBOY3BjcGk5OVpB?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 07:52 WIB",
+      "source": "Bloomberg",
+      "title": "Bessent’s Whatever-It-Takes Yen Vow Masks Limited Firepower - Bloomberg.com",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Bessent’s Whatever-It-Takes Yen Vow Masks Limited Firepower - Bloomberg.com",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "MEDIUM",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc0FlazBkTUpmdjI5YUt6WHJSRjVXWW9KMmc5UDFPa0RNc0o1d0Zrc2lDVno5eHd1SUFZUW1yTWd3bWx6c1p4OVdGLW53LWl0cDM0NVlrRDBBR19JczdCOVV6aDc4UFVWT3picFFFcFliWkN2SHlCY2tiU1Q0SV9HSG1mNDVIaHpoNzdVRGFWNkNhYnRuejh1cWl3Y1ZJQ25uZ2lQQU5HSHNRdEd0RmtxVVpPTQ?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 07:48 WIB",
+      "source": "Reuters",
+      "title": "Gold gains for third session, inflation reports in focus - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Gold gains for third session, inflation reports in focus - Reuters",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Rule-based: inflasi yang lebih panas cenderung menaikkan yield/USD dan menekan gold/risk assets.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MELAWAN."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: TERTAHAN."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MELAWAN."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: TERTAHAN."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MENGIKUTI."
+        }
+      ],
+      "priceResponse": "XAUUSD: MELAWAN",
+      "contradictions": "XAUUSD melawan tekanan rule-based; GBPUSD melawan tekanan rule-based",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOQ3pfajk5NldmMDliSlhNU3ZYd1J6UGt3cWM4ZHBzTkxnYTVGbnVWU0ZOVFFqLUk2eFYyQnhxdUxiUFp5Y0lXTnpEOGIwMHBveTR5bzBvZmxjWTA4TmR6OUt0U1ZSd2V0dDhkMlg4TkpFdlFCSEtJN3BXYXJQMFZLZDgyZjR6UTRXeU5fRFZ1MHM1WXpCMEtTOF9CNmptQTJmNzBQN1JyMA?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 07:38 WIB",
+      "source": "Reuters",
+      "title": "Oil steadies near one-week highs as US-Iran peace deal hopes dim - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Oil steadies near one-week highs as US-Iran peace deal hopes dim - Reuters",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Rule-based: eskalasi geopolitik/Hormuz biasanya menaikkan risk premium minyak dan safe haven; efek USD/yield dapat campuran.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: TERTAHAN."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MENGIKUTI."
+        }
+      ],
+      "priceResponse": "XAUUSD: MENGIKUTI",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQM0pWdFZzeWRnNk5zclJaZzJnUnhXVnZnNHdFcFRtTlo3T00wd1RVdHF6QmNZRVJBSGNIMm50YW1ob0x4dENzeGFpTDlSNUdvbkZZNXBBLVc0WVFjVVRMUEl3NldGcFNtTXYybWJLVklxYlZnbUkzRVpyeU55b3FFZlhlRmVueEdTTHNGcnVVS05zUnZyWkJ5VkhIcmFwS01KYVNXaHVyeE1yZEhtd3Z4alAwUQ?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 07:37 WIB",
+      "source": "Bloomberg",
+      "title": "Nvidia Taps Wall Street for $500 Billion Funding Commitment - Bloomberg.com",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Nvidia Taps Wall Street for $500 Billion Funding Commitment - Bloomberg.com",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSFh3ZUFwdFIxQVNrc3M5RzBZcUxuUE8wM0g1T3hUdklWeThMZmgtZVdWdlNSRGp5SkxvUEVreHRSbmZCcXV1ajN0dTV6cm1oWmhFV29DMkZ3RHI4a3BFWUFKeVE5Vkw2YV9JVnl2NHRvdEZBc01QdV8yRVpYeFdQcGdGazRVaFhMeC1MN0NoZ3cwRUVlY0tjV1psd1ZTYnktcDlCTVpiMDVha2EwMHZubFhpYw?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 07:32 WIB",
+      "source": "Reuters",
+      "title": "Trump took secret flight out of Turkey due to Iran threat, the Washington Post reports - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Trump took secret flight out of Turkey due to Iran threat, the Washington Post reports - Reuters",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Rule-based: eskalasi geopolitik/Hormuz biasanya menaikkan risk premium minyak dan safe haven; efek USD/yield dapat campuran.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: TERTAHAN."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MENGIKUTI."
+        }
+      ],
+      "priceResponse": "XAUUSD: MENGIKUTI",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPREluUlJXa0tGLWNUdk9DbkpRazRWWFZyQjlnblJiaC1xc3N1c2hUOXIwVGgwZXU4dlhfcERmX3MxMUltNFJ2TWVxb19ZbVRjRk00eGVWUlR0cW5jSTl5Y3M2dWhJc1I4NVVNdlV2a2U1MmR5Q2FaYnlhMk10a1lmNFNXQTBQZm5xaklVQUM2NlppTU9zeHV5ck9pTE1UVWU1eTNxZzB3d2pQNzkwQlhRTWZCbDhaRkZXR2pHR1FJYkZYanp2N2VIbmxkc0Y?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 07:23 WIB",
+      "source": "Bloomberg",
+      "title": "Kioxia Says Investment Vehicle for SK Hynix Is Top Shareholder - Bloomberg.com",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Kioxia Says Investment Vehicle for SK Hynix Is Top Shareholder - Bloomberg.com",
+      "officialStatement": "Headline memuat pernyataan/komentar; buka sumber untuk konteks lengkap.",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdGNSTVFBa3VZajBnU2ttX0U4c0o1bVRRSVN0Ukt3bFNxMjdZdUhPRF9QSXVZT2pNSE4zVFBIdUx2emdzNzdFTmFEdjVkalZiN1pMMkcwcTF5Q0xzeUpma21UUjFTQ2ZZMHlwUGNkR2NmOC1HVEpjZXBOTVJKbTNmY0Z0bVQ3MUdvRlBGNlFGREY1b2F2Nml6VDUtYk8zWHlXQzZOMGpUdU5HOWRqLUZ2QUU3bw?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 07:00 WIB",
+      "source": "Bloomberg",
+      "title": "Anthropic Strikes $9 Billion Deal With Cloud Computing Firm Riot - Bloomberg.com",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Anthropic Strikes $9 Billion Deal With Cloud Computing Firm Riot - Bloomberg.com",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQLUh6enBVWEI2ZTNVakNYcVRtd2gzREpSb3VvbGlyZ3pWZVYzcndna1dTWC1wV0sxcTNsWmRKQzA5ME1hTGdYSmFMUFlCdmZ4YkdHWTgzV0ozNnBiMXFVWm1ob09ZbUx6LVZ4VGR0Rlh1ekNzeVpISS1FOE4wRXRiYUlVOGpXcVppWEFLWndtSDFCYzQtSDJmVTU2dnhBSTNTOUtGcjZVX1hwWUxRRHFDcTB6Uk4?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:57 WIB",
+      "source": "Reuters",
+      "title": "Intel plans $15 billion share sale as turnaround rally lifts stock - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Intel plans $15 billion share sale as turnaround rally lifts stock - Reuters",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWmlPY1Jtc3A4X2YxbXFKRmx6eUpMRGhzeTJCXzRwdVlIbzkyZVgzdFBONFRrRVZuOGNtTzQtSXRfd3MySUhnT1JWc3NBS1BYS2JlcDlVUUcydnRacHdzaE9WRmI5NWpvUHYxa1lRamVvZmpwSnBTdl9ueGZWdXJmTGcwSnBoa3g1UnJMT05VRUlyaTdsNGx0dlhjUVV6QXcweFVvaUhwV3dkdnBTWWJRT2x6VXNSa2FrSGVjRUx3?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:56 WIB",
+      "source": "Forex Factory",
+      "title": "Odds the Fed will hike in September tumble following big July jobs miss - Forex Factory",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Odds the Fed will hike in September tumble following big July jobs miss - Forex Factory",
+      "officialStatement": "Headline memuat pernyataan/komentar; buka sumber untuk konteks lengkap.",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Rule-based: Fed hawkish/rate-hike bias cenderung bullish USD/yield dan bearish gold.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MELAWAN."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: TERTAHAN."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MELAWAN."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: TERTAHAN."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MENGIKUTI."
+        }
+      ],
+      "priceResponse": "XAUUSD: MELAWAN",
+      "contradictions": "XAUUSD melawan tekanan rule-based; GBPUSD melawan tekanan rule-based",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQUTZJRHB2Vi0wdEhOZ05xMzZHVUNZVFdFUmJ3bjgyclBmaFAzeGF1Q1h1U3YteVEtdktsQzJhT1FiTXdCemZYMmI2RWtJQmJzMUxVTnlMdEFaV0pEVE1lQWhzSklJazFCY29LcU9GOTFCcGlFSHdIdDl4STc1MnRQemJVTElfamlGT0lqWtIBkgFBVV95cUxPUnJHOEREM1FfVjVmMXNxZUM2ZUw5c0RHWF8ycnlvMU1wWkM2dHh2bzdrZVlkRmxsMkVuR3o0TUhhZ2ZtWTBMOGgzb1Qxc0NsX3VFLXE1dlR5WTZmQVlvTFBmTkNncVd1Yk5NZjJUQnZwdUxidWVDU3VxZ05TUnZQd1R3dzcwWHlJUkl1dk0xaUxyUQ?oc=5",
+      "publisherUrl": "https://www.forexfactory.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:53 WIB",
+      "source": "Reuters",
+      "title": "US sells for scrap two sanctioned oil tankers seized after Venezuela raid - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: US sells for scrap two sanctioned oil tankers seized after Venezuela raid - Reuters",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSlIwNk4tOUlhVkJnVG03OWlXUUlvUzR1RW5MQXlEVFpjbVZ1SDBsd3dIeUc0endMTm9lT2dLZjhxdXNlT3EyMEQteC1BbHlGQURTTzZ5T0pTRzNibUQ1QnNTRDh2WmU4NDdRX0dhdWZyLTlMN2hFSlBVdlN1VFJQenJLajJudG9tOHlzVDVXSFBlb1czWkRxYWVGS24xRnlwbGxfRTgxaWNEOVRMdGRNR0NHRUJHRHBRVGVQRVZn?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:49 WIB",
+      "source": "Reuters",
+      "title": "Trump order reduces US vaccine schedule, seeks to split MMR shot - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Trump order reduces US vaccine schedule, seeks to split MMR shot - Reuters",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNUFVEZzFRZGZDeDBUUllvNkUwbjZXVGxDTHI0NmJsNHFBNDNrdzBGdThjZ09MRUJMUXdMVVFILThYRW9tem1SaEZkQmY4TC1ocnFGOEUxWXFGZ0dEQlpqc3F2MUdvaHRCTV95OEN2SGRLUGJkSi1hdEFLeEJuZ050Si1vVGpRS2VyZE5nSnplV2JPcVFIcURJX0VSX214T3BWNDJxVEE0cVZfWld3R3JhNnZQam1KaFZHajRybHczd01DSkFKU3AxeXZNTjgwZnJ0dldxQQ?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:49 WIB",
+      "source": "Reuters",
+      "title": "Libya's NOC warns of force majeure, Zawiya refinery shutdown if drone attacks continue - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Libya's NOC warns of force majeure, Zawiya refinery shutdown if drone attacks continue - Reuters",
+      "officialStatement": "Headline memuat pernyataan/komentar; buka sumber untuk konteks lengkap.",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Rule-based: eskalasi geopolitik/Hormuz biasanya menaikkan risk premium minyak dan safe haven; efek USD/yield dapat campuran.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: TERTAHAN."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MENGIKUTI."
+        }
+      ],
+      "priceResponse": "XAUUSD: MENGIKUTI",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPaXltbWpibFBieFlGQi1PQXlTWktFYXdFSENITmhTenpTVFhpSkhhMG1CMUJKTXo4VUdDX29YdVpmRHViaHowb3k0WjE1ajdjM0JldlRVN0ZVZVlMYU5HaXFlVWlqcmQ5Uk9JbWxsUkhVVUlFSzlMUFNnSnJyNnBhQkR1WVV6UjJFenJPaVNSVVh0YUpwUkduWTFXSkhEMW9IeVhJMFpB?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:45 WIB",
+      "source": "Trading Economics",
+      "title": "CAC 40 Edges Higher on Defense Gains - Trading Economics",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: CAC 40 Edges Higher on Defense Gains - Trading Economics",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YZ0xRd015N0FYSmFXX0d0RzRBdzNaN0RjVTh5VEhHMldxcTM0VmdqTnZFSF92V1Q3bE1IaDZxWkZWRnlnNWZoeXh3TnU4WElFUmdNcGRfVzZWOW40T2VVWEk5cGJTTnc3UGt1Uw?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:37 WIB",
+      "source": "Trading Economics",
+      "title": "Oil Holds Advance on US-Iran Deal Uncertainty - Trading Economics",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Oil Holds Advance on US-Iran Deal Uncertainty - Trading Economics",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Rule-based: eskalasi geopolitik/Hormuz biasanya menaikkan risk premium minyak dan safe haven; efek USD/yield dapat campuran.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: TERTAHAN."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MENGIKUTI."
+        }
+      ],
+      "priceResponse": "XAUUSD: MENGIKUTI",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE56c0pia0dmYnZEUnp6VWtmaENnYVM5VmEzSjdQUXdnUE1rOC1RSFdwTXphQXpoN3VsZV9zYl9XS3FLbnNWMzdNeWVwR2tzTVh2Wi1iVTJqUXliaUZtTXJweGFjaUkwQmU5NXNiNA?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:34 WIB",
+      "source": "Reuters",
+      "title": "Shipbuilder Austal gets $1.2 billion offer for US operations from Hanwha - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Shipbuilder Austal gets $1.2 billion offer for US operations from Hanwha - Reuters",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPNURwQ1l1WnJNbGRDc184cEVRS0dNWXZ0cmx1OTY3UlNvMUlWbFFOY2lJcS1zM1VabWNXYnNRbFRKa21td1h2ZTNwRVFDM2c4VmdqQVBIOTFtMllENG1mMVpZVlNpMGxTX2tDcmkxNlBialNqLTNaREpVX2JPaTdZRm42cjdVVlhNenpTbHZ6R2VQemxZeGp2SHM3ZlgzNVBIQzNFZDRTSVVIZHlwVG1rQTFtZUxLVzA?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:30 WIB",
+      "source": "Reuters",
+      "title": "Unemployment rate remains Fed's labor market lodestar - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Unemployment rate remains Fed's labor market lodestar - Reuters",
+      "officialStatement": "Headline memuat pernyataan/komentar; buka sumber untuk konteks lengkap.",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Data tenaga kerja berdampak tinggi pada ekspektasi Fed; actual vs forecast dibutuhkan untuk arah yang valid.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOXFUVVdEVHZkck9fdENfYjNiUGw1MlZQZFBhdVRCQ3Y5ZGp6QnpWeVM3V0ItOG15azdacVZCY2hLN0tTN3ZiT0Noa092ZGFoQS14ejI3c3BRa184T3JyOFpwX0FMVHZfOU1qd0k5QV9DV1ZfN2NvR0U1UFptOEF6cERsd1diMU9McnU3VDFneDhZSlBSTWcyemxieGwyRW5LaUpwRWRtNnVlZU5zT3JBVE14b29YNHNxVEJ4Ykhn?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:19 WIB",
+      "source": "Reuters",
+      "title": "Wall Street ends down as expectations of Hormuz deal fade - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Wall Street ends down as expectations of Hormuz deal fade - Reuters",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Rule-based: eskalasi geopolitik/Hormuz biasanya menaikkan risk premium minyak dan safe haven; efek USD/yield dapat campuran.",
+      "impact": "HIGH",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "explanation": "Rule-based pressure: UP; konfirmasi harga: MENGIKUTI."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: TERTAHAN."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MENGIKUTI."
+        }
+      ],
+      "priceResponse": "XAUUSD: MENGIKUTI",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZ1dvZ2c1V0lTdG9JSjJSTkR1eFdqSUFMZkZhLVNHWVppM2lMUEluay12RmYxaHozajVfaDZLOTlaMGk5eHpJbTNScmhEbkFwUmMtdWc2ZWh1eEtJSlRGUGJqdFhEdlp4UFJqQm1JQWNqNV9RNUhneDdnSDFzRGVvZHQ0YmpyeElzS1VwMGtmeGI2NzZja09Sd1BITm1IUHVYdDc4djlFQQ?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:10 WIB",
+      "source": "Bloomberg",
+      "title": "Intel Is Said to Near Share Sale Upsize to Raise $20 Billion - Bloomberg.com",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Intel Is Said to Near Share Sale Upsize to Raise $20 Billion - Bloomberg.com",
+      "officialStatement": "Headline memuat pernyataan/komentar; buka sumber untuk konteks lengkap.",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNc3ZDd0Vqc1lWWG4zc1FRbnd5aHJuSWQ0MnBjZTBWR29PVWtianpySUdhWEhwYWhqR1hUNHNQMXg2bmhkMjhXV3ZUU2JZNVMtV0N0dUQ0R1BVQXZxOTU2VWFKMlBtQzlFelQ3VnR3SHlmaHRWdlo5Sjh4dnZXZ2FKS2RVYUFtT0FkZTR4MkxZY0FKR0dWYkNzbUo5SGUyN0dpTkFKbDM2Wm1nYXJtak9z?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:08 WIB",
+      "source": "Reuters",
+      "title": "BOJ's rate-hike path runs into Takaichi's bond market problems - Reuters",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: BOJ's rate-hike path runs into Takaichi's bond market problems - Reuters",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Rule-based: BOJ hawkish biasanya mendukung JPY dan menekan USDJPY.",
+      "impact": "MEDIUM",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↓",
+          "explanation": "Rule-based pressure: DOWN; konfirmasi harga: MELAWAN."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "USDJPY: MELAWAN",
+      "contradictions": "USDJPY melawan tekanan rule-based",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMVU4YTMyZzBlVkRSS1puYTluVjgycklHS2dRbnVCSkxVMWdjcEUtdlZ0NVpIakhpckplY0dGSGQyOFkxQmhpTnMzT0dRNWlfRHg5R2MzQ3BUcV90cTFjMlF5elB3SUVlMWloQnpleUowUHNHSFJKeW1iV2lkNnhtdGtWUURyQi1DcURaaG1SR18xa3lmd2MtaEsyb2E1Q082c25nX2E3UEYzV0JJcUQxOGNfMFZrdw?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "11 Aug 2026 06:06 WIB",
+      "source": "Bloomberg",
+      "title": "Drone Hits Tank at Libyan Refinery, Threatening Oil Facilities - Bloomberg.com",
+      "fact": "Fakta terverifikasi otomatis terbatas pada metadata/headline yang terindeks: Drone Hits Tank at Libyan Refinery, Threatening Oil Facilities - Bloomberg.com",
+      "officialStatement": "—",
+      "consensus": "— (NEWS1 Free tidak mengarang konsensus dari artikel yang tidak dibaca)",
+      "interpretation": "Dampak tidak dapat ditentukan kuat dari headline saja.",
+      "impact": "LOW",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "DXY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Brent",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "WTI",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "US equities",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↔/mixed",
+          "explanation": "Tidak ada arah kuat yang aman disimpulkan dari headline saja."
+        }
+      ],
+      "priceResponse": "Belum ada arah fundamental yang cukup spesifik untuk diuji terhadap harga.",
+      "contradictions": "—",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMkZack5mcEJWOHFRM09temx4TjBmVVlySnZDaEFuX1dqTV9hdHJRS1J3NGVDYk1yRzlMTzI4eFotTXFtcFQwdmt1cmV6UW5Na21LUklzNUxLRUlUc3ZSTkwyOW1nUDFzc1hLdzFUdndvT2tVdDl2Yk1KTUdTSldkY1k4dVo0eWNUWHNCUDJSbjZSdVkyOHdtZHREbGJmdGdwNlBfZmtjejFNNmhBTmhJTGlR?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    }
+  ],
+  "calendar": [
+    {
+      "datetimeWib": "11 Aug 2026 11:30 WIB",
+      "timestamp": 1786422600,
+      "currency": "AUD",
+      "event": "Cash Rate",
+      "impact": "HIGH",
+      "actual": "—",
+      "forecast": "4.35%",
+      "previous": "4.35%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "11 Aug 2026 11:30 WIB",
+      "timestamp": 1786422600,
+      "currency": "AUD",
+      "event": "RBA Monetary Policy Statement",
+      "impact": "HIGH",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "—",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "11 Aug 2026 11:30 WIB",
+      "timestamp": 1786422600,
+      "currency": "AUD",
+      "event": "RBA Rate Statement",
+      "impact": "HIGH",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "—",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "11 Aug 2026 12:30 WIB",
+      "timestamp": 1786426200,
+      "currency": "AUD",
+      "event": "RBA Press Conference",
+      "impact": "HIGH",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "—",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "11 Aug 2026 15:00 WIB",
+      "timestamp": 1786435200,
+      "currency": "EUR",
+      "event": "Italian Trade Balance",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "4.74B",
+      "previous": "4.79B",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "11 Aug 2026 17:00 WIB",
+      "timestamp": 1786442400,
+      "currency": "USD",
+      "event": "NFIB Small Business Index",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "97.5",
+      "previous": "97.4",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "11 Aug 2026 19:15 WIB",
+      "timestamp": 1786450500,
+      "currency": "USD",
+      "event": "ADP Weekly Employment Change",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "—",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "11 Aug 2026 19:16 WIB",
+      "timestamp": 1786450560,
+      "currency": "USD",
+      "event": "ADP Weekly Employment Change",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "15.0K",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "11 Aug 2026 21:00 WIB",
+      "timestamp": 1786456800,
+      "currency": "USD",
+      "event": "Existing Home Sales",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "4.05M",
+      "previous": "4.09M",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "12 Aug 2026 03:30 WIB",
+      "timestamp": 1786480200,
+      "currency": "USD",
+      "event": "API Weekly Statistical Bulletin",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "—",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "12 Aug 2026 06:50 WIB",
+      "timestamp": 1786492200,
+      "currency": "JPY",
+      "event": "M2 Money Stock y/y",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "2.1%",
+      "previous": "2.2%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "12 Aug 2026 13:00 WIB",
+      "timestamp": 1786514400,
+      "currency": "EUR",
+      "event": "German Final CPI m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "0.8%",
+      "previous": "0.8%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "12 Aug 2026 13:00 WIB",
+      "timestamp": 1786514400,
+      "currency": "JPY",
+      "event": "Prelim Machine Tool Orders y/y",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "52.8%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "12 Aug 2026 16:34 WIB",
+      "timestamp": 1786527240,
+      "currency": "EUR",
+      "event": "German 30-y Bond Auction",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "3.64|2.9",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "12 Aug 2026 19:30 WIB",
+      "timestamp": 1786537800,
+      "currency": "CAD",
+      "event": "Building Permits m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "0.8%",
+      "previous": "-1.7%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "12 Aug 2026 19:30 WIB",
+      "timestamp": 1786537800,
+      "currency": "USD",
+      "event": "Core CPI m/m",
+      "impact": "HIGH",
+      "actual": "—",
+      "forecast": "0.2%",
+      "previous": "0.0%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "12 Aug 2026 19:30 WIB",
+      "timestamp": 1786537800,
+      "currency": "USD",
+      "event": "Core CPI y/y",
+      "impact": "HIGH",
+      "actual": "—",
+      "forecast": "2.5%",
+      "previous": "2.6%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "12 Aug 2026 19:30 WIB",
+      "timestamp": 1786537800,
+      "currency": "USD",
+      "event": "CPI m/m",
+      "impact": "HIGH",
+      "actual": "—",
+      "forecast": "0.1%",
+      "previous": "-0.4%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "12 Aug 2026 19:30 WIB",
+      "timestamp": 1786537800,
+      "currency": "USD",
+      "event": "CPI y/y",
+      "impact": "HIGH",
+      "actual": "—",
+      "forecast": "3.4%",
+      "previous": "3.5%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "12 Aug 2026 21:30 WIB",
+      "timestamp": 1786545000,
+      "currency": "USD",
+      "event": "Crude Oil Inventories",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "2.5M",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 00:01 WIB",
+      "timestamp": 1786554060,
+      "currency": "USD",
+      "event": "10-y Bond Auction",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "4.58|2.6",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 01:00 WIB",
+      "timestamp": 1786557600,
+      "currency": "USD",
+      "event": "Federal Budget Balance",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "-361.2B",
+      "previous": "-120.3B",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 06:01 WIB",
+      "timestamp": 1786575660,
+      "currency": "GBP",
+      "event": "RICS House Price Balance",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "-30%",
+      "previous": "-33%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 06:50 WIB",
+      "timestamp": 1786578600,
+      "currency": "JPY",
+      "event": "PPI y/y",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "7.4%",
+      "previous": "7.1%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 07:15 WIB",
+      "timestamp": 1786580100,
+      "currency": "AUD",
+      "event": "RBA Assist Gov Kent Speaks",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "—",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 10:00 WIB",
+      "timestamp": 1786590000,
+      "currency": "NZD",
+      "event": "Inflation Expectations q/q",
+      "impact": "MEDIUM",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "2.53%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 13:00 WIB",
+      "timestamp": 1786600800,
+      "currency": "GBP",
+      "event": "GDP m/m",
+      "impact": "HIGH",
+      "actual": "—",
+      "forecast": "-0.1%",
+      "previous": "0.1%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 13:00 WIB",
+      "timestamp": 1786600800,
+      "currency": "GBP",
+      "event": "Prelim GDP q/q",
+      "impact": "MEDIUM",
+      "actual": "—",
+      "forecast": "0.4%",
+      "previous": "0.6%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 13:00 WIB",
+      "timestamp": 1786600800,
+      "currency": "GBP",
+      "event": "Construction Output m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "-0.3%",
+      "previous": "-0.8%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 13:00 WIB",
+      "timestamp": 1786600800,
+      "currency": "GBP",
+      "event": "Goods Trade Balance",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "-20.6B",
+      "previous": "-18.7B",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 13:00 WIB",
+      "timestamp": 1786600800,
+      "currency": "GBP",
+      "event": "Index of Services 3m/3m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "0.5%",
+      "previous": "0.7%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 13:00 WIB",
+      "timestamp": 1786600800,
+      "currency": "GBP",
+      "event": "Industrial Production m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "0.1%",
+      "previous": "-0.5%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 13:00 WIB",
+      "timestamp": 1786600800,
+      "currency": "GBP",
+      "event": "Manufacturing Production m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "-0.1%",
+      "previous": "0.1%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 13:00 WIB",
+      "timestamp": 1786600800,
+      "currency": "GBP",
+      "event": "Prelim Business Investment q/q",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "-0.3%",
+      "previous": "0.7%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 13:02 WIB",
+      "timestamp": 1786600920,
+      "currency": "CNY",
+      "event": "Foreign Direct Investment ytd/y",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "-5.0%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 13:30 WIB",
+      "timestamp": 1786602600,
+      "currency": "CHF",
+      "event": "PPI m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "-0.2%",
+      "previous": "-0.3%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 15:03 WIB",
+      "timestamp": 1786608180,
+      "currency": "CNY",
+      "event": "M2 Money Supply y/y",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "7.9%",
+      "previous": "8.0%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 15:03 WIB",
+      "timestamp": 1786608180,
+      "currency": "CNY",
+      "event": "New Loans",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "50B",
+      "previous": "1610B",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 16:00 WIB",
+      "timestamp": 1786611600,
+      "currency": "EUR",
+      "event": "Industrial Production m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "-0.1%",
+      "previous": "-0.2%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 19:15 WIB",
+      "timestamp": 1786623300,
+      "currency": "USD",
+      "event": "FOMC Member Hammack Speaks",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "—",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 19:30 WIB",
+      "timestamp": 1786624200,
+      "currency": "USD",
+      "event": "Core PPI m/m",
+      "impact": "HIGH",
+      "actual": "—",
+      "forecast": "0.3%",
+      "previous": "0.2%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 19:30 WIB",
+      "timestamp": 1786624200,
+      "currency": "USD",
+      "event": "PPI m/m",
+      "impact": "HIGH",
+      "actual": "—",
+      "forecast": "0.2%",
+      "previous": "-0.3%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 19:30 WIB",
+      "timestamp": 1786624200,
+      "currency": "USD",
+      "event": "Unemployment Claims",
+      "impact": "MEDIUM",
+      "actual": "—",
+      "forecast": "203K",
+      "previous": "199K",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 19:40 WIB",
+      "timestamp": 1786624800,
+      "currency": "USD",
+      "event": "FOMC Member Barkin Speaks",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "—",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 20:30 WIB",
+      "timestamp": 1786627800,
+      "currency": "GBP",
+      "event": "CB Leading Index m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "-0.5%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 21:00 WIB",
+      "timestamp": 1786629600,
+      "currency": "USD",
+      "event": "Mortgage Delinquencies",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "4.44%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 21:30 WIB",
+      "timestamp": 1786631400,
+      "currency": "AUD",
+      "event": "CB Leading Index m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "0.2%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "13 Aug 2026 21:30 WIB",
+      "timestamp": 1786631400,
+      "currency": "USD",
+      "event": "Natural Gas Storage",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "33B",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 00:01 WIB",
+      "timestamp": 1786640460,
+      "currency": "USD",
+      "event": "30-y Bond Auction",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "5.06|2.4",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 05:30 WIB",
+      "timestamp": 1786660200,
+      "currency": "NZD",
+      "event": "BusinessNZ Manufacturing Index",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "59.7",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 05:45 WIB",
+      "timestamp": 1786661100,
+      "currency": "NZD",
+      "event": "Visitor Arrivals m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "-2.4%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 06:30 WIB",
+      "timestamp": 1786663800,
+      "currency": "AUD",
+      "event": "RBA Gov Bullock Speaks",
+      "impact": "MEDIUM",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "—",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 13:00 WIB",
+      "timestamp": 1786687200,
+      "currency": "EUR",
+      "event": "German WPI m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "-0.2%",
+      "previous": "-0.7%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 13:45 WIB",
+      "timestamp": 1786689900,
+      "currency": "EUR",
+      "event": "French Final CPI m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "0.6%",
+      "previous": "0.6%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 16:00 WIB",
+      "timestamp": 1786698000,
+      "currency": "EUR",
+      "event": "Flash Employment Change q/q",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "0.1%",
+      "previous": "0.1%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 16:00 WIB",
+      "timestamp": 1786698000,
+      "currency": "EUR",
+      "event": "Flash GDP q/q",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "0.4%",
+      "previous": "0.4%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 16:00 WIB",
+      "timestamp": 1786698000,
+      "currency": "EUR",
+      "event": "Trade Balance",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "-2.2B",
+      "previous": "-5.0B",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 19:30 WIB",
+      "timestamp": 1786710600,
+      "currency": "CAD",
+      "event": "Manufacturing Sales m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "-0.1%",
+      "previous": "1.3%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 19:30 WIB",
+      "timestamp": 1786710600,
+      "currency": "CAD",
+      "event": "Wholesale Sales m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "2.7%",
+      "previous": "0.0%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 19:30 WIB",
+      "timestamp": 1786710600,
+      "currency": "USD",
+      "event": "Core Retail Sales m/m",
+      "impact": "MEDIUM",
+      "actual": "—",
+      "forecast": "0.2%",
+      "previous": "-0.2%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 19:30 WIB",
+      "timestamp": 1786710600,
+      "currency": "USD",
+      "event": "Retail Sales m/m",
+      "impact": "MEDIUM",
+      "actual": "—",
+      "forecast": "0.1%",
+      "previous": "0.2%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 21:00 WIB",
+      "timestamp": 1786716000,
+      "currency": "USD",
+      "event": "Prelim UoM Consumer Sentiment",
+      "impact": "MEDIUM",
+      "actual": "—",
+      "forecast": "54.7",
+      "previous": "54.4",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 21:00 WIB",
+      "timestamp": 1786716000,
+      "currency": "USD",
+      "event": "Prelim UoM Inflation Expectations",
+      "impact": "MEDIUM",
+      "actual": "—",
+      "forecast": "—",
+      "previous": "4.2%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    },
+    {
+      "datetimeWib": "14 Aug 2026 21:00 WIB",
+      "timestamp": 1786716000,
+      "currency": "USD",
+      "event": "Business Inventories m/m",
+      "impact": "LOW",
+      "actual": "—",
+      "forecast": "0.2%",
+      "previous": "0.3%",
+      "revision": "—",
+      "source": "Forex Factory / FairEconomy feed",
+      "url": "https://www.forexfactory.com/calendar"
+    }
+  ],
+  "sources": {
+    "market": "Yahoo Finance public chart endpoint",
+    "calendar": "Forex Factory/FairEconomy public calendar feed when reachable",
+    "newsDiscovery": "Google News RSS metadata filtered to Reuters, Bloomberg, Yahoo Finance, Trading Economics, Forex Factory"
+  }
 }
