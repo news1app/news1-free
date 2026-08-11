@@ -1,0 +1,27 @@
+NEWS1 FREE — MULAI DI SINI
+==========================
+
+TUJUAN:
+GitHub meng-update data -> GitHub membuat APK -> APK dipasang di HP.
+Tidak perlu OpenAI API. Tidak perlu Render. Tidak perlu kartu kredit.
+
+LANGKAH SUPER SINGKAT:
+1. Buat akun GitHub.
+2. Buat repository PUBLIC bernama: news1-free
+3. Upload SEMUA ISI folder project ini ke repository.
+4. Buka tab Actions.
+5. Jalankan: Update NEWS1 Free Data
+6. Pastikan tandanya hijau.
+7. Jalankan: Build NEWS1 Free APK
+8. Pastikan tandanya hijau.
+9. Buka hasil workflow -> Artifacts -> download NEWS1-Free-APK.
+10. Ekstrak ZIP artifact -> dapat app-debug.apk.
+11. Pindahkan APK ke HP Android -> tap -> Install.
+12. Buka NEWS1 Free. Endpoint GitHub sudah ditanam otomatis saat APK dibuat.
+
+JIKA DATA BELUM MUNCUL:
+- Buka Actions -> Update NEWS1 Free Data -> Run workflow.
+- Buka file data/latest.json di GitHub. Kalau ada isi laporan, data sudah hidup.
+- Di aplikasi tekan Refresh.
+
+BACA JUGA: PANDUAN_BAHASA_BAYI.md
