@@ -39,7 +39,7 @@ NOW_WIB = NOW_UTC.astimezone(JKT)
 UA = "Mozilla/5.0 (NEWS1-Free-V2; +https://github.com/)"
 
 ASSETS = [
-    ("XAUUSD", ["XAUUSD=X", "GC=F"], "Logam Mulia", "Emas"),
+    ("XAUUSD", ["XAUUSD=X"], "Logam Mulia", "Emas Spot"),
     ("Silver", ["SI=F"], "Logam Mulia", "Perak"),
     ("Copper", ["HG=F"], "Logam Industri", "Tembaga"),
     ("DXY", ["DX-Y.NYB", "DX=F"], "Dollar", "Indeks dolar AS"),
@@ -145,8 +145,9 @@ def yahoo_snapshot(asset: str, symbols: list[str]) -> dict[str, Any] | None:
                 first = valid[0][1]
             pct = ((last - first) / first * 100.0) if first not in (None, 0) else None
             src = "Yahoo Finance"
-            if asset == "XAUUSD" and symbol == "GC=F":
-                src += " • futures proxy"
+            is_future = symbol.endswith("=F")
+            if is_future:
+                src += " • futures"
             meta_asset = ASSET_META.get(asset, {})
             return {
                 "asset": asset,
@@ -158,6 +159,8 @@ def yahoo_snapshot(asset: str, symbols: list[str]) -> dict[str, Any] | None:
                 "changePct": round(pct, 3) if pct is not None else None,
                 "change": f"{pct:+.2f}%" if pct is not None else "—",
                 "source": src,
+                "priceType": "FUTURES" if is_future else "SPOT/INDEX/REFERENCE",
+                "comment": f"{symbol} • {'futures' if is_future else 'reference'}",
                 "sourceUrl": f"https://finance.yahoo.com/quote/{urllib.parse.quote(symbol, safe='')}",
                 "referenceSource": "Trading Economics",
                 "referenceUrl": TE_REFERENCE.get(asset, "https://tradingeconomics.com/markets"),
