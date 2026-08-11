@@ -1,0 +1,63 @@
+name: Build NEWS1 Free APK
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main", "master" ]
+    paths:
+      - "android/**"
+      - ".github/workflows/build-apk.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      - name: Set up Gradle
+        uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: "8.9"
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@v3
+
+      - name: Install Android SDK 35
+        run: sdkmanager "platforms;android-35" "build-tools;35.0.0"
+
+      - name: Insert this repository raw-data URL into APK
+        shell: bash
+        run: |
+          BRANCH="${GITHUB_REF_NAME}"
+          RAW="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${BRANCH}/data/latest.json"
+          python - <<PY
+          from pathlib import Path
+          p=Path('android/app/src/main/java/com/news1/market/AppConfig.java')
+          s=p.read_text()
+          import re
+          s=re.sub(r'public static final String DEFAULT_ENDPOINT = ".*?";', 'public static final String DEFAULT_ENDPOINT = "${RAW}";', s)
+          p.write_text(s)
+          print('Default feed:', '${RAW}')
+          PY
+
+      - name: Build debug APK
+        working-directory: android
+        run: gradle assembleDebug --stacktrace
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: NEWS1-Free-APK
+          path: android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
