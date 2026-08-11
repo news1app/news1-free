@@ -3,8 +3,8 @@ name: Update NEWS1 Free Data
 on:
   workflow_dispatch:
   schedule:
-    # GitHub cron memakai UTC. Berjalan setiap jam pada menit 17.
-    - cron: "17 * * * *"
+    # UTC. Menit 17 dan 47 = kira-kira setiap 30 menit.
+    - cron: "17,47 * * * *"
 
 permissions:
   contents: write
@@ -16,20 +16,19 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
-
+    timeout-minutes: 10
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
-      - name: Generate NEWS1 Free JSON
+      - name: Generate NEWS1 Free V2 JSON
         run: python scripts/build_news1_free.py
 
       - name: Validate JSON
@@ -37,24 +36,17 @@ jobs:
           python -m json.tool data/latest.json > /dev/null
           python -m json.tool data/history.json > /dev/null
 
-      - name: Commit fresh data
+      - name: Commit fresh data safely
         shell: bash
         run: |
-          set -e
           git config user.name "news1-free-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
           git add data/latest.json data/history.json
-
           if git diff --cached --quiet; then
             echo "Tidak ada perubahan data."
             exit 0
           fi
-
-          git commit -m "data: update NEWS1 Free"
-
-          # Branch main bisa berubah saat workflow berjalan (misalnya karena edit manual).
-          # Ambil commit terbaru, letakkan commit NEWS1 di atasnya, lalu push.
-          git fetch origin main
-          git rebase origin/main
-          git push origin HEAD:main
+          git commit -m "data: update NEWS1 Free V2"
+          git fetch origin "${GITHUB_REF_NAME}"
+          git rebase "origin/${GITHUB_REF_NAME}"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
