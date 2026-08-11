@@ -17,7 +17,7 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
@@ -43,9 +43,9 @@ jobs:
           RAW="https://raw.githubusercontent.com/${GITHUB_REPOSITORY}/${BRANCH}/data/latest.json"
           python - <<PY
           from pathlib import Path
+          import re
           p=Path('android/app/src/main/java/com/news1/market/AppConfig.java')
           s=p.read_text()
-          import re
           s=re.sub(r'public static final String DEFAULT_ENDPOINT = ".*?";', 'public static final String DEFAULT_ENDPOINT = "${RAW}";', s)
           p.write_text(s)
           print('Default feed:', '${RAW}')
@@ -58,6 +58,6 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: NEWS1-Free-APK
+          name: NEWS1-Free-V2-APK
           path: android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
