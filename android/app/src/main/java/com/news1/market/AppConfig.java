@@ -12,7 +12,12 @@ public final class AppConfig {
     public static final String KEY_TRANSLATE = "translate_id";
     public static final String KEY_SHOW_SOURCE = "show_source";
     public static final String KEY_ANALYSIS_ONLY = "analysis_only";
+    public static final String KEY_MOOMOO_ENABLED = "moomoo_enabled";
+    public static final String KEY_MOOMOO_URL = "moomoo_url";
+    public static final String KEY_MOOMOO_TOKEN = "moomoo_token";
+    public static final String KEY_PRICE_REFRESH_SECONDS = "price_refresh_seconds";
     public static final String DEFAULT_ENDPOINT = "https://raw.githubusercontent.com/USERNAME/REPOSITORY/main/data/latest.json";
     public static final long DEFAULT_INTERVAL_MINUTES = 30L;
+    public static final int DEFAULT_PRICE_REFRESH_SECONDS = 10;
     public static final String WORK_NAME = "news1_periodic_refresh";
 }

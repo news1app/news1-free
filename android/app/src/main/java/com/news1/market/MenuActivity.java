@@ -14,6 +14,7 @@ public class MenuActivity extends AppCompatActivity {
         Screen.Holder s = Screen.build(this,"Menu NEWS1","Navigasi cepat",false);
         add(s.root,"Dashboard",MainActivity.class);
         add(s.root,"Harga Pasar",MarketsActivity.class);
+        add(s.root,"Moomoo Live (Uji)",MoomooLiveActivity.class);
         add(s.root,"Berita & Filter",NewsActivity.class);
         add(s.root,"Kalender Ekonomi",CalendarActivity.class);
         add(s.root,"Analisis",AnalysisActivity.class);

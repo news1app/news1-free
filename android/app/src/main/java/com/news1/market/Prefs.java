@@ -37,4 +37,21 @@ public final class Prefs {
     public static boolean analysisOnly(Context context) {
         return get(context).getBoolean(AppConfig.KEY_ANALYSIS_ONLY, false);
     }
+
+    public static boolean moomooEnabled(Context context) {
+        return get(context).getBoolean(AppConfig.KEY_MOOMOO_ENABLED, false);
+    }
+
+    public static String moomooUrl(Context context) {
+        return get(context).getString(AppConfig.KEY_MOOMOO_URL, "").trim();
+    }
+
+    public static String moomooToken(Context context) {
+        return get(context).getString(AppConfig.KEY_MOOMOO_TOKEN, "").trim();
+    }
+
+    public static int priceRefreshSeconds(Context context) {
+        return get(context).getInt(AppConfig.KEY_PRICE_REFRESH_SECONDS, AppConfig.DEFAULT_PRICE_REFRESH_SECONDS);
+    }
 }
+

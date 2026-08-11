@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
-    <base-config cleartextTrafficPermitted="false" />
+    <!-- HTTPS remains preferred. Cleartext is enabled only so the app can reach
+         a read-only Moomoo bridge on the user's own local Wi-Fi/LAN. -->
+    <base-config cleartextTrafficPermitted="true" />
 </network-security-config>
