@@ -2,8 +2,8 @@
   "schemaVersion": 3,
   "freeMode": true,
   "demo": false,
-  "generatedAtWib": "17 Aug 2026 00:00 WIB",
-  "generatedAtIso": "2026-08-17T00:00:28.755460+07:00",
+  "generatedAtWib": "17 Aug 2026 00:52 WIB",
+  "generatedAtIso": "2026-08-17T00:52:48.255971+07:00",
   "coverageWindow": "24 jam berita • 7 hari kalender",
   "warnings": [
     "Mode gratis: analisis berita bersifat rule-based dari headline/metadata; isi paywall tidak direkonstruksi.",
@@ -21,10 +21,10 @@
     "nextCatalyst": "17 Aug 2026 19:30 WIB • CPI m/m",
     "bullScenario": "XAU menguat bila DXY dan US10Y melemah bersama, terutama setelah data AS lebih lunak. Oil menguat bila supply risk/geopolitik meningkat dan Brent-WTI mengonfirmasi.",
     "bearScenario": "XAU melemah bila DXY dan US10Y menguat bersama, terutama setelah data AS panas/kuat. Oil melemah bila supply normal dan Brent-WTI turun bersama.",
-    "confidencePct": 77,
+    "confidencePct": 76,
     "confidenceLabel": "RULE-BASED",
-    "analysisCount": 5,
-    "conflictCount": 4
+    "analysisCount": 4,
+    "conflictCount": 3
   },
   "marketSnapshot": [
     {
@@ -36,7 +36,7 @@
       "lastNumeric": 4429.8,
       "changePct": 0.517,
       "change": "+0.52%",
-      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
+      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
       "sourceUrl": "https://finance.yahoo.com/quote/GC%3DF",
       "referenceSource": "Trading Economics",
       "referenceUrl": "https://tradingeconomics.com/commodity/gold",
@@ -252,10 +252,10 @@
       "labelId": "Bitcoin",
       "category": "Crypto",
       "symbol": "BTC-USD",
-      "last": "63,196.24",
-      "lastNumeric": 63196.24,
-      "changePct": 0.274,
-      "change": "+0.27%",
+      "last": "63,097.42",
+      "lastNumeric": 63097.42,
+      "changePct": 0.154,
+      "change": "+0.15%",
       "source": "Yahoo Finance",
       "priceType": "SPOT/INDEX/REFERENCE",
       "comment": "Naik dalam ±24 jam",
@@ -266,21 +266,6 @@
     }
   ],
   "news": [
-    {
-      "publishedAtWib": "16 Aug 2026 23:15 WIB",
-      "source": "Trading Economics",
-      "category": "Komoditas",
-      "title": "Copper Slips as China Demand Slows",
-      "titleId": "Tembaga Slips saat China Demand Slows",
-      "impact": "MEDIUM",
-      "analysis": "Tembaga sensitif terhadap ekspektasi pertumbuhan global dan permintaan China; konfirmasi dengan DXY dan risk sentiment.",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TQVVIMUFYaG5MdlRYQjdEQzRyanN3MFdoX19rcEFhdE5MYzQyS1UxNWVubTBodDVoNHJDVzdoTzdJbmh2ZHpOcGxZQ3NzXzdNRnRNRW9fbHBNSzU0Q1hUaDRRS0xzZTJx?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
     {
       "publishedAtWib": "16 Aug 2026 22:24 WIB",
       "source": "Trading Economics",
@@ -297,18 +282,48 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "16 Aug 2026 23:37 WIB",
-      "source": "Yahoo Finance",
+      "publishedAtWib": "16 Aug 2026 22:12 WIB",
+      "source": "Trading Economics",
       "category": "Saham",
-      "title": "3 Bank Stocks Walking a Fine Line",
-      "titleId": "3 Bank saham Walking a Fine Line",
+      "title": "Angola Exports of wallpaper and similar wall coverings, window transparencies of paper to Republic of the Congo",
+      "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNDl2ZVczeGVQdnE0RjBNd1g2N1p2bjd4djhTMlB0TFVJajc0M0dCVS1mNFBVTFJtWGdOMjFwVVBWbVlEVXVxTnN4VzFBUTYybW81QUY2M09uVUwxQUp4dlZaUmZCdUlQNV9OOGtMZjI3c2JFa085RVZURDdRZHJDMTdOenhzbXVobmZjSEtZc3YzOU4xSFE?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSTRXN2dualZJNUVDNmFqOC1leXBuT0dkdHl2RUVHY25NUzc0NV80amFCZ1RGZGlGMVZ4VDdqN2g1VlVYWEZYampZTzloZDdENU5NUlBMZW55SHVKVlZUdUxhV3dpWWhEaEJrcmtsbVpTUXlnREdWaVBYWWZJQW9TYndxUTBrX2MwVGRWT2RBT2pvVlUyZFJtWUZmVDM?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "17 Aug 2026 00:20 WIB",
+      "source": "Reuters",
+      "category": "Geopolitik",
+      "title": "Trump's envoys meet mediators, Israel strikes Gaza",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWlULVBMUTk3T05wRS0tNnBRUWFReXlURUhCaTNIZVlRaUtVOHczUm5CTi1YRWlveXN6cC1hWDBKOTJqbUpna3JYZUhzLTVrTnU0bXFWd3JncVNCeUc3NTNING9KeHFSNWpUWWhCNFBGUm1aQzBna3c1OFNtclBMZEY1VERJS0x1elM2ZEVwXzZVeTRzelkyM3ZoWTNGeGRGZkE?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 20:00 WIB",
+      "source": "Trading Economics",
+      "category": "Komoditas",
+      "title": "Bermuda Imports of bed linen, table linen, toilet linen and kitchen linen from Qatar",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNDZHSGkxYVZNa3ZUbVVHdWhmalQ5SzVqX19UeFpyYXY1OVhBQ25DcUlUYkVxTER4MW5jZXlFaGFOYncwX2NtdlkzM2NRcmlGTlJkWUt2UFdZcWVZVjFkcjZDUWFTWmp5Ty00QWJZX19VaHBEZFg4MEZGX2JlcVdSdnNHeXJlSjJpaG5nemVJUWZ3R0JTSTRsMGxRcGRVbnF0?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -358,6 +373,36 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "17 Aug 2026 00:08 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "Brazil's Lula launches reelection bid, aims to win back workers to his Workers Party",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeEl6U1RsX2F2XzJtaFd2cHMyWDhqMzhBdnI1QTJnTnNmV3BST19jNlRHTTNOejFuVTdlRTNzOGdFTG1MRTF1VE1hSnR2eGZOQnhoQWIzOG1DcWxpbkZXTkhSbDQwMmV1OGh5ay0tclhVcnBUUVh4cG1jZk1VeDV6eTgxdjdxMnFnelY1cEZSQVNTOE9nVE1HR2FSM1NvSzE2aVVPYWhzVmlSNlF4OGNBWEEtd0NYWXpBZm9weFl5U1RuaWhCelE?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 16:22 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "South Korea Exports of birds' eggs, not in shell and yolks, fresh, dry to Kyrgyzstan",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQR0Q3UmNKWHJJUWgtZnFENHVRWHJoYTNpSHpXa282UkxGZDVnZUVDSHB0Rkd4R2hRVEVRQ1FyZ0NGZnFPSHdjVG5SR0N6eUV6RXVEU1pDcTN5WWNrZFpXNTE2S3hVUjhXR2pqbzhrSW0xM3A5SzZ2bjRLWXp0RmR4LVNLTTFuLXRzbGg2bEJIUXEyYTBPSEN0LTJDZ0I?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "16 Aug 2026 15:40 WIB",
       "source": "Trading Economics",
       "category": "Umum Trading",
@@ -369,6 +414,262 @@
       "priceResponse": "",
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10SDgyajJJVFNtZXBLX1RRaFZDRi1ycDNaY2MzbV9iLTc5Yy14VVpkeUg2cS1tMnl0RXhMaU8wM0ZJYzdUOTVpYmdJeFlGZVlLTDFUYm0tVjNpX0pFTVE2b19nWEc?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "17 Aug 2026 00:02 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "Arsenal humble Man City to win Community Shield",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPbDR1anJWcnJPUU5oN2tGX1VyS1lURnlPei12NldTTm84ck5STlRiNF9iRHFOMDFzQmxRUkRubE85Um9vdkF5MUtZQzhsT2UxeHRjUEZ2c3ducENDR1ktMFhTZVU2V0laNjJUTHlpZVVHSUxyeV9Jb1lLd29nelZ2WG1XalZ0RzREX3EyM0toZmRZQ0dxZnB2RXRDRDY?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 15:34 WIB",
+      "source": "Trading Economics",
+      "category": "Makro & Data",
+      "title": "St Lucia GDP News 0",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TenBmWEREcjNwMXU3eF9VQU51MU5aZ0EwUXVNUEdEc3NMZjJXNENCUER6eVRKOE1CdEM0OUdwVHh5eUV4NFhReVZMTzkwcHJSekQtLWZhYzdnU2cx?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 14:44 WIB",
+      "source": "Trading Economics",
+      "category": "Komoditas",
+      "title": "Commodity Brent Crude Oil News 538943",
+      "titleId": "Commodity Brent Minyak Mentah News 538943",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rNEVhQ1pkT2NfOHB1MVZjRG94dUhNRmJPaDVwMERzVHFuejZjNGZTUWtJWkw4V2VjR1daNXdaa1VhNktVblNuRzVidWIwUkU4X1BxUEVnSUpiM0N6M3o3LUNOWUYxaGJXQ29LVTcwc3BKUGRn?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 23:50 WIB",
+      "source": "Forex Factory",
+      "category": "Umum Trading",
+      "title": "News",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBSNU4yYXBqYktCVEJaWXppVktlS3ZhZnFrUnFIMTctR3oxNk0xc1dIUTVzdmJTZ25DWGd1UEp6Ymt4WDEwZzZmXw?oc=5",
+      "publisherUrl": "https://www.forexfactory.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 14:44 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "United States Housing Starts",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnaUdsN0FOaDJULXU3WHFOem1jbERyNjkzeXphNGZrd2ZyU3k0VHBPNUtUMHlUZHpSb0FWODF0MDdtWFkyU0tlaVBsSlJIdU1pZ0dRWGZwMzNMN2NBTnE3R1Nvd194TDVI?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 08:58 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Angola Imports of mate from India",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yVWpMbDAyaE8xREtRTHJxS3k3dkt2NFYtanpxd3FrWGc4blpJbmlRZ3l5RVR3QkRlUEUtNnF6M1JYcldicmpQaVpNNGNQWTQ4NU14UTZaT2RBX2xhNDBjQlZxcVE?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 23:44 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "In Spain's Ceuta, hundreds of migrants stage protest and demand asylum",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUjduYzlVZEN3NjI2YktjT0dyU3g2cVVudlhDLV95RERScG5tZ0RHb01Sdy0tTDZnMHQxdXRTa2c5dm5DY1dmTnN5WVJnVGQzemhsYjQwem9XVDNyQ1V0cHN4S2J2NzRkREd1ZWwtRWZ4RU90SDRZckpYaXo0ZEotTkx0eHI4anlfQzV4Y25VODA0MnZySVhxUXNfekowTGtmb1NLZGE3UWVuVnRDTG1MaVRRZw?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 07:32 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Angola Imports of women's or girls' slips, not knitted or crocheted from Mauritania",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMFlpRTVwZk1DcGliWkhrWEhiZm4teXB3QXhJZXYxWjlKLVhtMEpJQmlqUFhHWEE3UEZlYWZsTmpzSE14S0dyUjZvY0JNOW41OVhUNVRvWlhvbGZvNFIwN0drRDJJeER2QndCMnZSME51UTY0ODNvVVdCSWtCeUVqQVN1RFhXLU4tRE5KXzU0VmFsOWtsSGZR?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 06:51 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Faroe Islands Imports of polymers of propylene or other olefins, prim forms from Lithuania",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZFJ1SnhqR1R3R2NOa0UwdkdPdlFkUFhtcUJwc2Y2OFlCYTJvMHBQaGJKdFJKdDdHVk04S2ZuX25xdmlmUk1BN2FpVS1yU1FnbGZHMDVSR1J6c20yNndndWxOOElnbzAzV3h2RkV3T1loTVRFNHJrenZzUFU3QTQ1a2Rmak8zT2FnX2dNVnZlNEN2VHhhcjVJak9zZXplMUJpZUtF?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 23:43 WIB",
+      "source": "Reuters",
+      "category": "Geopolitik",
+      "title": "Iranian parliament advances bill to curb foreign influence",
+      "titleId": "",
+      "impact": "HIGH",
+      "analysis": "Eskalasi geopolitik/Hormuz cenderung menaikkan risk premium minyak dan permintaan safe haven. Efek akhir pada emas tetap perlu dikonfirmasi oleh DXY dan yield AS.",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "response": "MENGIKUTI"
+        },
+        {
+          "asset": "Silver",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "response": "MELAWAN"
+        }
+      ],
+      "priceResponse": "XAUUSD MENGIKUTI • Silver TERTAHAN • Brent TERTAHAN",
+      "contradictions": "Bitcoin melawan tekanan fundamental rule-based",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 06:19 WIB",
+      "source": "Trading Economics",
+      "category": "Komoditas",
+      "title": "Commodity Silver News 512827",
+      "titleId": "Commodity Perak News 512827",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5dmxoZjBNclM0a3FIX1h1cXhyX29tcnQ3cG1XdmhydEh3bUhNclZKdjlQeXBoWXU0RFJobnlmVE9TemRqMUNnQzBCNjROS21lSUhoYzNJOTlfMkxkQWdHUGUtOTZRS3JG?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 03:07 WIB",
+      "source": "Trading Economics",
+      "category": "Komoditas",
+      "title": "Copper Slips as China Demand Slows",
+      "titleId": "Tembaga Slips saat China Demand Slows",
+      "impact": "MEDIUM",
+      "analysis": "Tembaga sensitif terhadap ekspektasi pertumbuhan global dan permintaan China; konfirmasi dengan DXY dan risk sentiment.",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TQVVIMUFYaG5MdlRYQjdEQzRyanN3MFdoX19rcEFhdE5MYzQyS1UxNWVubTBodDVoNHJDVzdoTzdJbmh2ZHpOcGxZQ3NzXzdNRnRNRW9fbHBNSzU0Q1hUaDRRS0xzZTJx?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 23:39 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "X",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT1VqSzVHbjNrTEVUckZTUVRVc0ZSUDJ1bEJkNUdiYVhUYndoY3ZtNGNpTVcyRUQ4VktWMzEyeUU3dGNtdXRXTDN2dkt5RHl1cW5JVWVHWTNoX2otSkZGY3RHREp1a3BGRDJlZFhvWjZVN0JXYmlwWDhwbkE5Y0tmUm1vYzBrbWVJQ1NB?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 03:03 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Latest News Stream - Bhutan",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE40WFA5UC1Lc1dxTFFvejJfSTFBVkUyeU9IOTM1ajhjV2VvM2w5SkdscFdYUWZfVXJOaEV2a2JjVmwyak1iV20xNUJ1T3hPYl9KYS1iOWduNA?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "16 Aug 2026 02:30 WIB",
+      "source": "Trading Economics",
+      "category": "Komoditas",
+      "title": "Faroe Islands Imports of other plates, sheets, film, foil, strip of plastics from Lithuania",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZkk3UzhQWTlBTFU3UGNfMzRsc0tERy1oNENYMVJMenpmTzdTbm1uRDc0UnZyWG9sSTdPZ3o4dkV0QktKTTJERWRYNXEtS1NLVHZJb2FDMlRMY3FyZktBd3NDTXVwTnRyZzJramNWVGxSZDhiYzFEUENZOWFNSzFURndCRTZZRzViR3FCM0FhOEU5RVdvTmlfdnluVWZiaFEt?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -419,78 +720,18 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "16 Aug 2026 15:34 WIB",
-      "source": "Trading Economics",
-      "category": "Makro & Data",
-      "title": "St Lucia GDP News 0",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1TenBmWEREcjNwMXU3eF9VQU51MU5aZ0EwUXVNUEdEc3NMZjJXNENCUER6eVRKOE1CdEM0OUdwVHh5eUV4NFhReVZMTzkwcHJSekQtLWZhYzdnU2cx?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 15:34 WIB",
-      "source": "Trading Economics",
-      "category": "Makro & Data",
-      "title": "St Lucia GDP Per Capita News 0",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBXMjZZMF9TZllVaGZSTW1wS0QtNDgxcDNTdml1OV9VQ2xZTzJyNzdEUkFVSXBwcUNIZEQ4Y21zdTVoUjhqTVNFOC1VZmFTZlJwZi1tMFBjT3EtYzVkR3RnWlFUUFJ4U3JxeTE4?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 23:18 WIB",
+      "publishedAtWib": "16 Aug 2026 23:16 WIB",
       "source": "Reuters",
       "category": "Umum Trading",
-      "title": "Brazil's Lula launches reelection bid, aims to win back workers to his Workers Party",
+      "title": "SHVTF.PK - | Stock Price & Latest News",
       "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeEl6U1RsX2F2XzJtaFd2cHMyWDhqMzhBdnI1QTJnTnNmV3BST19jNlRHTTNOejFuVTdlRTNzOGdFTG1MRTF1VE1hSnR2eGZOQnhoQWIzOG1DcWxpbkZXTkhSbDQwMmV1OGh5ay0tclhVcnBUUVh4cG1jZk1VeDV6eTgxdjdxMnFnelY1cEZSQVNTOE9nVE1HR2FSM1NvSzE2aVVPYWhzVmlSNlF4OGNBWEEtd0NYWXpBZm9weFl5U1RuaWhCelE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4wSElIZS1INVBzWHJhUzRzdEVacU02VFFzUmIyX05VLXlZTzljMzRSd1FiUzV3cFJOZmZyUXhTbHNyLTlDV0dBcE9KRk56VGs0QkZuOGpkUkx4RnAtaWNPeHU1aTdUYXdXdFpIdXVFM3JRYWNBdlhhQ1laYw?oc=5",
       "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 14:44 WIB",
-      "source": "Trading Economics",
-      "category": "Komoditas",
-      "title": "Commodity Brent Crude Oil News 538943",
-      "titleId": "Commodity Brent Minyak Mentah News 538943",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1rNEVhQ1pkT2NfOHB1MVZjRG94dUhNRmJPaDVwMERzVHFuejZjNGZTUWtJWkw4V2VjR1daNXdaa1VhNktVblNuRzVidWIwUkU4X1BxUEVnSUpiM0N6M3o3LUNOWUYxaGJXQ29LVTcwc3BKUGRn?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 14:44 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "United States Housing Starts",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnaUdsN0FOaDJULXU3WHFOem1jbERyNjkzeXphNGZrd2ZyU3k0VHBPNUtUMHlUZHpSb0FWODF0MDdtWFkyU0tlaVBsSlJIdU1pZ0dRWGZwMzNMN2NBTnE3R1Nvd194TDVI?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -509,36 +750,6 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "16 Aug 2026 06:51 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Faroe Islands Imports of polymers of propylene or other olefins, prim forms from Lithuania",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZFJ1SnhqR1R3R2NOa0UwdkdPdlFkUFhtcUJwc2Y2OFlCYTJvMHBQaGJKdFJKdDdHVk04S2ZuX25xdmlmUk1BN2FpVS1yU1FnbGZHMDVSR1J6c20yNndndWxOOElnbzAzV3h2RkV3T1loTVRFNHJrenZzUFU3QTQ1a2Rmak8zT2FnX2dNVnZlNEN2VHhhcjVJak9zZXplMUJpZUtF?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 06:19 WIB",
-      "source": "Trading Economics",
-      "category": "Komoditas",
-      "title": "Commodity Silver News 512827",
-      "titleId": "Commodity Perak News 512827",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5dmxoZjBNclM0a3FIX1h1cXhyX29tcnQ3cG1XdmhydEh3bUhNclZKdjlQeXBoWXU0RFJobnlmVE9TemRqMUNnQzBCNjROS21lSUhoYzNJOTlfMkxkQWdHUGUtOTZRS3JG?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
       "publishedAtWib": "16 Aug 2026 22:56 WIB",
       "source": "Reuters",
       "category": "Umum Trading",
@@ -554,33 +765,18 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "16 Aug 2026 03:03 WIB",
-      "source": "Trading Economics",
+      "publishedAtWib": "16 Aug 2026 22:42 WIB",
+      "source": "Reuters",
       "category": "Umum Trading",
-      "title": "Latest News Stream - Bhutan",
+      "title": "E0UA.DE - | Stock Price & Latest News",
       "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE40WFA5UC1Lc1dxTFFvejJfSTFBVkUyeU9IOTM1ajhjV2VvM2w5SkdscFdYUWZfVXJOaEV2a2JjVmwyak1iV20xNUJ1T3hPYl9KYS1iOWduNA?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 02:30 WIB",
-      "source": "Trading Economics",
-      "category": "Komoditas",
-      "title": "Faroe Islands Imports of other plates, sheets, film, foil, strip of plastics from Lithuania",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZkk3UzhQWTlBTFU3UGNfMzRsc0tERy1oNENYMVJMenpmTzdTbm1uRDc0UnZyWG9sSTdPZ3o4dkV0QktKTTJERWRYNXEtS1NLVHZJb2FDMlRMY3FyZktBd3NDTXVwTnRyZzJramNWVGxSZDhiYzFEUENZOWFNSzFURndCRTZZRzViR3FCM0FhOEU5RVdvTmlfdnluVWZiaFEt?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeHpHaF9SQXZrWXJQQzhESGpuM0pLdWpEUDdfamUwM2RMOUNMWk5HMEIyQzdZT2hTaDVnSzVnQ00yeVFoNmhDdUd6N0J6WmdtNXRmaDBkUHUwR0c0YUJJSDQxVnNKamxhMG50N3o0Z0cySHhNdDU0ZEc1Wk9Dc2t0SUNSdkNyYm9fT1E?oc=5",
+      "publisherUrl": "https://www.reuters.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -596,36 +792,6 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE0waTVKbS1BTHF1a1VQUXJMV0RWbUcyX2VqUjJ0ZnBrNWJfTkRrSGwwTHFGek1ZT21LX0hzUFAxaENDVWFkXzdfb1BIQkExTUdYRFdqZVQxM2JYRUdCblA5LTBFYw?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 00:10 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Nigeria Imports of meat, fish and seafood preparations from Mongolia",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQM0pkSVpKNkZ2TGQ5azliWHlwM3ZnUUlBRDhTVVBNWTNUZUJtcFBiZTItTjhaRlU2SThkeTFkaGp6VkpSQVdCUXhpRkNITlg5RUNyUGtPRjFrSFlPeno4bUhQdEZWVkVDT1liX0RseGJPYlBrSzRSeGtJNlNIbXN4NmI2UEp5bVpNbFRMRw?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 00:04 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "South Sudan Exports of original sculptures and statuary, in any material to Kenya",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUkVPakx3NXJUZEdnMnhoS3JNd3c5czEzZVBVemtFT1E5Qjl2RDJaSF84ZlRtMmZUb1dxeGYybkdvdDZ0cERUcWFka0RQcWhoMW9KRmkwSnp2LWt0UUFISnNyeXVHQXRPMFFlSmwtbFZvc1hUQjlHanVVNWs2SF8tX0RxeFlkdER0eEQyRmFtWEoybHdZaURmUk5vcTY?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -689,21 +855,6 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "16 Aug 2026 22:20 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Watch Donalds Looks to Build on DeSantis Legacy - Bloomberg.com",
-      "titleId": "Watch Donalds Looks to Build setelah DeSantis Legacy - Bloomberg.com",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcGYwOVI0MlduaV9VM2JLTlJZaHJVSVJuZ2NKcWh3OUViUFlNdmhTTVJTcWZObk9fT3dQYWNjZDRNUi0yem9mR2ZVYUZfanZNZnRSaFpFTmN1OWhaSnZ6QlZBQm5US3U5VUc0WHlkMGd0am5wZm5DdDJrbFhmSzBaeGcxclNuaVp3ZnpVd01ZQjBQZldtS2ZNRmZxMFA?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
       "publishedAtWib": "16 Aug 2026 22:02 WIB",
       "source": "Reuters",
       "category": "Umum Trading",
@@ -749,140 +900,18 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "16 Aug 2026 21:45 WIB",
-      "source": "Yahoo Finance",
-      "category": "Saham",
-      "title": "2 Dow Jones Stocks to Target This Week and 1 We Avoid",
-      "titleId": "2 Dow Jones saham to Target This Week and 1 We Avoid",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORFF2OEZNLUtoWlZNbU54WVJJNl81RGt1NDd0V2t2eFpvdDBwcVdMV1RUd2hMXzFXZGk5cXRkdjh5cmV0dVFtaVNmcEU5b05rMGRNX0xSUUd2YTROQ1p2ZXVzeHhTNUpHOU9hR0lQWUZzYmg4elFOc2hWck9WdU5IYm5TUTJpaWVNRnVYOUxQUk11aFJ1?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 21:38 WIB",
-      "source": "Yahoo Finance",
-      "category": "Bank Sentral",
-      "title": "The Odds for a September Fed Rate Hike Plunged to 25%. Here’s Why the Betting Markets Might Be Wrong",
-      "titleId": "The Odds for a September Fed kenaikan suku bunga Plunged to 25%. Here’s Why the Betting Markets Might Be Wrong",
-      "impact": "HIGH",
-      "analysis": "Nada Fed hawkish cenderung menguatkan USD/yield dan menekan emas serta aset berisiko.",
-      "assetImpacts": [
-        {
-          "asset": "XAUUSD",
-          "direction": "↓",
-          "response": "MELAWAN"
-        },
-        {
-          "asset": "Silver",
-          "direction": "↓",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "DXY",
-          "direction": "↑",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "US Treasury yields",
-          "direction": "↑",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "USDJPY",
-          "direction": "↑",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "EURUSD",
-          "direction": "↓",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "GBPUSD",
-          "direction": "↓",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "US equities",
-          "direction": "↓",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "Bitcoin",
-          "direction": "↓",
-          "response": "MELAWAN"
-        }
-      ],
-      "priceResponse": "XAUUSD MELAWAN • Silver TERTAHAN • DXY TERTAHAN",
-      "contradictions": "XAUUSD melawan tekanan fundamental rule-based; Bitcoin melawan tekanan fundamental rule-based",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSzM2N0otdkNsUVNXTURzZG12TGxsSkJId1hBYTNSaWhFQWpGekFfUXlmdUhkUXl0bDI5UmZRN3kzQ1c1dWhKV1JhNFBCeFBoN1R6VmJtM08tNjY3dG9aMUt2STJSYmE4WndrenNuYUdLdTB6N014Nm1FVjlRVFJFZFhtclViVFpoNXlFMUZfX0EwNlIyNUZCNg?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 21:35 WIB",
-      "source": "Reuters",
+      "publishedAtWib": "16 Aug 2026 21:52 WIB",
+      "source": "Forex Factory",
       "category": "Umum Trading",
-      "title": "Trump's envoys in Middle East to push for Gaza peace plan",
+      "title": "What does 'Buy the dip' mean?",
       "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQWlULVBMUTk3T05wRS0tNnBRUWFReXlURUhCaTNIZVlRaUtVOHczUm5CTi1YRWlveXN6cC1hWDBKOTJqbUpna3JYZUhzLTVrTnU0bXFWd3JncVNCeUc3NTNING9KeHFSNWpUWWhCNFBGUm1aQzBna3c1OFNtclBMZEY1VERJS0x1elM2ZEVwXzZVeTRzelkyM3ZoWTNGeGRGZkE?oc=5",
-      "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 21:33 WIB",
-      "source": "Reuters",
-      "category": "Geopolitik",
-      "title": "Iranian parliament advances bill to curb foreign influence",
-      "titleId": "",
-      "impact": "HIGH",
-      "analysis": "Eskalasi geopolitik/Hormuz cenderung menaikkan risk premium minyak dan permintaan safe haven. Efek akhir pada emas tetap perlu dikonfirmasi oleh DXY dan yield AS.",
-      "assetImpacts": [
-        {
-          "asset": "XAUUSD",
-          "direction": "↑",
-          "response": "MENGIKUTI"
-        },
-        {
-          "asset": "Silver",
-          "direction": "↑",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "Brent",
-          "direction": "↑",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "WTI",
-          "direction": "↑",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "US equities",
-          "direction": "↓",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "Bitcoin",
-          "direction": "↓",
-          "response": "MELAWAN"
-        }
-      ],
-      "priceResponse": "XAUUSD MENGIKUTI • Silver TERTAHAN • Brent TERTAHAN",
-      "contradictions": "Bitcoin melawan tekanan fundamental rule-based",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1l5UHpVYkM5cWxRVlYyTGVJWkVlWXJaWkxrNXZYaEhOSG9nYU9sdWVwSm4xeGkxV1U2ZXJrVlR2WlhFbjBZTWxYeE5sOWFWaWVLUC1CQ0NoV0VsVFJnU2Q3T2g4UFRUSUk1WWZDZGp1SVMzZ2xzdHJSRXRMWDctVXlBekt4ODhIeGJjOUFvLUtrb2NZclVBejZtbkg2djNWeG15QjEwNTE1eEZ6YlA5ZXNJdlljdDlRS2U3WklxZURuZ2VOSmJrRFF3cEw3QQ?oc=5",
-      "publisherUrl": "https://www.reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1BZ2N1ZXV6X0d4WXIwbHpad1VNNWozNzd0aGpWcEszd19OSlRhTTRPem9MeW9fVlNRMDhmbEt5T2NLd0FUemtuNDlpQUd1b1ZtTTFMcXJuVXl5ODRMaFR3amtyTDZGaVlHREczSGZVZi1wdjMxVTNJ0gF8QVVfeXFMTnNabjl0NFYtLWZFT0tXTmZ5T1NNRGlKM3VBbkw1cUdSUnFWNkhBcFNfNU1zQnFKR2xrN0g0ZDdYeXRDZHk0UHpNTDFLYkxISzFETWwxWVRoZG5tLWFMUHB3ZmgxS2pTMi1paTdMTXNDRTROZGU5b0hqbnRveA?oc=5",
+      "publisherUrl": "https://www.forexfactory.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -901,21 +930,6 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "16 Aug 2026 21:21 WIB",
-      "source": "Yahoo Finance",
-      "category": "Saham",
-      "title": "2 Unpopular Stocks That Deserve Some Love and 1 We Brush Off - Yahoo Finance UK",
-      "titleId": "2 Unpopular saham That Deserve Some Love and 1 We Brush Off - Yahoo Finance UK",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQUF2VnE4OXdMXzB3RDlldTNWeG1ZemF0NXNWOXZ0M09GMFgzQmVuXzNWM1B3d05vWTRGOElzZlRUVXlHc0E3akltSmdJZlczQWtzQzdQekhNZl9FQjdiWUtZcHlSNl96enNMWWJiWTBMMHotcHNqWDlsYTRRVnFfMl9zcDd4WW8?oc=5",
-      "publisherUrl": "https://uk.finance.yahoo.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
       "publishedAtWib": "16 Aug 2026 21:10 WIB",
       "source": "Bloomberg",
       "category": "Umum Trading",
@@ -931,21 +945,6 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "16 Aug 2026 21:07 WIB",
-      "source": "Yahoo Finance",
-      "category": "Komoditas",
-      "title": "Murphy Oil (MUR) Has Investors Looking Closer After Its Latest Update",
-      "titleId": "Murphy Minyak (MUR) Has Investors Looking Closer setelah Its Latest Update",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPU1dpSGlQSTRyTDJLeFBIUk9ETmszdkUtUjVaM292a19ERG4yQm55Z2NVbDlNNWV3RDRZWGdIVnN3Z0E4eE1xM2k3NE0xUFZSOTRmRDNNcmR0ckVDTUtjNnFsRk5vaHYzMDJYNXh5MW03YTFYbDRoQ1ZoNUVScGtwSl9OUE5XNGdkU1JGeFNKb2dLV3VtdWVXY2Nkc1pFZw?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
       "publishedAtWib": "16 Aug 2026 21:04 WIB",
       "source": "Bloomberg",
       "category": "Komoditas",
@@ -958,21 +957,6 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNei0tNHpURXVhbzZOY05jX3VabGZPR1o1d0NnMEo3bW9mOFNxWF96VFZhWmVDU3ZnTjFYY3RrSkVWU2F4ZURKZ01fdEtMQlZ6QjVTYk43Qzh6d0EtX3N6cXhzNkJTZ29VcWpsMVB6NTdFNlR3MzJVS3p2bVYwLU9pcUtjOFBvWGhoQmF0djAxWHBtYTZ3NW9PM0E5dFpsRE1SeGJ2cE5jSlBta3JVQ2JB?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "16 Aug 2026 21:00 WIB",
-      "source": "Yahoo Finance",
-      "category": "Umum Trading",
-      "title": "Stanley Druckenmiller’s Big Bet: New Broadcom, Intel and Arm Stakes in One Quarter",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPRXFWTzMta3FmU3I3MTFrckJldGU4SmEzQlFSS0JiMmdKSzhwWTlCR2hrWFZkUUxIbnRWMWpvR0JJVkx1SGlzTEpDODM2RndtODVEMUhJaVRaRmkxeTR6VFNtS3ZXaTZfM045N2JCcWNSZGJRYkNIdHQyQTRnbmFnUzIteDRvZTdGSzJ5cGhBdlFLcm9tbWRTbnhVTjZJdzdRME9HWldR?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     }
   ],
@@ -2515,11 +2499,11 @@
     }
   ],
   "sourceStats": {
-    "Reuters": 7,
-    "Bloomberg": 8,
-    "Yahoo Finance": 6,
-    "Trading Economics": 14,
-    "Forex Factory": 3
+    "Reuters": 12,
+    "Bloomberg": 7,
+    "Yahoo Finance": 0,
+    "Trading Economics": 16,
+    "Forex Factory": 5
   },
   "sources": {
     "marketPrimary": "Yahoo Finance public chart endpoint",
