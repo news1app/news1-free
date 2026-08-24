@@ -2,8 +2,8 @@
   "schemaVersion": 3,
   "freeMode": true,
   "demo": false,
-  "generatedAtWib": "24 Aug 2026 17:56 WIB",
-  "generatedAtIso": "2026-08-24T17:56:19.206205+07:00",
+  "generatedAtWib": "24 Aug 2026 19:03 WIB",
+  "generatedAtIso": "2026-08-24T19:03:46.839607+07:00",
   "coverageWindow": "24 jam berita • 7 hari kalender",
   "warnings": [
     "Mode gratis: analisis berita bersifat rule-based dari headline/metadata; isi paywall tidak direkonstruksi.",
@@ -23,8 +23,8 @@
     "bearScenario": "XAU melemah bila DXY dan US10Y menguat bersama, terutama setelah data AS panas/kuat. Oil melemah bila supply normal dan Brent-WTI turun bersama.",
     "confidencePct": 80,
     "confidenceLabel": "RULE-BASED",
-    "analysisCount": 10,
-    "conflictCount": 5
+    "analysisCount": 13,
+    "conflictCount": 6
   },
   "marketSnapshot": [
     {
@@ -36,7 +36,7 @@
       "lastNumeric": 4429.8,
       "changePct": 0.517,
       "change": "+0.52%",
-      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
+      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
       "sourceUrl": "https://finance.yahoo.com/quote/GC%3DF",
       "referenceSource": "Trading Economics",
       "referenceUrl": "https://tradingeconomics.com/commodity/gold",
@@ -48,10 +48,10 @@
       "labelId": "Perak",
       "category": "Logam Mulia",
       "symbol": "SI=F",
-      "last": "68.83",
-      "lastNumeric": 68.835,
-      "changePct": -1.0,
-      "change": "-1.00%",
+      "last": "69.17",
+      "lastNumeric": 69.175,
+      "changePct": -0.511,
+      "change": "-0.51%",
       "source": "Yahoo Finance • futures",
       "priceType": "FUTURES",
       "comment": "Turun dalam ±24 jam",
@@ -65,10 +65,10 @@
       "labelId": "Tembaga",
       "category": "Logam Industri",
       "symbol": "HG=F",
-      "last": "6.5920",
-      "lastNumeric": 6.592,
-      "changePct": 0.076,
-      "change": "+0.08%",
+      "last": "6.5900",
+      "lastNumeric": 6.59,
+      "changePct": 0.046,
+      "change": "+0.05%",
       "source": "Yahoo Finance • futures",
       "priceType": "FUTURES",
       "comment": "Relatif datar / tertahan",
@@ -82,10 +82,10 @@
       "labelId": "Indeks dolar AS",
       "category": "Dollar",
       "symbol": "DX-Y.NYB",
-      "last": "99.002",
-      "lastNumeric": 99.002,
-      "changePct": 0.204,
-      "change": "+0.20%",
+      "last": "98.983",
+      "lastNumeric": 98.983,
+      "changePct": 0.185,
+      "change": "+0.19%",
       "source": "Yahoo Finance",
       "priceType": "SPOT/INDEX/REFERENCE",
       "comment": "Naik dalam ±24 jam",
@@ -116,13 +116,13 @@
       "labelId": "Dolar AS / Yen",
       "category": "FX",
       "symbol": "JPY=X",
-      "last": "159.172",
-      "lastNumeric": 159.172,
-      "changePct": 0.146,
-      "change": "+0.15%",
+      "last": "159.081",
+      "lastNumeric": 159.081,
+      "changePct": 0.089,
+      "change": "+0.09%",
       "source": "Yahoo Finance",
       "priceType": "SPOT/INDEX/REFERENCE",
-      "comment": "Naik dalam ±24 jam",
+      "comment": "Relatif datar / tertahan",
       "sourceUrl": "https://finance.yahoo.com/quote/JPY%3DX",
       "referenceSource": "Trading Economics",
       "referenceUrl": "https://tradingeconomics.com/japan/currency",
@@ -133,10 +133,10 @@
       "labelId": "Euro / Dolar AS",
       "category": "FX",
       "symbol": "EURUSD=X",
-      "last": "1.16700",
-      "lastNumeric": 1.167,
-      "changePct": -0.07,
-      "change": "-0.07%",
+      "last": "1.16690",
+      "lastNumeric": 1.1669,
+      "changePct": -0.078,
+      "change": "-0.08%",
       "source": "Yahoo Finance",
       "priceType": "SPOT/INDEX/REFERENCE",
       "comment": "Relatif datar / tertahan",
@@ -150,13 +150,13 @@
       "labelId": "Pound / Dolar AS",
       "category": "FX",
       "symbol": "GBPUSD=X",
-      "last": "1.36290",
-      "lastNumeric": 1.3629,
-      "changePct": -0.139,
-      "change": "-0.14%",
+      "last": "1.36360",
+      "lastNumeric": 1.3636,
+      "changePct": -0.088,
+      "change": "-0.09%",
       "source": "Yahoo Finance",
       "priceType": "SPOT/INDEX/REFERENCE",
-      "comment": "Turun dalam ±24 jam",
+      "comment": "Relatif datar / tertahan",
       "sourceUrl": "https://finance.yahoo.com/quote/GBPUSD%3DX",
       "referenceSource": "Trading Economics",
       "referenceUrl": "https://tradingeconomics.com/united-kingdom/currency",
@@ -167,10 +167,10 @@
       "labelId": "Minyak Brent",
       "category": "Energi",
       "symbol": "BZ=F",
-      "last": "92.91",
-      "lastNumeric": 92.91,
-      "changePct": -1.568,
-      "change": "-1.57%",
+      "last": "93.03",
+      "lastNumeric": 93.03,
+      "changePct": -1.441,
+      "change": "-1.44%",
       "source": "Yahoo Finance • futures",
       "priceType": "FUTURES",
       "comment": "Turun dalam ±24 jam",
@@ -184,10 +184,10 @@
       "labelId": "Minyak WTI",
       "category": "Energi",
       "symbol": "CL=F",
-      "last": "85.18",
-      "lastNumeric": 85.18,
-      "changePct": -2.159,
-      "change": "-2.16%",
+      "last": "85.35",
+      "lastNumeric": 85.35,
+      "changePct": -1.964,
+      "change": "-1.96%",
       "source": "Yahoo Finance • futures",
       "priceType": "FUTURES",
       "comment": "Turun dalam ±24 jam",
@@ -252,10 +252,10 @@
       "labelId": "Bitcoin",
       "category": "Crypto",
       "symbol": "BTC-USD",
-      "last": "77,569.57",
-      "lastNumeric": 77569.57,
-      "changePct": 1.032,
-      "change": "+1.03%",
+      "last": "78,197.28",
+      "lastNumeric": 78197.28,
+      "changePct": 1.459,
+      "change": "+1.46%",
       "source": "Yahoo Finance",
       "priceType": "SPOT/INDEX/REFERENCE",
       "comment": "Naik dalam ±24 jam",
@@ -266,6 +266,21 @@
     }
   ],
   "news": [
+    {
+      "publishedAtWib": "24 Aug 2026 17:01 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Taiwan Jobless Rate Steady in July",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4xbC01SHdBMUFLbmdOX3NtekY4enJUV3ZsVkx5Q3BtbFpxZm9hLTVHWXJxa0ZkZVJNUjZGV0hYZGpuYVd5UVFVREhuZzN4cXJ6SVhQSlU5YWFTXy1rUndOSXdLc1hyLWVUQXpSZUtFWjdjbXc?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
     {
       "publishedAtWib": "24 Aug 2026 16:59 WIB",
       "source": "Trading Economics",
@@ -278,6 +293,158 @@
       "priceResponse": "",
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTE9tUmE0RGd5OXpkV1N0U1Z1LXYwcTZtZGZ6ekRaNjRzeHVIWHBaSGdacGNabVdfdmp1b2dYY2E0TTllUmEwYlNIYnBRMEpvSmtTWEt3VGpRMmk3UWVDYjVXWDdrNjRyUTVFQ3FQYWxoR1pXa2Zpb3dMUkxXVEdXUw?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 19:00 WIB",
+      "source": "Bloomberg",
+      "category": "FX",
+      "title": "Nvidia’s Trillion-Dollar Chip Market Has Friends and Foes Closing In",
+      "titleId": "Nvidia’s Trillion-Dolar Chip Market Has Friends and Foes Closing In",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUV9iR0ZlOXNzYm5zYmxqdHZQYU9KZmdoWWtnclZ0QXdyd1E3dnFNMDhyVEVLQ19kUlNCME5nWmtCMnVWaGJoSXM0azQwdWgyS0ZOTjIzQWR1RVhLZlFEUV9VMXFLaFdLNTRBVFBCbE93VDJYQlVpbWdJWFF5S2xPUEk3Y2pIS3luMkkyc05hMkdzaFgtT1l5ZG1xVDUzb091TGF6a3ZSZWNmcVNvUXNKZVNiZ2RtdHBhQTlV?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 16:59 WIB",
+      "source": "Trading Economics",
+      "category": "Makro & Data",
+      "title": "Finland Producer Inflation Accelerates in July",
+      "titleId": "Finland Producer inflasi Accelerates in July",
+      "impact": "HIGH",
+      "analysis": "Inflasi yang lebih panas biasanya mengangkat yield/USD dan menekan emas serta aset berisiko.",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↓",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "Silver",
+          "direction": "↓",
+          "response": "MENGIKUTI"
+        },
+        {
+          "asset": "DXY",
+          "direction": "↑",
+          "response": "MENGIKUTI"
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "response": "MELAWAN"
+        }
+      ],
+      "priceResponse": "XAUUSD MELAWAN • Silver MENGIKUTI • DXY MENGIKUTI",
+      "contradictions": "XAUUSD melawan tekanan fundamental rule-based; Bitcoin melawan tekanan fundamental rule-based",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wcjR0emt6THUwbDVQSmtSQnkxQWlfMG9mcFNOc0RCVldUc1lvczdMTkN3b3FKb0NfdFhzOXNoWnk2aS1vb05GLWRSbExvYmtMXzRyS2JUOEdHanlJUHpkRFVUVkRoNzZ2VUhwd2F2N1gySXRldnJLTEZiRQ?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 16:58 WIB",
+      "source": "Trading Economics",
+      "category": "Makro & Data",
+      "title": "Poland Retail Sales Growth Slows in July",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XSDJ1Q2JFUFo0VV94Q0pGTmttck5BRkR0ZzFxTjNfT1p6REFWczFsY0xST0dMS2xtZm80MGpIclF2Z0Q0bXctNGtOeUI0aUZ5eURROU9yRHphaHM0T181SUJlcjhyZlFpOFRLcFpnQTZ0S0JHN1E?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 18:56 WIB",
+      "source": "Bloomberg",
+      "category": "Geopolitik",
+      "title": "Hormuz Oil Flows Are Going Strong as War Drags On",
+      "titleId": "Hormuz Minyak Flows Are Going Strong saat perang Drags setelah",
+      "impact": "HIGH",
+      "analysis": "Eskalasi geopolitik/Hormuz cenderung menaikkan risk premium minyak dan permintaan safe haven. Efek akhir pada emas tetap perlu dikonfirmasi oleh DXY dan yield AS.",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "response": "MENGIKUTI"
+        },
+        {
+          "asset": "Silver",
+          "direction": "↑",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "response": "MELAWAN"
+        }
+      ],
+      "priceResponse": "XAUUSD MENGIKUTI • Silver MELAWAN • Brent MELAWAN",
+      "contradictions": "Silver melawan tekanan fundamental rule-based; Brent melawan tekanan fundamental rule-based; WTI melawan tekanan fundamental rule-based",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSF95bjQtVEhPVTNuakdkeFFqbXh0d3hTZ1U3WTlTbWkwMTlXVVFGQm9GNS1zcFk1Z0pmemhUVVp6X0txXzNCQ0tZZU9QVDhmZ1dNazZCSmVDLVlqX1o0emFQcXppd0Y5RkdLTEkzb0Eyb3U1WjBzRmVvQ2s0RFlxS1ZlTmJETExIay0zMUxLTmZiT1YzNTYxOE96bUZaUjRyMUJXY2x3?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 16:58 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Palestine Trade Gap Widens in June",
+      "titleId": "Palestine perdagangan Gap Widens in June",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jSkFPemFfeUZvVF9VLXBvT3poMjk0UzVRVmVZdjNkN1pyQ1BNNzFMQ2FvQ1lfeFg1LWpsY1FIZnNfYkJ6M1JsOGFHSElYMnEzc28xUm1BbFQ1c2d5WTBXMng4VnFpcEMxYm83LUZILTVDTGljSUE?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -297,18 +464,49 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "24 Aug 2026 17:41 WIB",
-      "source": "Yahoo Finance",
-      "category": "Saham",
-      "title": "2 Profitable Stocks with Exciting Potential and 1 Facing Headwinds",
-      "titleId": "2 Profitable saham with Exciting Potential and 1 Facing Headwinds",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSlFkV0tKN1BSTUNwZ25sLTBwWUdoaU83OFRWb3NVT2hob09tZ1daVDBrN2RYcHBwb2ZmLVpSbnk0MUpMMkE1MVMxZy1sRlk4OWstekxlRUZYUTVjWkQtcUdHT3JRUURjT2taRThJNmF4NF92WExvUVVZY2JzeVdjc0xXMXFMTEk1UGNxY0toQVZvMExnMWplWVYtZE5YNjlHa25Ed2xn?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
+      "publishedAtWib": "24 Aug 2026 18:55 WIB",
+      "source": "Bloomberg",
+      "category": "Geopolitik",
+      "title": "Canada and Iran Wars, Treasury Could Fund Buybacks with Cash Pile, More",
+      "titleId": "",
+      "impact": "HIGH",
+      "analysis": "Eskalasi geopolitik/Hormuz cenderung menaikkan risk premium minyak dan permintaan safe haven. Efek akhir pada emas tetap perlu dikonfirmasi oleh DXY dan yield AS.",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "response": "MENGIKUTI"
+        },
+        {
+          "asset": "Silver",
+          "direction": "↑",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "response": "MELAWAN"
+        }
+      ],
+      "priceResponse": "XAUUSD MENGIKUTI • Silver MELAWAN • Brent MELAWAN",
+      "contradictions": "Silver melawan tekanan fundamental rule-based; Brent melawan tekanan fundamental rule-based; WTI melawan tekanan fundamental rule-based",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdEh5dUtqSExpQWNsdGt0NUZKbldTQ1VmLUlJSEJtNlRuc0J0MEY2bkEwSEo1a1A5THVGZ0U3cDF0WS1nTk5UREJFZHNVcnB2YjhJMnhqNzgyOVRCWFhwWHpubFhhU1Y3ZmtPemxqWmJiY1hWa1E3WGswWmpUOUtlamRtS01QNkQ1VGI0ek1RS29QUWN4bTBnSDVTMTdJaDhUazBGOGpkQ0tULWZT?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -327,6 +525,36 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "24 Aug 2026 16:39 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Kazakhstan Rating News 577566",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9tcTN5SHZYS3BOLXNweFUxR0NpZjQtSEg2RHV6NEdjeFZiMUFDQmNQOWpWOS1SQXFRSjZTLXNiVnc1TkZoeUZGQUN5aUNkNHlsT0prUGduUmVYeGpKdHdzR2FmWHJFeHV5dGc?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 18:45 WIB",
+      "source": "Yahoo Finance",
+      "category": "Yield & Obligasi",
+      "title": "How the U.S. 30y Treasury yield has emerged as a key market focus - Yahoo Finance UK",
+      "titleId": "How the U.S. 30y Imbal hasil Treasury has emerged saat a key market focus - Yahoo Finance UK",
+      "impact": "MEDIUM",
+      "analysis": "Yield Treasury adalah driver penting untuk DXY, XAUUSD dan saham. Arah harga perlu dibaca bersama sebab pergerakan yield.",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNU5ScEt5ZkdQdWZCSDFuN0dyQjNObFoweVBkdDZRM0lSUFJoVEs5N0EyZnltVTZQYjljRjJGRVFfRk15ay1YQUFLTUxNdURhc1p0Z2Flb1FIamlzaHVtb3EwUC1EWTVUZjJnQTZUNU5FdjFlelNSVTVXNG8tVFlIbFlvOA?oc=5",
+      "publisherUrl": "https://uk.finance.yahoo.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "24 Aug 2026 16:14 WIB",
       "source": "Trading Economics",
       "category": "Umum Trading",
@@ -342,18 +570,48 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "24 Aug 2026 17:33 WIB",
-      "source": "Forex Factory",
-      "category": "Komoditas",
-      "title": "Thailand's Finance Ministry and the Bank of Thailand are evaluating a proposal to impose a specific business tax on online gold trading",
-      "titleId": "Thailand's Finance Ministry and the Bank of Thailand are evaluating a proposal to impose a specific business tax setelah online Emas trading",
+      "publishedAtWib": "24 Aug 2026 15:52 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "The Shangai Composite Index Closes 0.61% Lower",
+      "titleId": "The Shangai Composite Index Closes 0.61% lebih rendah",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQS2ZiQmNkUDJkR2NSZjZlcjNscVM0c2NsZzMxd2IyQkRZM0N2TWNETC1NdFNNYVAwb1RQX1NrM3JJZWlRSks2cHl6T3dvUTdBdVVrTXpUMXMycC1WU0hCWGlTekdnZktLR1otUGdwaGc4MTJKdGlRaUtYLWVYMU1mSzF3RUNCOF9RQV9RMl9HSERkSXZrWUFZYdIBngFBVV95cUxORnFwMHpTdU1wTWZRMk4wdGlEdkpaSHQ1N2xNS2tmcDlKRmx3QU5sMHJYcmQtQjN2TDkzQ2U2Q2JoUUxCY3hSajVlRDROUUVMbW01UTJFNFVoUTFnUXU3RGZpVGdVX1pNSVBORzhPbTJ2SDBteG9ybnloZGhETEk3ZVRSaVFhUWFpT1Zka1pRc0RiZHVFQVpFZkg3U253QQ?oc=5",
-      "publisherUrl": "https://www.forexfactory.com",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE42bXJCbFhvZF9QTUlJTmpicG5yeXB4aGc4MlMtRjQ4WXFKSjlLOENPMVBrYjZxbG9IOFpSUV81NmRsWkJ4TXo0c2xROFNRbVhTRnh5UUtuTFFMQmhiRTRNNnhmN0RPRkUyVkNV?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 18:33 WIB",
+      "source": "Yahoo Finance",
+      "category": "FX",
+      "title": "Dollar hovers near multi-month lows as debt nerves unnerve investors",
+      "titleId": "Dolar hovers near multi-month lows saat debt nerves unnerve investors",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNdXFfb2p1dXlUbzVCd1hfYWRXQ3lGMDFWUUJ1U0VlUFRRcVEteDlnQm9qdHdQYTVldDlfdGF2bUMweTg1Y0FtRnpZR2ZZWDBLQlE1czFaOUprRWdPTHo1YjlkemRZMUhiaGxEUHQtYkRHR09uWWtjTFd4cUlaTmU2UkpoR0NCMGRxUlZBWGxldFJTVFNab29ZSG9VMzJDRW1JRk1jckUzT2lhY20xd2NOTVV3?oc=5",
+      "publisherUrl": "https://finance.yahoo.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 15:44 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "DAX Starts Week on Negative Note",
+      "titleId": "DAX Starts Week setelah Negative Note",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE03czVyMUNQTjF0LUJaUUxBZjFSdHgtU0xBMk5meXRRRVhCdEJuWXBrcTNLelc0V1gzY0dyM2FxeC11MmRuRjhubDYzNUZ6QVgxTzRLczZfZV9qNG5ZcVdwUUw0YXpXTW9xaFE1MUZn?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -372,32 +630,17 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "24 Aug 2026 15:44 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "FTSE 100 Struggles for Direction",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xVjlmcXhUU1oxNVJCLTJjT05mV3lJd0NibjZSYy0zclRVVk1rZDRmeEFmX1lzODgzS2lCNnhBOVN6NDRBZm5iMnI3OXJOLTRtVUtfRDAydjkzckdRQ2ZDQVkyai1uN2hkVWM4MHBWZU5GN1dWUElj?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 17:32 WIB",
+      "publishedAtWib": "24 Aug 2026 18:30 WIB",
       "source": "Yahoo Finance",
-      "category": "Umum Trading",
-      "title": "This Nvidia earnings fact will frustrate you",
-      "titleId": "",
+      "category": "Komoditas",
+      "title": "Paradigm Gold Reports on Initial Results from 2026 Exploration Program on the Swift-Katie Property, BC and on Corporate Holdings",
+      "titleId": "Paradigm Emas Reports setelah Initial Results from 2026 Exploration Program setelah the Swift-Katie Property, BC and setelah Corporate Holdings",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNajcwMWRLT2pTNEYwQllDZXVDQ3VRM3FvekVxWUxJTjZidFZ1ckNhX08tU25sR1V5a3pIVVV5WXpDOXhRUnhxb0dOcjkwYXk4YV9Fa09YUlRJZFA5YmhDYlFLMXByeUVvTWFkU09rN3l5TXFfTUszUDVPNXpzVXE4bW42TFVNSngxcjI1WHNBOHBvUHhfQ2ZjelNCTjJPVUdqZDhYU29hQTZBczlV?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRE41SGJTUHcxZmJ1aGZYNVpvd2ZLaTV3TjdvWWpGUXdfMEZtVk1TQXZxRXFwZ1ZFVk1IVE1nOHBFbUsxR3h0akQ1ZS1tNXpVTmNXZ3FjZ3JoeFhCYmVkd2VpVHNqa1h5ckc2ZG40amtzQ0xFTEEwOVVlOHd1N0V6UDVYQUM1RHNMTlFvaTRZMWROaFBCaWFFZmk1ZXlmU1YxWktfTFg0aWxwdk0?oc=5",
       "publisherUrl": "https://finance.yahoo.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -417,6 +660,36 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "24 Aug 2026 15:44 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "FTSE 100 Struggles for Direction",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xVjlmcXhUU1oxNVJCLTJjT05mV3lJd0NibjZSYy0zclRVVk1rZDRmeEFmX1lzODgzS2lCNnhBOVN6NDRBZm5iMnI3OXJOLTRtVUtfRDAydjkzckdRQ2ZDQVkyai1uN2hkVWM4MHBWZU5GN1dWUElj?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 18:18 WIB",
+      "source": "Bloomberg",
+      "category": "Saham",
+      "title": "Best Coffee Will Be Harder to Get as Downpours Hit Brazil’s Trees",
+      "titleId": "Best Coffee Will Be Harder to Get saat Downpours Hit Brazil’s Trees",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSm9SRTdUMXN3MkpCMVZadWFOVk85aENVMXF5ekhta1lyR0wwSDZuOG1WRkt0VTZtUWV3WnhRemRaSU5mOC1FdEZQRnY1VEtPaVJzS19sYXItQ2F4SUdUNWFWUDVOMGs2QXNUc09UVnR3dllKaXFOVURBVkVZYlk5RE9RaFNFSVhydFNSY0xac2ZfNVE2ald3NDRIbHEtRlVEY2ozV3V1ZjZBOEs2cUpZdWxEdlY2RHFYdFdPbnduSE44NGJ1?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "24 Aug 2026 15:43 WIB",
       "source": "Trading Economics",
       "category": "Umum Trading",
@@ -432,21 +705,6 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "24 Aug 2026 17:30 WIB",
-      "source": "Bloomberg",
-      "category": "Yield & Obligasi",
-      "title": "Aviva Fund Manager Urges Stock Diversification if Yields Hit 5% - Bloomberg.com",
-      "titleId": "Aviva Fund Manager Urges Stock Diversification if imbal hasil Hit 5% - Bloomberg.com",
-      "impact": "MEDIUM",
-      "analysis": "Yield Treasury adalah driver penting untuk DXY, XAUUSD dan saham. Arah harga perlu dibaca bersama sebab pergerakan yield.",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPYi1rT1ZtSVZRY0I3RnpPaUNOOVV2UndLa3M1REQ0d2toeXdibFlRemhxWFZ5bTUtVG9qZlFxY1Q5RDBGeXpKUDA2N2V2RE1IUlhBTWE1UnRXMnpLLU5uQTdPejkyWkJNczJyT1Axc2RiWm1VY0ZiSzctWERyYzljWUZnZmJUQTBqQUMybmttQnJLRnJFRmdyejUtd0M0VmExUDBOQ2FDZW51QmZ3UWtSNjh3WQ?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
       "publishedAtWib": "24 Aug 2026 15:36 WIB",
       "source": "Trading Economics",
       "category": "FX",
@@ -458,6 +716,36 @@
       "priceResponse": "",
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE92RnkxV3RFeXdHMUZEeFF5ZmtCYkRCQUxyc21QUDdfSUt0U3daYllQSWxGNTloY0FtdU11Tnk2eHVnV1hrc1RBUUtibTNhOHNMS2JnRk5hWG1FdVJwbi1HMkZZV2NRMDlJUVBkRWl3dlE?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 18:17 WIB",
+      "source": "Reuters",
+      "category": "Geopolitik",
+      "title": "Ukraine wants peace but won't give in, Zelenskiy says on Independence Day",
+      "titleId": "Ukraine wants peace but won't give in, Zelenskiy says setelah Independence Day",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOaWgtWjF6MDRmYXZHWDBTMWRvdEFnR3RhTGNVQS1vWHM4Vi0xSlp0TmloMmtCTlZhbk5JTVZPWW4zcnU5U0Q2QkktUW5BYVlJVHVRN2Y4TGhGRWhEUlV2QndPYTF0MExqUUYxYW1mdkxVeDltX0hyLWdsVTI0MDQwdFVoeXV0Q2NwOWZVUF9kV3R0cFo2al80djV3MFl0VlVCVVlVN1ZB?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 15:36 WIB",
+      "source": "Trading Economics",
+      "category": "FX",
+      "title": "European Stocks Seen Opening Slightly Lower",
+      "titleId": "European saham Seen Opening Slightly lebih rendah",
+      "impact": "MEDIUM",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnR1o2Z0VscDBndE40Q1VESWJVNjhhV2tmWmpBeDd3U0UwejUxblpCc2xjR2ppSUtLRFZNMEJLUXR0akRwUnBGSW1VT0hhRjJLZmhBbFhxMmgyQ0VjbTlaN1BIWmFfNzM4bHUzQ2NUdmM?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -477,350 +765,7 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "24 Aug 2026 17:20 WIB",
-      "source": "Bloomberg",
-      "category": "Saham",
-      "title": "Carry Trades Are Riding High on Wall Street - Bloomberg.com",
-      "titleId": "Carry Trades Are Riding High setelah Wall Street - Bloomberg.com",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxONnpuR012WXRTZWJselNCNk8tb0NIMHNIbWZLOGtMRFJpVHJDWVRMYnFLMFlIY1ZiQnpaOXVhMExLVXBveDl0V004cVlYLTNRMGl3TkFWSXdJbHJSZjNRN1pCVE91LS1yNkFzaXBMSGtLRlNnNk83b2dpSjVPTzdaT2xCNVJpbm9HMk56Ym1nODZiLTRMbWllTU1QMTgwN2d6WXpiNjFxVTgzRjhJMFNrMFRMZnpGT0JZdFE?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 14:54 WIB",
-      "source": "Trading Economics",
-      "category": "Makro & Data",
-      "title": "Singapore Inflation Rate Hits Near 2-Year High",
-      "titleId": "Singapore inflasi Rate Hits Near 2-Year High",
-      "impact": "HIGH",
-      "analysis": "Data inflasi adalah katalis tinggi. Arah baru valid setelah membandingkan actual vs forecast dan melihat reaksi DXY/yield.",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5zSnlxZnFQaW04a3dFbVFTMDJZTFNIQVRLbFpseXpWQldVSDE0OFhvWUxPZm9YNkNPNFdIN0JSbDhnWXVtbnlmRlA3NlFKWWlUamxzeFRhaElrMGtjVFVycnNDSnlPRkFFcm1IdnpuMjU1Zw?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 14:51 WIB",
-      "source": "Trading Economics",
-      "category": "Komoditas",
-      "title": "Commodity Natural Gas News 496891",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yeV9FSS1YQy1EajhQc0tTRkVZbmQyWnNZeFd0N184Y0syYXNPQVYyT2dGZFRKQ3FjQ2FYRWZYaGJ3dzVjbUt2MTJXUkstYlVja2szWUZtV3NhdWpoU19NV3lpMFB1RG96N1ZHbkZOUQ?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 17:17 WIB",
-      "source": "Yahoo Finance",
-      "category": "FX",
-      "title": "Canada-US Trade Talks Collapse, Ottawa Vows 'Dollar-for-Dollar' Retaliatory Tariffs",
-      "titleId": "Canada-US perdagangan perundingan Collapse, Ottawa Vows 'Dolar-for-Dolar' Retaliatory Tariffs",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaGdCcGtLUU9QcmtwUTNlenVxbGl1eUE5WHdiaFAwOGtnQjhXb0pGSXR2Tmo5azJpRWdsQXVVeDE5VDJKazBfYnFrdE1DNHhGN2pkWkl6OEJNSmFoSXA0SnpES3hVZlJhZU4xeGI0RjB6ZzVxckFaWnQ2MHd2cENqRjVFZER2eS1QZlEyRDBmakVUalpBV29KN2w0SQ?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 14:15 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "UK Natural Gas Falls but Remains Near Recent Highs",
-      "titleId": "UK Natural Gas turun but Remains Near Recent Highs",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96VDR1Y2I5b3JKcGpRWXhwdlAyQzNFUWMzMXBMdnZPd1g3WDgydWFkUmt2WXFnNE02cm9aZzhjUXdKUWJfZDhIcmNnbk44UzNpbGt0a25SU21aZndzT1p4Z25HZGRjTlV6VFNSaTY4M29sYm8?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 14:13 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "NZX 50 Ends 0.7% Lower, Communication Services Weigh",
-      "titleId": "NZX 50 Ends 0.7% lebih rendah, Communication Services Weigh",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Nb19DdE01U0tRUm5KZk1ZdFZXNk92T0J2TlBJcC0tcEJ5S0JxV3hQOVpZLVRQRk9Fc0NQMWU5UnFia1oyWnY4QnI5WTVYYWlHcUJraUYxLTg4Nm5VVjJLdTd4aGo1NExRdmZJTHRkX0JGRXM?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 17:11 WIB",
-      "source": "Reuters",
-      "category": "Geopolitik",
-      "title": "Bond market anxiety raises stakes for Warsh's debut Jackson Hole speech",
-      "titleId": "",
-      "impact": "HIGH",
-      "analysis": "Eskalasi geopolitik/Hormuz cenderung menaikkan risk premium minyak dan permintaan safe haven. Efek akhir pada emas tetap perlu dikonfirmasi oleh DXY dan yield AS.",
-      "assetImpacts": [
-        {
-          "asset": "XAUUSD",
-          "direction": "↑",
-          "response": "MENGIKUTI"
-        },
-        {
-          "asset": "Silver",
-          "direction": "↑",
-          "response": "MELAWAN"
-        },
-        {
-          "asset": "Brent",
-          "direction": "↑",
-          "response": "MELAWAN"
-        },
-        {
-          "asset": "WTI",
-          "direction": "↑",
-          "response": "MELAWAN"
-        },
-        {
-          "asset": "US equities",
-          "direction": "↓",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "Bitcoin",
-          "direction": "↓",
-          "response": "MELAWAN"
-        }
-      ],
-      "priceResponse": "XAUUSD MENGIKUTI • Silver MELAWAN • Brent MELAWAN",
-      "contradictions": "Silver melawan tekanan fundamental rule-based; Brent melawan tekanan fundamental rule-based; WTI melawan tekanan fundamental rule-based",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcnNlclhfMG4yZE9OTExTUEQ4Zi1sUml5RFdoUVZiU2tXd3EtaTJSc0E4YlRBQUp4T1hvSzdmVHRBeFhobTMxV1hodmhsRl80Zm4zSldlTzBWTGJMeTNEd0RnekpmLV9RaVprUWp4SlBCQXJheXc1ZUt4NEx2T3pON0NQQTVlQTlldVA0SWRWdmN6OWVwc25jUlRBeGFTUFIzaC1YNlRQSzFrREtrQ3FXWQ?oc=5",
-      "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 13:49 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Rupiah Falls as Profit-Taking and External Risks Weigh",
-      "titleId": "Rupiah turun saat Profit-Taking and External Risks Weigh",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmQTZ3d3ZnaDlEQl95UVZTY0F5ajhkQnFuR3F0VGZ5YnpaNlFnNk8zbXU0VmRyNGZReHFoY0ZwOFc4TmlZVV9YRDNhcW0wTm5WY0M0YkxWMEt3WmpKbHk2MVRHS1E1c2FmX2tJ?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 13:49 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Indonesia Money Supply Growth Slows in July",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hVlNoN1BUVFpsQzI2Q2cyaW81aWNNaHdUak9ST2liSDBqeDRHVXk5dUxiV3Q5SjhrZkVuZW1XclVBa1pkQ3JRYW1jWXI1bjJLRUswRmZoQlBEOHVpWDZzak9uQWtFaVctLWVCR0prVDZQb2cw?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 17:10 WIB",
-      "source": "Reuters",
-      "category": "Geopolitik",
-      "title": "Looming US sanctions on Iran put China oil buying in spotlight",
-      "titleId": "Looming US sanctions setelah Iran put China Minyak buying in spotlight",
-      "impact": "HIGH",
-      "analysis": "Eskalasi geopolitik/Hormuz cenderung menaikkan risk premium minyak dan permintaan safe haven. Efek akhir pada emas tetap perlu dikonfirmasi oleh DXY dan yield AS.",
-      "assetImpacts": [
-        {
-          "asset": "XAUUSD",
-          "direction": "↑",
-          "response": "MENGIKUTI"
-        },
-        {
-          "asset": "Silver",
-          "direction": "↑",
-          "response": "MELAWAN"
-        },
-        {
-          "asset": "Brent",
-          "direction": "↑",
-          "response": "MELAWAN"
-        },
-        {
-          "asset": "WTI",
-          "direction": "↑",
-          "response": "MELAWAN"
-        },
-        {
-          "asset": "US equities",
-          "direction": "↓",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "Bitcoin",
-          "direction": "↓",
-          "response": "MELAWAN"
-        }
-      ],
-      "priceResponse": "XAUUSD MENGIKUTI • Silver MELAWAN • Brent MELAWAN",
-      "contradictions": "Silver melawan tekanan fundamental rule-based; Brent melawan tekanan fundamental rule-based; WTI melawan tekanan fundamental rule-based",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOT1hfY2RieU1zQWlvd1p0M1ZhdzdkU2ZGYmZ4TUlUdG9IbXRZWjlTbTctdi1vMHBJTEtWTG40aW1sOHRqT25MaFNleGZIdUlyU1NnZC12Z3FZT2FSU0ZxNmNra0pCZXpOQl9DUmVOZ3l2MzZLc2pkZndoR2pVUUl6dEp1TXRHMkNBeXRXNkMyNzhXejZuSS1aZGpPWHJETTVuUWVqQUhyay1kcUhU?oc=5",
-      "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 13:06 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Greece Imports of vehicles other than railway, tramway from Laos",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQUXVPeVF3UHNCbENuLXZkdTZYTVlxaVJjeW1FVEdLTXBBb3JBZVBDU2hNTzJmdW13UGFMeTBLYXBMUzZhMGlmcFRJSjZPN2JFNVpXMW1wR3FZdXlxVFFNcFVHTUV6b1AzT2dfQU5rb1ZoZVZ3VHN5dTlBX2k2bER3Z3g0UQ?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 12:57 WIB",
-      "source": "Trading Economics",
-      "category": "Komoditas",
-      "title": "Copper Falls as Inventories Ease Supply Concerns",
-      "titleId": "Tembaga turun saat Inventories Ease Supply Concerns",
-      "impact": "MEDIUM",
-      "analysis": "Pengurangan supply/output atau inventori yang lebih ketat cenderung mendukung Brent dan WTI.",
-      "assetImpacts": [
-        {
-          "asset": "Brent",
-          "direction": "↑",
-          "response": "MELAWAN"
-        },
-        {
-          "asset": "WTI",
-          "direction": "↑",
-          "response": "MELAWAN"
-        }
-      ],
-      "priceResponse": "Brent MELAWAN • WTI MELAWAN",
-      "contradictions": "Brent melawan tekanan fundamental rule-based; WTI melawan tekanan fundamental rule-based",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jTlh1S1RaQzMyZjlXTGtETktDUExhdnd0aHQtTG9mdWpOU05LcDFpSUNTVk0zMjlmQURRZlpzWTBPdFVwdEJLbE91cHdjeGN4NEtQQWtLWGJ0WWdjeVhSc3R6YkpPb0xl?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 17:09 WIB",
-      "source": "Yahoo Finance",
-      "category": "Saham",
-      "title": "New Strong Sell Stocks for August 24th",
-      "titleId": "New Strong Sell saham for August 24th",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ2tuSFkyNFhUZGhIM3BSUTJVU1pyV3Q0dE5pLWNkS2dxbGJrVWdnaVJnRi02S3g2SGh4QXVUUFQyWkVfNDNlWDVyN2w2d3FaNWlCbmJhWFE1b1Y3Uk8tclJRaXp4ejllNnRKMFk3alFGUkQydno0c3NCcnZ2NzFLOEZ1NFlfU243Z2RqeV82SXdyTmlQcG0yTlN2RQ?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 12:50 WIB",
-      "source": "Trading Economics",
-      "category": "Saham",
-      "title": "Stocks in China Hit 5-week Low",
-      "titleId": "saham in China Hit 5-week Low",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wY3VKSTdtZDNJWnR1VklrRVN4MHFBd3E1ZTN4Z0tJRW9aaXVDUlRoM2t1YW4yYW8yU1ozWVR1dXYwUThHSzJDa0duR2wzc1BGY2RSMXRCYVJXM2hlc3pn?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 11:51 WIB",
-      "source": "Trading Economics",
-      "category": "FX",
-      "title": "New Zealand Dollar Trades Near Multi-Month Highs",
-      "titleId": "New Zealand Dolar Trades Near Multi-Month Highs",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tcF90ZXBKQ0ZKZXdtdEx3SWlNSTJMLVYzbWRwTllpY2pKN2lrZEozLXNiemE0eWIwQ3U3SmhfUlBmNHUzb0QzUlBVMEhIVnM2XzlXblUweDBKd3JpY25GNU1TdXZsZ3ZMWkUxMlZn?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 17:06 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Health - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBvVVhYbGMwX1Y0NzltcUNXZVRRaEVMak5JSGNiOGdjMk5vOW80amdRZkNPeFdtOHo3VURIQWljZEFjVWVxTTdFQV9Wb25tOVVhVmkzaGZn?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 11:50 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Malaysia Leading Economic Index Edges Up",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PU0NsQnlVOTJoWFl4M2VSOWU5TV9DQUpyTDlNeVhLcmphMXE3WnpBbk9MN1k2WVBGSlhVbVJNaFJYNU1HUHdGRERzRk5zRDZkSW5yVVdLSDVUdWNfTFhhMnB1bEZ6WW5qZDlaTlMwT09zYlN3UUtnOWtIeng?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 11:50 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Indonesian Market Eases as Week Begins",
-      "titleId": "Indonesian Market mereda saat Week Begins",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TQy1JenFuZWp0UFhpalpZM1ZTRlN5TklFd3Jhd0hWMF9La1k0eG9NSFpaTlZEYUtLNGdwYUh0MHF2RjJFYld2enNzdGl3RXpIZ1FNLUk5b2dtYlE3Q3hON1JnNGh5Mmd2cDc2Vms5dEQ?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 17:00 WIB",
+      "publishedAtWib": "24 Aug 2026 18:15 WIB",
       "source": "Reuters",
       "category": "Geopolitik",
       "title": "The Hormuz crude volume debate masks the real shortage of refined fuels",
@@ -866,6 +811,257 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "24 Aug 2026 14:54 WIB",
+      "source": "Trading Economics",
+      "category": "Makro & Data",
+      "title": "Singapore Inflation Rate Hits Near 2-Year High",
+      "titleId": "Singapore inflasi Rate Hits Near 2-Year High",
+      "impact": "HIGH",
+      "analysis": "Data inflasi adalah katalis tinggi. Arah baru valid setelah membandingkan actual vs forecast dan melihat reaksi DXY/yield.",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5zSnlxZnFQaW04a3dFbVFTMDJZTFNIQVRLbFpseXpWQldVSDE0OFhvWUxPZm9YNkNPNFdIN0JSbDhnWXVtbnlmRlA3NlFKWWlUamxzeFRhaElrMGtjVFVycnNDSnlPRkFFcm1IdnpuMjU1Zw?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 14:51 WIB",
+      "source": "Trading Economics",
+      "category": "Komoditas",
+      "title": "Commodity Natural Gas News 496891",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yeV9FSS1YQy1EajhQc0tTRkVZbmQyWnNZeFd0N184Y0syYXNPQVYyT2dGZFRKQ3FjQ2FYRWZYaGJ3dzVjbUt2MTJXUkstYlVja2szWUZtV3NhdWpoU19NV3lpMFB1RG96N1ZHbkZOUQ?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 18:14 WIB",
+      "source": "Yahoo Finance",
+      "category": "Bank Sentral",
+      "title": "Nvidia, Fed Outlooks Dull Wall Street Bell; Asia Off, Europe Up",
+      "titleId": "",
+      "impact": "HIGH",
+      "analysis": "Headline Fed berdampak tinggi, tetapi arah tidak aman disimpulkan tanpa konteks pernyataan dan reaksi yield.",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNakh6VlVEcV84S0xLeWtBaU43RUo0UnJlSjhQNndOdXYwSXBvcmk0eWhnSy1seUlmOGh4eTRtcG9yeER5ODgtU01jY0s3QkJkSGZaUTREVW1KQ2lVLTRoUXJyWm1KamEtLTUwRXlUM2Z3S2tCOERjTmtsVUt2M25ZOURoQ0Q2VzJ6dkp5VkpONzJ6elpkQnN4WlJB?oc=5",
+      "publisherUrl": "https://finance.yahoo.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 14:15 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "UK Natural Gas Falls but Remains Near Recent Highs",
+      "titleId": "UK Natural Gas turun but Remains Near Recent Highs",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE96VDR1Y2I5b3JKcGpRWXhwdlAyQzNFUWMzMXBMdnZPd1g3WDgydWFkUmt2WXFnNE02cm9aZzhjUXdKUWJfZDhIcmNnbk44UzNpbGt0a25SU21aZndzT1p4Z25HZGRjTlV6VFNSaTY4M29sYm8?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 14:13 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "NZX 50 Ends 0.7% Lower, Communication Services Weigh",
+      "titleId": "NZX 50 Ends 0.7% lebih rendah, Communication Services Weigh",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Nb19DdE01U0tRUm5KZk1ZdFZXNk92T0J2TlBJcC0tcEJ5S0JxV3hQOVpZLVRQRk9Fc0NQMWU5UnFia1oyWnY4QnI5WTVYYWlHcUJraUYxLTg4Nm5VVjJLdTd4aGo1NExRdmZJTHRkX0JGRXM?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 18:07 WIB",
+      "source": "Yahoo Finance",
+      "category": "FX",
+      "title": "Update: Canada-US Trade Talks Collapse, Ottawa Vows 'Dollar-for-Dollar' Retaliatory Tariffs",
+      "titleId": "Update: Canada-US perdagangan perundingan Collapse, Ottawa Vows 'Dolar-for-Dolar' Retaliatory Tariffs",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPV2Q0Vi1hWFJTZmNQeGhJcjRvZU1kTEJscmRXeV83TFZZZ1MzQTNlTFBEU2JuNGI2UG5xYldGWkQxXzk5RERvOEdybUhwQ3lpMFJqR1U4enAwVTdJQ0gzYW1mUFpMUlBFYnhBLVVHUDVtbTNiU185V3ByN3NMUThleGdMM1pUN2kzNjJFLTJfeUVrX0ZjeDIxRjNmcw?oc=5",
+      "publisherUrl": "https://finance.yahoo.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 13:49 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Rupiah Falls as Profit-Taking and External Risks Weigh",
+      "titleId": "Rupiah turun saat Profit-Taking and External Risks Weigh",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBmQTZ3d3ZnaDlEQl95UVZTY0F5ajhkQnFuR3F0VGZ5YnpaNlFnNk8zbXU0VmRyNGZReHFoY0ZwOFc4TmlZVV9YRDNhcW0wTm5WY0M0YkxWMEt3WmpKbHk2MVRHS1E1c2FmX2tJ?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 13:49 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Indonesia Money Supply Growth Slows in July",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9hVlNoN1BUVFpsQzI2Q2cyaW81aWNNaHdUak9ST2liSDBqeDRHVXk5dUxiV3Q5SjhrZkVuZW1XclVBa1pkQ3JRYW1jWXI1bjJLRUswRmZoQlBEOHVpWDZzak9uQWtFaVctLWVCR0prVDZQb2cw?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 18:05 WIB",
+      "source": "Bloomberg",
+      "category": "Makro & Data",
+      "title": "Shipping Tycoon Kuehne, Germany’s Richest Person, Dies at 89",
+      "titleId": "",
+      "impact": "HIGH",
+      "analysis": "Data inflasi adalah katalis tinggi. Arah baru valid setelah membandingkan actual vs forecast dan melihat reaksi DXY/yield.",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZkxVdkcwRC0zX1hTNndIZDMwOUhnNnZnRnZRNmluaURNcFdveWtOZEdzTGFvOHpzcC10OFhvamw1VkRsQ005RTRoNDFtQ0hKM2FQR1k4ampwVnhPRFlfcVV3Qk9aOXJvRExQSmQxZTlCZjlEMGdHRzdRY0ZiSWJsM2VwVE1PX3N1UW1KYzJjdENHVkg1OXk3VW9rU0hRUHpmUm8tSTlyQlZQclFGNGIyZw?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 12:57 WIB",
+      "source": "Trading Economics",
+      "category": "Komoditas",
+      "title": "Copper Falls as Inventories Ease Supply Concerns",
+      "titleId": "Tembaga turun saat Inventories Ease Supply Concerns",
+      "impact": "MEDIUM",
+      "analysis": "Pengurangan supply/output atau inventori yang lebih ketat cenderung mendukung Brent dan WTI.",
+      "assetImpacts": [
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "response": "MELAWAN"
+        }
+      ],
+      "priceResponse": "Brent MELAWAN • WTI MELAWAN",
+      "contradictions": "Brent melawan tekanan fundamental rule-based; WTI melawan tekanan fundamental rule-based",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jTlh1S1RaQzMyZjlXTGtETktDUExhdnd0aHQtTG9mdWpOU05LcDFpSUNTVk0zMjlmQURRZlpzWTBPdFVwdEJLbE91cHdjeGN4NEtQQWtLWGJ0WWdjeVhSc3R6YkpPb0xl?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 12:50 WIB",
+      "source": "Trading Economics",
+      "category": "Saham",
+      "title": "Stocks in China Hit 5-week Low",
+      "titleId": "saham in China Hit 5-week Low",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wY3VKSTdtZDNJWnR1VklrRVN4MHFBd3E1ZTN4Z0tJRW9aaXVDUlRoM2t1YW4yYW8yU1ozWVR1dXYwUThHSzJDa0duR2wzc1BGY2RSMXRCYVJXM2hlc3pn?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 18:00 WIB",
+      "source": "Yahoo Finance",
+      "category": "Komoditas",
+      "title": "Hot Chili Delivers More Copper-Gold at La Verde",
+      "titleId": "Hot Chili Delivers More Tembaga-Emas at La Verde",
+      "impact": "MEDIUM",
+      "analysis": "Tembaga sensitif terhadap ekspektasi pertumbuhan global dan permintaan China; konfirmasi dengan DXY dan risk sentiment.",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUm5TNVZQblJxMUJJNk9yamRjRGhXM0F0SHg3RkZIbllfUUhGWVZxSHBic3pXRzdfbXhmbGF3MzBERHhqNDk1ci1ha1k1aWdyNmVpeWQtUmpWbTMxa0R6eU5Bd25NV0tRMlRQYk0xdEpoV2t3SmtUa2JzTFN0aE9CY01ZaVpuTGgwOWJxMHFIT1E0bU5OTHlFcWozOUhHakd5T3c?oc=5",
+      "publisherUrl": "https://finance.yahoo.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 11:51 WIB",
+      "source": "Trading Economics",
+      "category": "FX",
+      "title": "New Zealand Dollar Trades Near Multi-Month Highs",
+      "titleId": "New Zealand Dolar Trades Near Multi-Month Highs",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0tcF90ZXBKQ0ZKZXdtdEx3SWlNSTJMLVYzbWRwTllpY2pKN2lrZEozLXNiemE0eWIwQ3U3SmhfUlBmNHUzb0QzUlBVMEhIVnM2XzlXblUweDBKd3JpY25GNU1TdXZsZ3ZMWkUxMlZn?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 11:50 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Malaysia Leading Economic Index Edges Up",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PU0NsQnlVOTJoWFl4M2VSOWU5TV9DQUpyTDlNeVhLcmphMXE3WnpBbk9MN1k2WVBGSlhVbVJNaFJYNU1HUHdGRERzRk5zRDZkSW5yVVdLSDVUdWNfTFhhMnB1bEZ6WW5qZDlaTlMwT09zYlN3UUtnOWtIeng?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 17:57 WIB",
+      "source": "Bloomberg",
+      "category": "FX",
+      "title": "Canadian Dollar Tumbles as Trade Rift Threatens Growth Outlook",
+      "titleId": "Canadian Dolar Tumbles saat perdagangan Rift Threatens Growth Outlook",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU1hGeHlhMzRPakZlaEkxS2tvQk5UR2JiU3FYVDlEVEhSVFkzRHF6RVJHakZ2ZkJZVzNyOUN2aEd6N1dFajR4aEk4c09panowWnZqODM5eXd6dmx2Sk9xSExwNmdUSDdxS1hQVDZsMWlBa2FRWEcxVGJfb2g2Y1RmSldJSWllcVh5azZaQ2llVl9hZHBRQlZpaHl5VjFSZVNRWFJkVmNtcHBBU3ZIbHZ1YktzMA?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "24 Aug 2026 11:50 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Indonesian Market Eases as Week Begins",
+      "titleId": "Indonesian Market mereda saat Week Begins",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TQy1JenFuZWp0UFhpalpZM1ZTRlN5TklFd3Jhd0hWMF9La1k0eG9NSFpaTlZEYUtLNGdwYUh0MHF2RjJFYld2enNzdGl3RXpIZ1FNLUk5b2dtYlE3Q3hON1JnNGh5Mmd2cDc2Vms5dEQ?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "24 Aug 2026 11:50 WIB",
       "source": "Trading Economics",
       "category": "Umum Trading",
@@ -881,6 +1077,52 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "24 Aug 2026 17:49 WIB",
+      "source": "Reuters",
+      "category": "Geopolitik",
+      "title": "Iran threatens 45 tankers with fines, confiscation in Hormuz escalation",
+      "titleId": "",
+      "impact": "HIGH",
+      "analysis": "Eskalasi geopolitik/Hormuz cenderung menaikkan risk premium minyak dan permintaan safe haven. Efek akhir pada emas tetap perlu dikonfirmasi oleh DXY dan yield AS.",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "response": "MENGIKUTI"
+        },
+        {
+          "asset": "Silver",
+          "direction": "↑",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "response": "MELAWAN"
+        }
+      ],
+      "priceResponse": "XAUUSD MENGIKUTI • Silver MELAWAN • Brent MELAWAN",
+      "contradictions": "Silver melawan tekanan fundamental rule-based; Brent melawan tekanan fundamental rule-based; WTI melawan tekanan fundamental rule-based",
+      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR1A3TzVlaW92SHFPcHNmUjdQZ1hIYi0xZWNCdGVpcmY4VmZBUHNneElLRnE5dDFwZXRRX1FfcHFkMDlFMm5kdGh2aldsWnllaGZSVWJ2SFhzUVRRU3FyNzJNeWJfb3lrQnhqQ2g0d1c0ZUo0dllmTkd4QzAwWTNZV05sNlc2M3c5c3d5Zi1hTF90N0ltX25sUUk4T0RURUE3akZuX2VrMEFGcXFIMV9FRFU5VWI2UE4wREV3?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "24 Aug 2026 11:50 WIB",
       "source": "Trading Economics",
       "category": "FX",
@@ -892,81 +1134,6 @@
       "priceResponse": "",
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5qYkFDdjAyelo0M1Bad3NNdThqMm9PTDJWczlnWkRVZ2xocldHTGRDdE14VzZCbk1JOS15cWtuWUVMN2Z4R04xYXFtT3pyWEQ2ZUhacFlpVUxxMU12SW9PcWxJUkNFT3RIWXJKeXlETEYzM2s?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 16:57 WIB",
-      "source": "Bloomberg",
-      "category": "Yield & Obligasi",
-      "title": "Bessent Has No Easy Fix for What’s Really Driving Yields Up - Bloomberg.com",
-      "titleId": "Bessent Has No Easy Fix for What’s Really Driving imbal hasil Up - Bloomberg.com",
-      "impact": "MEDIUM",
-      "analysis": "Yield Treasury adalah driver penting untuk DXY, XAUUSD dan saham. Arah harga perlu dibaca bersama sebab pergerakan yield.",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ2JzSzV2M19uOU5aN2ZJSVlQTjBuM0VIR1pMYVJocnpabzhnekRpb3hRRnJZRFpoa29RY2t6WnhYX2JtdzlObjY1WGhINkViMGZ3cFZicE9LaEdPeVRlRlotTzZzVk1oUDFEek1wLUE1Rl9zWUViRHdiU3pRS0xWT1ZmZmJCMjktdTJ6Rk0yQ1RnV1NZNlU5QWREOVpEZXFDYVBCNVJzbkdYWWtxdDRaVTIzYm1xZw?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 11:49 WIB",
-      "source": "Trading Economics",
-      "category": "Saham",
-      "title": "Hong Kong Stocks Fall on Tech Sell-Off",
-      "titleId": "Hong Kong saham turun setelah Tech Sell-Off",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zUjV3b0RKLXhJX0FONnNOSVB6NEFEZnYxNEl0YkZGRDBmVzgtbEJHbzNPMjFDTnY0cm5TTk5NN1NDcXpxU0RTbHFSU2lsZGl2RklIZ29BZzBKaEQ4b01Dc3p5TlNTcU9pWmhhc3NOal8?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 11:49 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Sensex Starts Week With Modest Gains",
-      "titleId": "Sensex Starts Week With Modest menguat",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ZaUZHaWpLbWdESzVqM0FBR3gyaFZKSjkxNlVsSk1DZHRnSGI1S09XZUR3dkRJZzIwSGs4RkktUFcyQVM4ZzhEbFJyLW5GOW5HNnplMm5KQ25Ec0t1MGxXY0VhMU9YcENiME5j?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 16:55 WIB",
-      "source": "Reuters",
-      "category": "Umum Trading",
-      "title": "German billionaire Klaus-Michael Kuehne dies at age 89",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPR3Fvc29xMF9oYUFVX1Q3dUlhUWlHcDJMTjd5NnJJQURIQ3dsZmVvR0lSaVh2dU92Vm5Ga0lUSF83VHBfQnBvM0pMbFNlemNuVkRSMWQ3T3pLZEJDWWVuaHdZOEdHOWtIYmpBU1Z3NFZBbll4VHNiaGE1aDU0SXU5ckhvUHlZRGFINXVXd3NWa0cycE9lRnBzYWtmOWFYTHNfWVhLaGFn?oc=5",
-      "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 11:49 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Soybeans Trade Near Multi-Week High",
-      "titleId": "Soybeans perdagangan Near Multi-Week High",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4RnhNbUpQc1JvU2VVbGhHSV91Mk51d093QjIwajZPbnlTa19FZXBSYy1ORXlsUXlscHVMRFdzeGlXaUNMbUs3NE8tWjR5aXNnLUtzekFSY016cmV0OUdhWU5ncm5xX1cyZFVv?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -986,153 +1153,17 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "24 Aug 2026 16:53 WIB",
-      "source": "Yahoo Finance",
-      "category": "Saham",
-      "title": "3 Profitable Stocks We Steer Clear Of",
-      "titleId": "3 Profitable saham We Steer Clear Of",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU1dhYy1RWjZMLThWVG9wcmlwZWlxd1ZKTEFGSVMzUnpuZDIzLThkX0Q2RXFHbS03YTByaFNrUFcxOVJaSzNNYVRuVURNRXYwQm5KeDVPbGlxbTdHN1ZjcW54eGU4QmpZRHRnOHdBcHYwMjRKYloxcnJSblVfUVlQYmVqUlo0alZyUW8tZ0lvV3EtX2Jub05yY0hFdXI?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 11:49 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Iron Ore Weakens Despite China Stimulus",
-      "titleId": "Iron Ore melemah Despite China Stimulus",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JekhWTGNsbUZaXzhOYlk1MUhzOXY3dWJVUmtmRzVicVZQNmQ4NURYTjl1Wnd4MjJQejlZSlhTaVBvYTJ4cDBfRnpmSUNDVWMyQXBtNlFWYjAwazljdGw3dDZrYjh3anZfOFdIMGQ5S1g?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 11:38 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Loonie Falls as Trade Tensions with the US Escalate",
-      "titleId": "Loonie turun saat perdagangan Tensions with the US Escalate",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE15c2xUTVdRMmgwd3lsR2dHTm8tOHRtc2k5Q0xjd2laZjk1OTEtTnJ4YjBKM0VkUExNV2F4aUM0SFNWZEg4STI0R2dyYXVRMmd4SjRNVERaMzlfRjNGR1Q5SFh4WHVuSEE?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 16:51 WIB",
-      "source": "Reuters",
-      "category": "Geopolitik",
-      "title": "Zelenskiy says Russia is 'not ready' for ceasefire on grain ships",
-      "titleId": "Zelenskiy says Russia is 'not ready' for ceasefire setelah grain ships",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQZ1RncmU0SGgtRkJJQ3ZoOE45U3p6SzJ1dE1Kbm5SOFZtTXFWeWh2aEM0YlcyVmVwUDQwalVEMV83S1ZXd0JaZUktWlp2Z1pNT3M2ZWxmZGQyNWFmcU1UR3BucEt2ZGVJVk00c3lVTlB0Y2F1b3V0ZW1FdVd4T2l6WGlkQVJKRXh4MmVhdnh6blB0UnM2dnhCQk9UV1JNZEU5bUIyanRkZjJoOVpuQnNOaTlaU1pBRXdHZllJ?oc=5",
-      "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 11:34 WIB",
-      "source": "Trading Economics",
-      "category": "Bank Sentral",
-      "title": "Japan 10Y Yield Gains on Rate Hike Bets",
-      "titleId": "Japan 10Y imbal hasil menguat setelah kenaikan suku bunga Bets",
-      "impact": "HIGH",
-      "analysis": "Nada Fed hawkish cenderung menguatkan USD/yield dan menekan emas serta aset berisiko.",
-      "assetImpacts": [
-        {
-          "asset": "XAUUSD",
-          "direction": "↓",
-          "response": "MELAWAN"
-        },
-        {
-          "asset": "Silver",
-          "direction": "↓",
-          "response": "MENGIKUTI"
-        },
-        {
-          "asset": "DXY",
-          "direction": "↑",
-          "response": "MENGIKUTI"
-        },
-        {
-          "asset": "US Treasury yields",
-          "direction": "↑",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "USDJPY",
-          "direction": "↑",
-          "response": "MENGIKUTI"
-        },
-        {
-          "asset": "EURUSD",
-          "direction": "↓",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "GBPUSD",
-          "direction": "↓",
-          "response": "MENGIKUTI"
-        },
-        {
-          "asset": "US equities",
-          "direction": "↓",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "Bitcoin",
-          "direction": "↓",
-          "response": "MELAWAN"
-        }
-      ],
-      "priceResponse": "XAUUSD MELAWAN • Silver MENGIKUTI • DXY MENGIKUTI",
-      "contradictions": "XAUUSD melawan tekanan fundamental rule-based; Bitcoin melawan tekanan fundamental rule-based",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GRURnQUkyZXdyWlFJMnJIS1lObVNSaFdlbXM0WVlCYkY3Q0ZoNG9FVnRpZFZIYXJDUjk3U29OSmZYV1djVjdWTHUzTUhFeE45bnBFVUc1dDdfY0d3aS1GZkU5bl9hWFBpWmp5YW5QZmtZZ1lWQ2Qw?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 11:27 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Nigeria Imports of waste and scrap of paper or paperboard from Morocco",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPR3prcWpOdEJMdExNMlQ5elA5eUN1cnJjbE13QnpCdmFCWENhS0tMM19ZRFB6dFljY3NfSUxxTWd2dERUckRydXlKZ2JXaUVyak9Jb3FiNHZzY0NuWnFJWklTMkJSdDdOc0tIbWlKQThkY0dVMWNHeTI0ZmVlYmZzbGk3VFhZb3Zk?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "24 Aug 2026 16:47 WIB",
+      "publishedAtWib": "24 Aug 2026 17:49 WIB",
       "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Shein Targets Up to $27 Billion Valuation in Long-Awaited Hong Kong IPO - Bloomberg.com",
-      "titleId": "",
+      "category": "Komoditas",
+      "title": "Gold Advances to Three-Month High as Debasement Trade Returns",
+      "titleId": "Emas Advances to Three-Month High saat Debasement perdagangan Returns",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTEc3b2FVd3BwZ09penBuc2JtckdCQ1hFcHhDUi1CM3V4dnJWRV9JWC1JTmx2MjZiWTQtcWZnU2x2TmlHSTVmNDJTU3E5X2pIMkxfalZ4REtKSHVOMDA0NFlDUFk4WUpzU1EyV3Bmc0dqOWJ2WGlTN2lyR2c1WjdBeDI5VUV4UU8xbXNlUzd4T18xVG5HT2Nzd3N1ZFNYWHRtRVpwU2l6UTAtZU03RWlj?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQc1hfWDMxY1lUVzBRZE0yUEp6M040Y0JkSWs1eFNQaV9xVG5seGJ0YU0tMWpkbnJBdXlpRmxyeG05eUFkYzBlWmZtaVowSXhzN29CM1c2ZzNrTVlqamtfUnBpMW05c05oRk5OZU9EWWlIVXZwLS1xYWFQYmJVSVdlTER3Z2ZBMEJNV0JSQkY1N3IxWFdXaWU1ZVFrc00xcVBMTXNSVEYwa0FVSng1SE00SA?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     }
@@ -2164,11 +2195,11 @@
     }
   ],
   "sourceStats": {
-    "Reuters": 5,
-    "Bloomberg": 5,
-    "Yahoo Finance": 5,
+    "Reuters": 3,
+    "Bloomberg": 7,
+    "Yahoo Finance": 6,
     "Trading Economics": 32,
-    "Forex Factory": 1
+    "Forex Factory": 0
   },
   "sources": {
     "marketPrimary": "Yahoo Finance public chart endpoint",
