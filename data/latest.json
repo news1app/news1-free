@@ -2,8 +2,8 @@
   "schemaVersion": 3,
   "freeMode": true,
   "demo": false,
-  "generatedAtWib": "30 Aug 2026 20:52 WIB",
-  "generatedAtIso": "2026-08-30T20:52:41.892696+07:00",
+  "generatedAtWib": "30 Aug 2026 21:22 WIB",
+  "generatedAtIso": "2026-08-30T21:22:39.981871+07:00",
   "coverageWindow": "24 jam berita • 7 hari kalender",
   "warnings": [
     "Mode gratis: analisis berita bersifat rule-based dari headline/metadata; isi paywall tidak direkonstruksi.",
@@ -23,8 +23,8 @@
     "bearScenario": "XAU melemah bila DXY dan US10Y menguat bersama, terutama setelah data AS panas/kuat. Oil melemah bila supply normal dan Brent-WTI turun bersama.",
     "confidencePct": 80,
     "confidenceLabel": "RULE-BASED",
-    "analysisCount": 8,
-    "conflictCount": 2
+    "analysisCount": 9,
+    "conflictCount": 3
   },
   "marketSnapshot": [
     {
@@ -36,7 +36,7 @@
       "lastNumeric": 4429.8,
       "changePct": 0.517,
       "change": "+0.52%",
-      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
+      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
       "sourceUrl": "https://finance.yahoo.com/quote/GC%3DF",
       "referenceSource": "Trading Economics",
       "referenceUrl": "https://tradingeconomics.com/commodity/gold",
@@ -252,10 +252,10 @@
       "labelId": "Bitcoin",
       "category": "Crypto",
       "symbol": "BTC-USD",
-      "last": "78,932.11",
-      "lastNumeric": 78932.11,
-      "changePct": 1.595,
-      "change": "+1.60%",
+      "last": "78,823.18",
+      "lastNumeric": 78823.18,
+      "changePct": 1.455,
+      "change": "+1.45%",
       "source": "Yahoo Finance",
       "priceType": "SPOT/INDEX/REFERENCE",
       "comment": "Naik dalam ±24 jam",
@@ -297,17 +297,48 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 20:33 WIB",
+      "publishedAtWib": "30 Aug 2026 21:19 WIB",
       "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "White House Exodus Poses New Challenge for Trump at Pivotal Time - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQTJKUGlYMWxlZlRJdE9xbkFmMzQtVEZpSUVSa05nMjdxcjRzTWxueUdLcnJxUVJSQVRkcnhENGpzU3hVUEZieGt2cl9ZbkUzdWdKRWdlME1STHBJcW13dHotOXkwUDBEZDFXdnFET1VLYlNiNzFMT0oxOE5qMTlRSmFZUGJnZ3RVaEUxem1EV3RobUdSSTI5WnNjbzJibFJ1QmFmYXRTS3Z1b18wSHA0al80SDVCQQ?oc=5",
+      "category": "Geopolitik",
+      "title": "Nepal Warns of More Floods, Venezuela Defends US Oil Deal, More - Bloomberg.com",
+      "titleId": "Nepal Warns of More Floods, Venezuela Defends US Minyak Deal, More - Bloomberg.com",
+      "impact": "HIGH",
+      "analysis": "Eskalasi geopolitik/Hormuz cenderung menaikkan risk premium minyak dan permintaan safe haven. Efek akhir pada emas tetap perlu dikonfirmasi oleh DXY dan yield AS.",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "response": "MENGIKUTI"
+        },
+        {
+          "asset": "Silver",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "response": "MELAWAN"
+        }
+      ],
+      "priceResponse": "XAUUSD MENGIKUTI • Silver TERTAHAN • Brent TERTAHAN",
+      "contradictions": "Bitcoin melawan tekanan fundamental rule-based",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQM0NqeDJZRTMyVzFKMmdxUjRLMGJoMnp2MVFuUkxnbm1DUmxBRDRLeHRiajk0VFJwZ1gyOGR5bUVUVlFPblRMeGFNeGhPd0RUazg3OEJmV2x5cm44UWJaTWx2eDlUbUxOdWR2cjBrSE1yXzdrUHNoa3ZMUlRyTThtWi1pTTFCZ2tkd0duVTVOaGtQTlUxdFZYN2pUbU8xVnQzX1hvTkFTQkpiWVRVT2c?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -339,6 +370,96 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TQVVIMUFYaG5MdlRYQjdEQzRyanN3MFdoX19rcEFhdE5MYzQyS1UxNWVubTBodDVoNHJDVzdoTzdJbmh2ZHpOcGxZQ3NzXzdNRnRNRW9fbHBNSzU0Q1hUaDRRS0xzZTJx?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 21:00 WIB",
+      "source": "Bloomberg",
+      "category": "Umum Trading",
+      "title": "Apple’s New CEO Will Need to Soon Overhaul His Management Team - Bloomberg.com",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSVhFbTdGNEwxOE01MXdMOHFobUhzd2xOcFc4aVM1VjhYdDdYaEZ1eXlwaEcxNl83Q3ZKRVh5RWRUSlR1UDkxcjZ2ZkdVQzI4Qm5iUExCTlpCeTFFalZ0bU8yRkhQOUFHem55dzBNWlpDNVFpRmhRWEJfTEdRaTBrN1RiM1p6SzRaRzhnTUpqTUoxV2w2ZGZ6dlRrZmFxN1JEWUljM0dVdWpCQUlEZUU4NE1Ja0dMZnNxb2U2VE1mRm9qeXVXMFhHblNZNm83aUF2VG15VkhmN3M?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 01:48 WIB",
+      "source": "Trading Economics",
+      "category": "Komoditas",
+      "title": "Jamaica Imports of copper bars, rods and profiles from Brazil",
+      "titleId": "Jamaica Imports of Tembaga bars, rods and profiles from Brazil",
+      "impact": "MEDIUM",
+      "analysis": "Tembaga sensitif terhadap ekspektasi pertumbuhan global dan permintaan China; konfirmasi dengan DXY dan risk sentiment.",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa1pCTUVSWnNGVjdNaVo1aDQyRjFrQmJ1aEF1Q3o0OFlJSkRlUVA4UmhobWJyXzV1ZGlYWVM4SEFqdlNhNEoxT3RVT0J3RU1abFk3NGFPNUlESUhrTmxHcTdlV1g2c1BGTzFlNEIybDJSZVAyc0I0anpELWdvVzRxY3VnQQ?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "29 Aug 2026 23:54 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Faroe Islands Imports of tools for working in the hand from Slovakia",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcjFiaUdSdzBQLUFLX09fUmJpbmkwOGVPWHM2NmZFZV84VnV2S0ZYR2VNQ3ZXXzhENTBCX1lEbnFrRW81aGN1OTl3eU1mczlmMU16dkh2TWUwaXFKQ2dfQ3A5US1Wd3NNRWoxb1MyQzlyZ3dndlk2NjRyT1l5SnlocFFUaDNWeUZtdE5udG9EOUVTQQ?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 20:55 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "Seven die, many more missing after ferry capsizes off North Cyprus",
+      "titleId": "Seven die, many more missing setelah ferry capsizes off North Cyprus",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNVlzWG1uLXVQZXVpTWtnajhCNzhhQV85eGNBTWc5V0NDYm91bWZHMFVSX2xUY19EU3RDRXF5d005RE8xUFZObEJsR2VqdUxGTWV3eUdVVm5ZLWxGLUtvMVNjWDFydlQxYUNudU5nOGMzNFo2SVVOZElxUk9OWDBWblNHMzloNEN6bnZJb3QzZU1wQXhET3BYeGQ4NERmT0VsYnQwQzVJVGc5SXk3YzJvWllBbw?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "29 Aug 2026 22:25 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Barbados Imports of oscilloscopes, spectrum analysers from Iceland",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdTRhV1pvUzlKLWZucTJ0RXJrWGhrSUhGNWhYZTFiNVV2aTl1X0w3M1lwaGh6a3QzY3YySlo3Z21HV3c4UV9IQjJMR0dqdWxQZDVVaVQtcldTWmo5cjllM3dfNmFBMC1FUzZJLXh3SU5rNkVZSEVHeHJDVE1NdWNyZU9nd3hIVVpaNEp5RDZjSUZDVU53Q3A0?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 20:33 WIB",
+      "source": "Bloomberg",
+      "category": "Umum Trading",
+      "title": "White House Exodus Poses New Challenge for Trump at Pivotal Time - Bloomberg.com",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQTJKUGlYMWxlZlRJdE9xbkFmMzQtVEZpSUVSa05nMjdxcjRzTWxueUdLcnJxUVJSQVRkcnhENGpzU3hVUEZieGt2cl9ZbkUzdWdKRWdlME1STHBJcW13dHotOXkwUDBEZDFXdnFET1VLYlNiNzFMT0oxOE5qMTlRSmFZUGJnZ3RVaEUxem1EV3RobUdSSTI5WnNjbzJibFJ1QmFmYXRTS3Z1b18wSHA0al80SDVCQQ?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -385,66 +506,6 @@
       "contradictions": "Bitcoin melawan tekanan fundamental rule-based",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMUp0Y2RpUlUyc1ZQakFhRXB4TjZwTlIzb1FUTVFCdEVMNHp6LWdkdXc2ZkdCUVo0TmZyb25XWUYzS0dkLTJuVzAzcldNWnhRZTJLREotVi1pQUlOeS1QMmM3ZWhVeTZIOTg2UGMtNzhZQ1EzM3BydUVGMC0xdzdOMzNBZ2VxOTNncUJOT2ZQa0FGU2FrR1YxYUNNcU9va2VRTXJ6ZGFscUdSRmc3V3JtRDJHaXE?oc=5",
       "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 01:48 WIB",
-      "source": "Trading Economics",
-      "category": "Komoditas",
-      "title": "Jamaica Imports of copper bars, rods and profiles from Brazil",
-      "titleId": "Jamaica Imports of Tembaga bars, rods and profiles from Brazil",
-      "impact": "MEDIUM",
-      "analysis": "Tembaga sensitif terhadap ekspektasi pertumbuhan global dan permintaan China; konfirmasi dengan DXY dan risk sentiment.",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPa1pCTUVSWnNGVjdNaVo1aDQyRjFrQmJ1aEF1Q3o0OFlJSkRlUVA4UmhobWJyXzV1ZGlYWVM4SEFqdlNhNEoxT3RVT0J3RU1abFk3NGFPNUlESUhrTmxHcTdlV1g2c1BGTzFlNEIybDJSZVAyc0I0anpELWdvVzRxY3VnQQ?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "29 Aug 2026 23:54 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Faroe Islands Imports of tools for working in the hand from Slovakia",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcjFiaUdSdzBQLUFLX09fUmJpbmkwOGVPWHM2NmZFZV84VnV2S0ZYR2VNQ3ZXXzhENTBCX1lEbnFrRW81aGN1OTl3eU1mczlmMU16dkh2TWUwaXFKQ2dfQ3A5US1Wd3NNRWoxb1MyQzlyZ3dndlk2NjRyT1l5SnlocFFUaDNWeUZtdE5udG9EOUVTQQ?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 20:12 WIB",
-      "source": "Reuters",
-      "category": "Umum Trading",
-      "title": "Trump says NBC's Welker will be reported to FCC",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNOTRSM0lreVpORDBYVV9hYUZRdHhRVXRmaXhBVWNpRXJKdmRFdEFreUZ2TnliZm9xMTNzdVE5dFIzOGkwQ3N4TzJhX0c5LUNDdTFRS3p0MHU1Q2ZGRVM5M2xnZndlaklYTk9MaC1vb2JKOHJEWWsyM2ZOQ19OVEdGTExHY3p1Qk9yQ1lzUG5hMXRKTkM0UlV1QXdNSHh6RXhicE5qLQ?oc=5",
-      "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "29 Aug 2026 22:25 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Barbados Imports of oscilloscopes, spectrum analysers from Iceland",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOdTRhV1pvUzlKLWZucTJ0RXJrWGhrSUhGNWhYZTFiNVV2aTl1X0w3M1lwaGh6a3QzY3YySlo3Z21HV3c4UV9IQjJMR0dqdWxQZDVVaVQtcldTWmo5cjllM3dfNmFBMC1FUzZJLXh3SU5rNkVZSEVHeHJDVE1NdWNyZU9nd3hIVVpaNEp5RDZjSUZDVU53Q3A0?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -569,18 +630,18 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 19:26 WIB",
-      "source": "Reuters",
+      "publishedAtWib": "30 Aug 2026 19:30 WIB",
+      "source": "Yahoo Finance",
       "category": "Umum Trading",
-      "title": "Boat with around 270 people on board capsizes off North Cyprus; one dead",
-      "titleId": "Boat with around 270 people setelah board capsizes off North Cyprus; one dead",
+      "title": "Come on, Target. Do better.",
+      "titleId": "Come setelah, Target. Do better.",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPNVlzWG1uLXVQZXVpTWtnajhCNzhhQV85eGNBTWc5V0NDYm91bWZHMFVSX2xUY19EU3RDRXF5d005RE8xUFZObEJsR2VqdUxGTWV3eUdVVm5ZLWxGLUtvMVNjWDFydlQxYUNudU5nOGMzNFo2SVVOZElxUk9OWDBWblNHMzloNEN6bnZJb3QzZU1wQXhET3BYeGQ4NERmT0VsYnQwQzVJVGc5SXk3YzJvWllBbw?oc=5",
-      "publisherUrl": "https://www.reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVzBZQ25jYmNnQmpVWlI1TE9lWlFoRUJrb0dONEVxcEN2V1poOW5zU0xLUHJoR3ZXTVdtcnJoUmZ0MmhFRjZBOHBYb25BUGJSVURja2MzLWlpZmNlV01ibnI5V3hCWDlrM05fdThGS1RhZEthVFRNOVV3Q0ZuTDVEMnItRFZydjVTV08xSXJ6SWUwZw?oc=5",
+      "publisherUrl": "https://finance.yahoo.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -640,21 +701,6 @@
       "priceResponse": "",
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNU0xJNjRFYkwzaXhXZ3l4WUpQRXBfeGJfX3VNXy1IRG1vOHhmVlFVRGUxalptR3ZsemlJY3l1WVV6T3hLeVpVOGxLZkwzSjI0TzRuZHl4NldseUp0QjlkWThRRFNmZFl2ZVNfRTRfRG04QzE5Wk00bWZad1RDTU5XV252SE9VaXZnWVcxYlppa1JHWkswTFNSZkpYdXJLN21DOEhXeHRBS3dLWklXQ05zcXJfbw?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 19:00 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "That Talarico-Crockett ‘Feud’? It Really Isn’t - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOMVk4UG9nZExWV3NER081UFhMNTlCZXpjLWNiYkZuUnViVnY2STRmaTk0cEdsLVpRWURieERwLW5VQWZHYmZtQ3Rxenp1dWQyMV9hZFFNdXpCempUMU1Bd19heFpBdVJ6aWJ0c1ZnLWQ2SjRJNVo3ZU1wZHNFbTdUbjdzVjExZVI5aDRVV2F3SjBDa3dTQ1ExMkhyUGtLc3htTUY4MGlVeFlkZ2pZZXpjM0dkMGtIWlhJWUJoQQ?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -776,21 +822,6 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNdTBYQkFmZmRqbzlRSTg4V2ZjLUo4ZHFKN0JQYWpHUTVmeFJQUnYtY05OZEdWNEtESi04Mk0tQVA1UWdjNDJmSFA3T1ZVTnBpRFV0WmRmTG9jLVdUeDAyZHNmY1VZNzhLUGZNb1VHc2VqM3B0WWpKaXZGRzFQUWFqazlLcG9ZeUhSaEVfdjRCNTNneTR5eTBjTWc1Ml9lZ0xtNy1SeVMzeThuaDZxVVZHblE1QVRUZFlhVkNzNGV6Z0Z5NWxR?oc=5",
       "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 17:56 WIB",
-      "source": "Yahoo Finance",
-      "category": "Saham",
-      "title": "The Stock Market Is Doing Something That's Been Witnessed Just 3 Times Over Nearly 156 Years -- and This Signal Has Proven Disastrous for Wall Street",
-      "titleId": "The pasar saham Is Doing Something That's Been Witnessed Just 3 Times Over Nearly 156 Years -- and This Signal Has Proven Disastrous for Wall Street",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUnRhY253MTZsaERyTW1pcmVDZEVQRmlCYlROTHNLZnB4NVdjcWxwSVhMbXd0OEhxclM1SzdRSWJNWEFheklscnRMd2VfMkFBOTlRWTdSRHBmZlFBUUNPNW8tOWFXc1pZSThaZjBEME5DQnZzT1ppZ181aTFDX3RGenkxcTFiY2ZjMHNYeHJ2MUVZZndMOWRVamhZSXg2c2RU?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     }
   ],
@@ -2557,8 +2588,8 @@
     }
   ],
   "sourceStats": {
-    "Reuters": 9,
-    "Bloomberg": 11,
+    "Reuters": 8,
+    "Bloomberg": 12,
     "Yahoo Finance": 3,
     "Trading Economics": 7,
     "Forex Factory": 1
