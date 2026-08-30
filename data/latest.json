@@ -2,8 +2,8 @@
   "schemaVersion": 3,
   "freeMode": true,
   "demo": false,
-  "generatedAtWib": "30 Aug 2026 07:22 WIB",
-  "generatedAtIso": "2026-08-30T07:22:35.524299+07:00",
+  "generatedAtWib": "30 Aug 2026 07:52 WIB",
+  "generatedAtIso": "2026-08-30T07:52:48.607827+07:00",
   "coverageWindow": "24 jam berita • 7 hari kalender",
   "warnings": [
     "Mode gratis: analisis berita bersifat rule-based dari headline/metadata; isi paywall tidak direkonstruksi.",
@@ -17,7 +17,7 @@
     "dxy": "NETRAL",
     "yield": "NETRAL",
     "oil": "NETRAL",
-    "dominantAsset": "Silver",
+    "dominantAsset": "Bitcoin",
     "nextCatalyst": "Belum tersedia",
     "bullScenario": "XAU menguat bila DXY dan US10Y melemah bersama, terutama setelah data AS lebih lunak. Oil menguat bila supply risk/geopolitik meningkat dan Brent-WTI mengonfirmasi.",
     "bearScenario": "XAU melemah bila DXY dan US10Y menguat bersama, terutama setelah data AS panas/kuat. Oil melemah bila supply normal dan Brent-WTI turun bersama.",
@@ -36,7 +36,7 @@
       "lastNumeric": 4429.8,
       "changePct": 0.517,
       "change": "+0.52%",
-      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
+      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
       "sourceUrl": "https://finance.yahoo.com/quote/GC%3DF",
       "referenceSource": "Trading Economics",
       "referenceUrl": "https://tradingeconomics.com/commodity/gold",
@@ -50,11 +50,11 @@
       "symbol": "SI=F",
       "last": "67.79",
       "lastNumeric": 67.786,
-      "changePct": 1.037,
-      "change": "+1.04%",
+      "changePct": -0.0,
+      "change": "-0.00%",
       "source": "Yahoo Finance • futures",
       "priceType": "FUTURES",
-      "comment": "Naik dalam ±24 jam",
+      "comment": "Relatif datar / tertahan",
       "sourceUrl": "https://finance.yahoo.com/quote/SI%3DF",
       "referenceSource": "Trading Economics",
       "referenceUrl": "https://tradingeconomics.com/commodity/silver",
@@ -67,11 +67,11 @@
       "symbol": "HG=F",
       "last": "6.6590",
       "lastNumeric": 6.659,
-      "changePct": 0.286,
-      "change": "+0.29%",
+      "changePct": 0.0,
+      "change": "+0.00%",
       "source": "Yahoo Finance • futures",
       "priceType": "FUTURES",
-      "comment": "Naik dalam ±24 jam",
+      "comment": "Relatif datar / tertahan",
       "sourceUrl": "https://finance.yahoo.com/quote/HG%3DF",
       "referenceSource": "Trading Economics",
       "referenceUrl": "https://tradingeconomics.com/commodity/copper",
@@ -150,10 +150,10 @@
       "labelId": "Pound / Dolar AS",
       "category": "FX",
       "symbol": "GBPUSD=X",
-      "last": "1.35370",
-      "lastNumeric": 1.3537,
-      "changePct": -0.004,
-      "change": "-0.00%",
+      "last": "1.35340",
+      "lastNumeric": 1.3534,
+      "changePct": -0.026,
+      "change": "-0.03%",
       "source": "Yahoo Finance",
       "priceType": "SPOT/INDEX/REFERENCE",
       "comment": "Relatif datar / tertahan",
@@ -169,11 +169,11 @@
       "symbol": "BZ=F",
       "last": "88.10",
       "lastNumeric": 88.1,
-      "changePct": -0.215,
-      "change": "-0.22%",
+      "changePct": 0.0,
+      "change": "+0.00%",
       "source": "Yahoo Finance • futures",
       "priceType": "FUTURES",
-      "comment": "Turun dalam ±24 jam",
+      "comment": "Relatif datar / tertahan",
       "sourceUrl": "https://finance.yahoo.com/quote/BZ%3DF",
       "referenceSource": "Trading Economics",
       "referenceUrl": "https://tradingeconomics.com/commodity/brent-crude-oil",
@@ -218,8 +218,8 @@
       "labelId": "Dow Jones",
       "category": "Saham AS",
       "symbol": "^DJI",
-      "last": "53,560.00",
-      "lastNumeric": 53560.0,
+      "last": "53,559.99",
+      "lastNumeric": 53559.99,
       "changePct": 0.0,
       "change": "+0.00%",
       "source": "Yahoo Finance",
@@ -252,10 +252,10 @@
       "labelId": "Bitcoin",
       "category": "Crypto",
       "symbol": "BTC-USD",
-      "last": "78,204.25",
-      "lastNumeric": 78204.25,
-      "changePct": 0.388,
-      "change": "+0.39%",
+      "last": "78,202.04",
+      "lastNumeric": 78202.04,
+      "changePct": 0.601,
+      "change": "+0.60%",
       "source": "Yahoo Finance",
       "priceType": "SPOT/INDEX/REFERENCE",
       "comment": "Naik dalam ±24 jam",
@@ -297,17 +297,17 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 07:00 WIB",
+      "publishedAtWib": "30 Aug 2026 07:39 WIB",
       "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Day Traders Are Abandoning Korean Chip Leveraged ETFs in Droves - Bloomberg.com",
-      "titleId": "",
+      "category": "Komoditas",
+      "title": "US-Venezuela Oil Deal, Dozens Deported to Central Afghan Republic, More - Bloomberg.com",
+      "titleId": "US-Venezuela Minyak Deal, Dozens Deported to Central Afghan Republic, More - Bloomberg.com",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSFRwRHdDMUtFeERTdjR3QUt5SjhnZFlGVDRBRGFsenZ4QlFBNGxMaUhNeDNJeHNRQzNacmtPeWNERmVFUG5IUGJROWlPNU1ueE5xVU9IX0NGZ3NrSVFyMlZ1djRhRE1SSFl3MXhhLV9BR1UzMHFUVE16eDZUdmFreXh2X1cwMDg3eWlTeG1BQUlqWnBMM1BNMnBudGtNS2Zta1dFT0hFWEZTcklEU0V2cnc1ZV8?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcUMzZEd4d2dVZU5CRWVUNl9yOUpZRmlvS0pEXzYtOXoyY3U4akJQM3NxcW9TaHhuejdwNTItZHhJVGFGZ0Y5MWNnbTUwNDZnbTg4UVFpWXkzLTdxMDRjdDVuWENkeUlyMTlhNTFuODhQLVdESFdoSU9MVU1KZmFVNTE3OEhIb05WYWdwNTJzckkzV2dacnFWNGd2Rk9vYnRZbk1JM3h0MHhSRHROdGVj?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -342,18 +342,18 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 06:00 WIB",
-      "source": "Reuters",
+      "publishedAtWib": "30 Aug 2026 07:36 WIB",
+      "source": "Bloomberg",
       "category": "Umum Trading",
-      "title": "Transcript - Reuters",
+      "title": "Masterworks Vault 1 LLC - Bloomberg.com",
       "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbU9Wd1BZelNEQ2EydEJmRWZ4VFRyRDdoUzBZRS1OM004cjhVUnpyMERKNE12S0lIekNOY0VKVE1VNzFZNXFtemNKMzA0OWpOakY3LUx2UW9HQng2ZW1LVmRzQXBLU2tGNlB1MVhxRmhtZ2JTNm1sNUFhSzhpbWJrUEdMOXREV0NnT1hr?oc=5",
-      "publisherUrl": "https://www.reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84Y3IxQjRWMXJ2ZzdvRzljNnJiSEt6V0JON3pUWVpxeTBIeF92TUtRalpkcmR1aUlpdmxaNDl0MVA2aUVqTldRd0dUbnQwVTBqLXRPemtzbllGVlk5OTRv?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -387,18 +387,33 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 05:51 WIB",
-      "source": "Reuters",
+      "publishedAtWib": "30 Aug 2026 07:24 WIB",
+      "source": "Yahoo Finance",
+      "category": "Saham",
+      "title": "India Dividend Stocks Paying 5% Plus Income Investors May Want To Watch - Yahoo Finance UK",
+      "titleId": "India Dividend saham Paying 5% Plus Income Investors May Want To Watch - Yahoo Finance UK",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPaXk4ZWlvQmFuTlZja3QxckZxTF93eVQ2SVlFbmp6R21HbDIxbDVNcEJGNE1IZFdXWXJoVXRqLUFrbDA5ME8za3Q0NlhzTUJjNDdiamVGQ2VJTGRJSG9ZdmQ4UjNjWVhqSk9YdENzQ3JoWDdSUjVBRXVBLWhmbkhQNVA2RXRQUQ?oc=5",
+      "publisherUrl": "https://uk.finance.yahoo.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "29 Aug 2026 16:49 WIB",
+      "source": "Trading Economics",
       "category": "Umum Trading",
-      "title": "FPSX.N - | Stock Price & Latest News",
+      "title": "South Sudan Imports of t-shirts, singlets, tank tops, knitted or crocheted from South Korea",
       "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOTgxaWVNZm56dmtZaXAtUUVHaGg4NUlvejkyUDJNVnEzSzZ3UjVmZjFZU09lY1hobzFqUFBpMlowQm10c1hwTUlQVERjRjBPdzlfZjB6c2t6TG5FNlFKc2FyVjRuRnp2d1hhblNVbnFLX1RvWFhOSnVIUTdlN29Tc1B1NWY1SjA?oc=5",
-      "publisherUrl": "https://www.reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZFFDWERRNDR1anNCM09vejN6ZTBna1FnQ2htWnlsM2xzUnladE52Q3k0RnhPbjh3RjV5TjkzaUdHbzRaMkRTN3VlTURPWmpGVmJqWnk2ZHRXV3JIOWc4akt2SUFGdy1JT0VsRWtjVkpLZEptZHVpRFhJbW84OWhrVWE5SFZ5TW1ySjJMX1llVWlrMURxa3h4NU53RG9CSXF3dFN2R0JR?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -417,6 +432,21 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "30 Aug 2026 07:00 WIB",
+      "source": "Bloomberg",
+      "category": "Umum Trading",
+      "title": "Day Traders Are Abandoning Korean Chip Leveraged ETFs in Droves - Bloomberg.com",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSFRwRHdDMUtFeERTdjR3QUt5SjhnZFlGVDRBRGFsenZ4QlFBNGxMaUhNeDNJeHNRQzNacmtPeWNERmVFUG5IUGJROWlPNU1ueE5xVU9IX0NGZ3NrSVFyMlZ1djRhRE1SSFl3MXhhLV9BR1UzMHFUVE16eDZUdmFreXh2X1cwMDg3eWlTeG1BQUlqWnBMM1BNMnBudGtNS2Zta1dFT0hFWEZTcklEU0V2cnc1ZV8?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "29 Aug 2026 15:06 WIB",
       "source": "Trading Economics",
       "category": "Umum Trading",
@@ -429,21 +459,6 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZYVNtUG9hWHZobjBlNGxVSlFHZC1qNXJxZGZ1TnhkM00tdU5abjRveWdHRnN5Mzk3cjVMYmNWaUpHSzNoRC1oRzNCUHNvUTluUHdGMjZCcHl6cEdxSk1FaQ?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 05:14 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Billionaires: Trending News, Latest Updates, Analysis - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tcjl6WG9obi1YZGJQUnVhUTZHX0dOSjVTbHl0RTlucXpiQ3NsWTBObGgxckRPQW9OQ3FHc0pacHVBMjZ6dTI2WnV5T2x2dG9YTXJN?oc=5",
-      "publisherUrl": "https://bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -462,6 +477,21 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "30 Aug 2026 06:20 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "BFLY.Z - | Stock Price & Latest News",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZ3BxUTJfOWR1SkN6cUwyTEt4TEsxNkloakc2T195N3c0OFpkeDQ0M3BNWGd5bDk0Z3AwRFczdkZTWDY5YU91cm9Pbm5vT1UySmF0WmtGV1hZeGVLcGJkYVJZUS1yTUhEcDd5Um1BRUpIQ3pKWjdiWmFKRV9GNENNaG9Qbw?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "29 Aug 2026 13:30 WIB",
       "source": "Trading Economics",
       "category": "Umum Trading",
@@ -474,21 +504,6 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SalpvWHRncEVTTGdFMk9nQ2ppeFY3YkF0Z2tyclV1ZjBKQXdCM1lzaE43dFUzOGc4NFBRRlozeDhFc19YQ3Q3VExkQWJ2dHhFcm5v?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 04:50 WIB",
-      "source": "Bloomberg",
-      "category": "Komoditas",
-      "title": "Trump’s Oil Deal Riles Both Sides of Venezuelan Political Divide - Bloomberg.com",
-      "titleId": "Trump’s Minyak Deal Riles Both Sides of Venezuelan Political Divide - Bloomberg.com",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeWZITlNsdzhFTmRwdm11V2pOUURvX1B6QUpPRXFjWTRPbHE0azk3RjZyVXV3b3htT0xQUmdaN1RMTEJCbDB0T05vY1c4bWdfcndlWHVGWlNmRDJQZmVMZDJ5OTVBRHd1dWdodWtIbzBid2E5bVRJZVN0djF2YVk3YUFiQm1IZS15eVJFRjQ0b2g0aG9TRmF2cTc0Y2VtU1l1MUFpeElYYng1UXhFUURqWUVSVEUzQQ?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -507,6 +522,21 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "30 Aug 2026 06:12 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "IAG.TO",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSnJjaVUzTGY2MzhJdVppZDItRzRRMG5YSEpQZ1kwc0EtQnBfbi1mMjN2MU9leDlrNWc0TXFBUWx4S2lxWmdRYVR0LXBCZkFGaTl6akdsbzhtVV9QUUY3ZzBkN1F0Z1VlUlZzd1ppT2kxVnY1YW15ZTFOS0IzcFZ0TzZfSko3V0dGeDNVbXpEZFg?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "29 Aug 2026 10:47 WIB",
       "source": "Trading Economics",
       "category": "Umum Trading",
@@ -519,21 +549,6 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE45Z05DajZsWXBiZVBKaXZWVm94ZmVvN19tSDZSMzJ1TENOanBMSHp1OXZGMmhISUh2UnRNZENTdkpHQlp6RHNoNURaMUtIdW5F?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 04:40 WIB",
-      "source": "Reuters",
-      "category": "Umum Trading",
-      "title": "TAC.Z - | Stock Price & Latest News",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VWkFhbXA3WEhOZmI0VkNJMHY2cTJXbDBvZGdaMVJhYVp3eWUyRGE5WVNwTkZrVmhEV3RDWWlmaVpNWDhQdUMtcF9xTUVGdEVGQzBGZU9iRUVFZXRtVVBHRWdSeUhJenNIOERmMXhhUzF6MkNBakdNUldIUnVUUQ?oc=5",
-      "publisherUrl": "https://www.reuters.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -552,6 +567,21 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "30 Aug 2026 06:00 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "Transcript - Reuters",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbU9Wd1BZelNEQ2EydEJmRWZ4VFRyRDdoUzBZRS1OM004cjhVUnpyMERKNE12S0lIekNOY0VKVE1VNzFZNXFtemNKMzA0OWpOakY3LUx2UW9HQng2ZW1LVmRzQXBLU2tGNlB1MVhxRmhtZ2JTNm1sNUFhSzhpbWJrUEdMOXREV0NnT1hr?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "29 Aug 2026 09:13 WIB",
       "source": "Trading Economics",
       "category": "Umum Trading",
@@ -564,21 +594,6 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzRnhocGtSaGtYM0VxTk1URzJXS29VY3RKVFVhUUtneVVLWENPVkZjQmhZUEVKVDZCS2J2b3huQkdVdkprWGw0TEstalplMklsODhLcQ?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 04:25 WIB",
-      "source": "Reuters",
-      "category": "Umum Trading",
-      "title": "TRC2.SG",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3drZDcyZ1Q4U3VpMm9zWWVJSVZuMW5hZ240SUFqQjBhLTl1aW0wb3VtMjJwRlAxWDI1WXNSNXRXVjlHYUlHY0RSVnZxWTRzd0NJcTRxZkdWRXhvbW1VZzB0NDRNeGtmSmthZXhsbXdmUEVQWGp2TlRxN3g2dDVGSQ?oc=5",
-      "publisherUrl": "https://www.reuters.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -597,6 +612,66 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "30 Aug 2026 05:51 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "FPSX.N - | Stock Price & Latest News",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZF84MnhyVlRXdFNUT0hETUJraUU1UllPMDNpeExQb0tyQkg4RFRfYXRkdmZ3RkxjZlJ6SnVydVlCYWE0ZFNzMS0yZTQyRlZUM2lvYXFMaVkzeThTdFd3QzJmbnRlblpJSWhzMi0xbVVVRWxWdnJDNW13ekVUaVJnY2dwN2VkWXNS?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 04:50 WIB",
+      "source": "Bloomberg",
+      "category": "Komoditas",
+      "title": "Trump’s Oil Deal Riles Both Sides of Venezuelan Political Divide - Bloomberg.com",
+      "titleId": "Trump’s Minyak Deal Riles Both Sides of Venezuelan Political Divide - Bloomberg.com",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeWZITlNsdzhFTmRwdm11V2pOUURvX1B6QUpPRXFjWTRPbHE0azk3RjZyVXV3b3htT0xQUmdaN1RMTEJCbDB0T05vY1c4bWdfcndlWHVGWlNmRDJQZmVMZDJ5OTVBRHd1dWdodWtIbzBid2E5bVRJZVN0djF2YVk3YUFiQm1IZS15eVJFRjQ0b2g0aG9TRmF2cTc0Y2VtU1l1MUFpeElYYng1UXhFUURqWUVSVEUzQQ?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 04:40 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "TAC.Z - | Stock Price & Latest News",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VWkFhbXA3WEhOZmI0VkNJMHY2cTJXbDBvZGdaMVJhYVp3eWUyRGE5WVNwTkZrVmhEV3RDWWlmaVpNWDhQdUMtcF9xTUVGdEVGQzBGZU9iRUVFZXRtVVBHRWdSeUhJenNIOERmMXhhUzF6MkNBakdNUldIUnVUUQ?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 04:25 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "TRC2.SG",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3drZDcyZ1Q4U3VpMm9zWWVJSVZuMW5hZ240SUFqQjBhLTl1aW0wb3VtMjJwRlAxWDI1WXNSNXRXVjlHYUlHY0RSVnZxWTRzd0NJcTRxZkdWRXhvbW1VZzB0NDRNeGtmSmthZXhsbXdmUEVQWGp2TlRxN3g2dDVGSQ?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "30 Aug 2026 04:15 WIB",
       "source": "Reuters",
       "category": "Umum Trading",
@@ -609,6 +684,21 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMDZ0M25LQzd4Y0NlQUxmUERXTE9tWkNiZjRvdUdORjJYcVdQX3VmWXJQdFFQV1dVaElRLXV6Vmo0X0taNGJEU0xQV1dyYmxsWFU3c3FUME5FcGI5N3JYc2prYnpYM2xzS1JjdHdGald0QXZsYUZ1ZEdtRGg3ZHdkTGpMT0ZaV2J2U0JQLVI4Qk9MZ2RmNmhPcHpPdUZCckI4LU96TWVxcnJUbW1ROGlfWjRrYXpDZVFIVjNraWlLeUtpbEd0TXBJVzZOZGY4a1pJakdOZjJTaS1jLWF4RFE?oc=5",
       "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 04:13 WIB",
+      "source": "Bloomberg",
+      "category": "Umum Trading",
+      "title": "Billionaires: Trending News, Latest Updates, Analysis - Bloomberg.com",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tcjl6WG9obi1YZGJQUnVhUTZHX0dOSjVTbHl0RTlucXpiQ3NsWTBObGgxckRPQW9OQ3FHc0pacHVBMjZ6dTI2WnV5T2x2dG9YTXJN?oc=5",
+      "publisherUrl": "https://bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -643,12 +733,12 @@
         {
           "asset": "Silver",
           "direction": "↑",
-          "response": "MENGIKUTI"
+          "response": "TERTAHAN"
         },
         {
           "asset": "Brent",
           "direction": "↑",
-          "response": "MELAWAN"
+          "response": "TERTAHAN"
         },
         {
           "asset": "WTI",
@@ -666,8 +756,8 @@
           "response": "MELAWAN"
         }
       ],
-      "priceResponse": "XAUUSD MENGIKUTI • Silver MENGIKUTI • Brent MELAWAN",
-      "contradictions": "Brent melawan tekanan fundamental rule-based; Bitcoin melawan tekanan fundamental rule-based",
+      "priceResponse": "XAUUSD MENGIKUTI • Silver TERTAHAN • Brent TERTAHAN",
+      "contradictions": "Bitcoin melawan tekanan fundamental rule-based",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPamVMbDdBZVU0Z3g0NTJkSkRpaTdKRERYZk5ZN3V4OUJrUFluYXVUYUl2eFlxcmdQZmNFb3RNdllsVDlLLVR6YS1hREFEQlJBbmkzMDA5OWNjWTF3ZFhGUTg4ZGhCbm9PejlVa2tNejVPcXltUzdQWG9FR2FLT3Q5S1lId181TTdPU0tnZUlTWHF0UdIBlwFBVV95cUxPQlR0ZnJBVThwY0wwTUNEZk55V1kxV1pHRXNQV2tZY1dmdnI3ZWNuRDJwdzNHWXFZOXdpLUstZG5iR1Ywc1lJZVV2MkZ6QzFLVklkVUZUbHU4Slg4N1dWOU82Z3NrUEFjYmFDNGJFU3Azd2lxR2dUTXJuZG1EYzhsWC0zdDZUbjNCREEwUEJmUDkzS3J6SWZZ?oc=5",
       "publisherUrl": "https://www.forexfactory.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
@@ -794,12 +884,12 @@
         {
           "asset": "Silver",
           "direction": "↑",
-          "response": "MENGIKUTI"
+          "response": "TERTAHAN"
         },
         {
           "asset": "Brent",
           "direction": "↑",
-          "response": "MELAWAN"
+          "response": "TERTAHAN"
         },
         {
           "asset": "WTI",
@@ -817,9 +907,9 @@
           "response": "MELAWAN"
         }
       ],
-      "priceResponse": "XAUUSD MENGIKUTI • Silver MENGIKUTI • Brent MELAWAN",
-      "contradictions": "Brent melawan tekanan fundamental rule-based; Bitcoin melawan tekanan fundamental rule-based",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNWmNqY2hTbGJOdE80U0FrQmprVzRrOVdQSVBvN0o0QlZJcDUzdmFjSG96RGRGaHdmckN6c0MxZWgzanIzcW1RMjhYTnBVVWpERWdKanZmMW1LYjlkTWN1VHVfZnZheTQwdGV3Tm9PQVZ6RnVPYmVGdENXbTdtTDBpRW5PSXgzaU1vQmtRNXNLNGFwTG8xMHJobGEtWWJFRG55eGR0YTdfMWQ?oc=5",
+      "priceResponse": "XAUUSD MENGIKUTI • Silver TERTAHAN • Brent TERTAHAN",
+      "contradictions": "Bitcoin melawan tekanan fundamental rule-based",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUGItVDZOalFSdnlMVXROQkQyOUNMVG8wV3VyRjRDNFBFTFUyQlczV2xnbnhSN08tSmw5WU9WYWxIQ2daSjVObU91NVlvb2F5b3JZOVc3b0dXbXphUkxPc29qTlN4cUxhdlh1RkVEMUR2TmpjVDRuWFZSZGpOdWJjcnJ0cGJPdjhwUXhWRzlpVHNDVWppZlkzMFRWX1ZCTG1QQ3c1ZWZ5d3diQ0JEMzlYZUpwNFhTLThTNS1sa2VNLTdWMHY0?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -837,89 +927,14 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYVU5RThXeTlES29neUxHbVNtejN5ZTQzaFZoOUZpYThtaGFvNHEybXMzUE5vSEVWX01DVU9Ma05YS3BzU2NsQnFMQ1o4WGVxTkY1aDBURVV6TkJ4VEcwWFMzYzdYS1dCQkg1YU05Zjh6OGJKSVdOMTBORHhmTF9PcF9oSE5iYVhIVVpjYVlkQUhSRkNtbGZkRUlVbVJ1Wk9uUmc1YVl3?oc=5",
       "publisherUrl": "https://www.reuters.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 02:12 WIB",
-      "source": "Bloomberg",
-      "category": "Komoditas",
-      "title": "US-Venezuela Oil Deal, Nepal Seeks Foreign Help After Flood, More - Bloomberg.com",
-      "titleId": "US-Venezuela Minyak Deal, Nepal Seeks Foreign Help setelah Flood, More - Bloomberg.com",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMTAxaUZLOTBFNHRtNFZUZ0poSmRvejN5T09zUjI0cGVfekJCZ0FYdjQyZTJHMnZPMjJRZGo3SjhRbzZYZHhNOHktdGVpQjFTQlYyVGlKWkhyRFc3cmJ0UC1HMW1qR09LN3MyMzRqaFNzbEN1LWNiM1JfTGpnb1BwQ3k1T0J2a3VmRV9TY3NkSnE4b21pTWlib0ttczlXY2t4NVlfY0xjcnBSSnh1THdBUA?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 02:09 WIB",
-      "source": "Yahoo Finance",
-      "category": "Umum Trading",
-      "title": "If You'd Invested $1,000 in McDonald's 25 Years Ago, Here's How Much You'd Have Today",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQNzBESTZKb3h1QXl2TTh6RXFBWFdoN3hMdnJBNUZ3Z0ZWTUlneHdmM1RGOXdXbVNzN05aVWFyRzdoTU1LM1FvSTJqVkpmZUs5SE5IS2xYbzZWdEVEekFnSlVYSDlqdFN5dFU2X2NnUEJra0xfdFgwUmR6Nm1FSE01c3NselZoZ2YtQXMwZ3pvTkp2RHAzT0JwMGdB?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 02:04 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Markets - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pNktuQlgwVHhZeDU2dy1rU1VSOVhXNzlOZlJlbmxhTHJISGc4bW44c3p5elhUaG1iRnlMTFE1VXgtRmtGM0JlTA?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 02:00 WIB",
-      "source": "Yahoo Finance",
-      "category": "Saham",
-      "title": "Her Husband Inherited $2 Million And Never Told Her — Six Years Later, She Discovered It Was All In 3 Tech Stocks",
-      "titleId": "Her Husband Inherited $2 Million And Never Told Her — Six Years Later, She Discovered It Was All In 3 Tech saham",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT0w3UWVCd0cxWHlCRUtBZVBpQ1Z6OTVNT2poNFVzOUo3amt5d2tZZGtTWFVwdHNsb1JpUTJjM19PN0ZxcU1UaXRMa196Y2RvQ3hFank0cURTa3VORnduR0tFSUZtWHlqQkhWZVpjd05kckRrbXl3dVhyaWxVWEtTSExMdEtObGdSTkUwWXR2Wl9xSVF6alVNRlNETko?oc=5",
-      "publisherUrl": "https://finance.yahoo.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 02:00 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Guggenheim Stain Piles Onto Biggest Junk Laggard - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLVkyclRnWGFrSHZ2c1ZGbkpsOTRHOG1Cb2M1MVVrZE9WOWpXeHBrV2NuWHdGR3ZEdFVyVFMyaUVCZkttRl82MGNmQmlEQWsyLUFNTlpUVjA5TlVwNFRXamRYVEp0MEwwZFd5anU2S0tISEZNYTIxdlNocHVNb0pnb1lsdEJiYVZXZ24yYXRoTlU0T1N0MEN1WnlkUXB6bURORE9MUG9VOF9DNjEtdzh6TFdCaw?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
     }
   ],
   "calendar": [],
   "sourceStats": {
-    "Reuters": 8,
-    "Bloomberg": 9,
-    "Yahoo Finance": 4,
-    "Trading Economics": 15,
+    "Reuters": 10,
+    "Bloomberg": 8,
+    "Yahoo Finance": 3,
+    "Trading Economics": 16,
     "Forex Factory": 3
   },
   "sources": {
