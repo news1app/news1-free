@@ -2,8 +2,8 @@
   "schemaVersion": 3,
   "freeMode": true,
   "demo": false,
-  "generatedAtWib": "30 Aug 2026 06:52 WIB",
-  "generatedAtIso": "2026-08-30T06:52:38.908500+07:00",
+  "generatedAtWib": "30 Aug 2026 07:22 WIB",
+  "generatedAtIso": "2026-08-30T07:22:35.524299+07:00",
   "coverageWindow": "24 jam berita • 7 hari kalender",
   "warnings": [
     "Mode gratis: analisis berita bersifat rule-based dari headline/metadata; isi paywall tidak direkonstruksi.",
@@ -21,10 +21,10 @@
     "nextCatalyst": "Belum tersedia",
     "bullScenario": "XAU menguat bila DXY dan US10Y melemah bersama, terutama setelah data AS lebih lunak. Oil menguat bila supply risk/geopolitik meningkat dan Brent-WTI mengonfirmasi.",
     "bearScenario": "XAU melemah bila DXY dan US10Y menguat bersama, terutama setelah data AS panas/kuat. Oil melemah bila supply normal dan Brent-WTI turun bersama.",
-    "confidencePct": 72,
+    "confidencePct": 71,
     "confidenceLabel": "RULE-BASED",
-    "analysisCount": 6,
-    "conflictCount": 3
+    "analysisCount": 5,
+    "conflictCount": 2
   },
   "marketSnapshot": [
     {
@@ -36,7 +36,7 @@
       "lastNumeric": 4429.8,
       "changePct": 0.517,
       "change": "+0.52%",
-      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
+      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
       "sourceUrl": "https://finance.yahoo.com/quote/GC%3DF",
       "referenceSource": "Trading Economics",
       "referenceUrl": "https://tradingeconomics.com/commodity/gold",
@@ -252,10 +252,10 @@
       "labelId": "Bitcoin",
       "category": "Crypto",
       "symbol": "BTC-USD",
-      "last": "78,249.53",
-      "lastNumeric": 78249.53,
-      "changePct": 0.528,
-      "change": "+0.53%",
+      "last": "78,204.25",
+      "lastNumeric": 78204.25,
+      "changePct": 0.388,
+      "change": "+0.39%",
       "source": "Yahoo Finance",
       "priceType": "SPOT/INDEX/REFERENCE",
       "comment": "Naik dalam ±24 jam",
@@ -297,33 +297,18 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 06:00 WIB",
-      "source": "Reuters",
+      "publishedAtWib": "30 Aug 2026 07:00 WIB",
+      "source": "Bloomberg",
       "category": "Umum Trading",
-      "title": "Transcript - Reuters",
+      "title": "Day Traders Are Abandoning Korean Chip Leveraged ETFs in Droves - Bloomberg.com",
       "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbU9Wd1BZelNEQ2EydEJmRWZ4VFRyRDdoUzBZRS1OM004cjhVUnpyMERKNE12S0lIekNOY0VKVE1VNzFZNXFtemNKMzA0OWpOakY3LUx2UW9HQng2ZW1LVmRzQXBLU2tGNlB1MVhxRmhtZ2JTNm1sNUFhSzhpbWJrUEdMOXREV0NnT1hr?oc=5",
-      "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "29 Aug 2026 23:54 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Faroe Islands Imports of tools for working in the hand from Slovakia",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQcjFiaUdSdzBQLUFLX09fUmJpbmkwOGVPWHM2NmZFZV84VnV2S0ZYR2VNQ3ZXXzhENTBCX1lEbnFrRW81aGN1OTl3eU1mczlmMU16dkh2TWUwaXFKQ2dfQ3A5US1Wd3NNRWoxb1MyQzlyZ3dndlk2NjRyT1l5SnlocFFUaDNWeUZtdE5udG9EOUVTQQ?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOSFRwRHdDMUtFeERTdjR3QUt5SjhnZFlGVDRBRGFsenZ4QlFBNGxMaUhNeDNJeHNRQzNacmtPeWNERmVFUG5IUGJROWlPNU1ueE5xVU9IX0NGZ3NrSVFyMlZ1djRhRE1SSFl3MXhhLV9BR1UzMHFUVE16eDZUdmFreXh2X1cwMDg3eWlTeG1BQUlqWnBMM1BNMnBudGtNS2Zta1dFT0hFWEZTcklEU0V2cnc1ZV8?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -342,21 +327,6 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 04:50 WIB",
-      "source": "Bloomberg",
-      "category": "Komoditas",
-      "title": "Trump’s Oil Deal Riles Both Sides of Venezuelan Political Divide - Bloomberg.com",
-      "titleId": "Trump’s Minyak Deal Riles Both Sides of Venezuelan Political Divide - Bloomberg.com",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeWZITlNsdzhFTmRwdm11V2pOUURvX1B6QUpPRXFjWTRPbHE0azk3RjZyVXV3b3htT0xQUmdaN1RMTEJCbDB0T05vY1c4bWdfcndlWHVGWlNmRDJQZmVMZDJ5OTVBRHd1dWdodWtIbzBid2E5bVRJZVN0djF2YVk3YUFiQm1IZS15eVJFRjQ0b2g0aG9TRmF2cTc0Y2VtU1l1MUFpeElYYng1UXhFUURqWUVSVEUzQQ?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
       "publishedAtWib": "29 Aug 2026 17:32 WIB",
       "source": "Trading Economics",
       "category": "Komoditas",
@@ -369,6 +339,21 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1yeV9FSS1YQy1EajhQc0tTRkVZbmQyWnNZeFd0N184Y0syYXNPQVYyT2dGZFRKQ3FjQ2FYRWZYaGJ3dzVjbUt2MTJXUkstYlVja2szWUZtV3NhdWpoU19NV3lpMFB1RG96N1ZHbkZOUQ?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 06:00 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "Transcript - Reuters",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPbU9Wd1BZelNEQ2EydEJmRWZ4VFRyRDdoUzBZRS1OM004cjhVUnpyMERKNE12S0lIekNOY0VKVE1VNzFZNXFtemNKMzA0OWpOakY3LUx2UW9HQng2ZW1LVmRzQXBLU2tGNlB1MVhxRmhtZ2JTNm1sNUFhSzhpbWJrUEdMOXREV0NnT1hr?oc=5",
+      "publisherUrl": "https://www.reuters.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -387,21 +372,6 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 04:43 WIB",
-      "source": "Forex Factory",
-      "category": "Umum Trading",
-      "title": "Calendar",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9EN085OXRlS1JlaDk1SWthbF9qMWhFMHBXSkhhV3hLd21MbWEwMERXdkpFd2hkS1lSTVN0Wm1PdTl6dzFOaS1qVHhsMzlhamhyMHRxbWp1U0FqLVNpWHlKUWlqTFB6blB3T2dPcDNndHNWNm8?oc=5",
-      "publisherUrl": "https://www.forexfactory.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
       "publishedAtWib": "29 Aug 2026 17:13 WIB",
       "source": "Trading Economics",
       "category": "Makro & Data",
@@ -417,32 +387,17 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "29 Aug 2026 16:41 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Belize Imports of fruit juices, vegetable juices (unfermented, not containing added spirit) from Germany",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONTJYUFQ2MHZIdTg2OE1Gb1B1am4tcHI3WmEzYWFnclJTYjRFeUlxUDF2Z0xKcTZSUmlnNE8yWkY4MnZXa1RwR3JuUTVIaE85WERmdDRPeWh2ZURZRE9oS3Vsa1hNdDk3X05ETE12OWpxa2RXZlF6SGJfQWtaWUdEcmRwVUgxaGttYnJWWWp5SVJlYzBURzZvZ2hkUGF6MmdRNUdF?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 04:40 WIB",
+      "publishedAtWib": "30 Aug 2026 05:51 WIB",
       "source": "Reuters",
       "category": "Umum Trading",
-      "title": "TAC.Z - | Stock Price & Latest News",
+      "title": "FPSX.N - | Stock Price & Latest News",
       "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VWkFhbXA3WEhOZmI0VkNJMHY2cTJXbDBvZGdaMVJhYVp3eWUyRGE5WVNwTkZrVmhEV3RDWWlmaVpNWDhQdUMtcF9xTUVGdEVGQzBGZU9iRUVFZXRtVVBHRWdSeUhJenNIOERmMXhhUzF6MkNBakdNUldIUnVUUQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOTgxaWVNZm56dmtZaXAtUUVHaGg4NUlvejkyUDJNVnEzSzZ3UjVmZjFZU09lY1hobzFqUFBpMlowQm10c1hwTUlQVERjRjBPdzlfZjB6c2t6TG5FNlFKc2FyVjRuRnp2d1hhblNVbnFLX1RvWFhOSnVIUTdlN29Tc1B1NWY1SjA?oc=5",
       "publisherUrl": "https://www.reuters.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -477,18 +432,18 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 04:15 WIB",
-      "source": "Reuters",
+      "publishedAtWib": "30 Aug 2026 05:14 WIB",
+      "source": "Bloomberg",
       "category": "Umum Trading",
-      "title": "GM union deal would invest C$1.1 bln in Canada auto factories amid US tariff pressure",
-      "titleId": "GM union deal would invest C$1.1 bln in Canada auto factories di tengah US tariff pressure",
+      "title": "Billionaires: Trending News, Latest Updates, Analysis - Bloomberg.com",
+      "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMDZ0M25LQzd4Y0NlQUxmUERXTE9tWkNiZjRvdUdORjJYcVdQX3VmWXJQdFFQV1dVaElRLXV6Vmo0X0taNGJEU0xQV1dyYmxsWFU3c3FUME5FcGI5N3JYc2prYnpYM2xzS1JjdHdGald0QXZsYUZ1ZEdtRGg3ZHdkTGpMT0ZaV2J2U0JQLVI4Qk9MZ2RmNmhPcHpPdUZCckI4LU96TWVxcnJUbW1ROGlfWjRrYXpDZVFIVjNraWlLeUtpbEd0TXBJVzZOZGY4a1pJakdOZjJTaS1jLWF4RFE?oc=5",
-      "publisherUrl": "https://www.reuters.com",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tcjl6WG9obi1YZGJQUnVhUTZHX0dOSjVTbHl0RTlucXpiQ3NsWTBObGgxckRPQW9OQ3FHc0pacHVBMjZ6dTI2WnV5T2x2dG9YTXJN?oc=5",
+      "publisherUrl": "https://bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -522,17 +477,17 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 04:06 WIB",
+      "publishedAtWib": "30 Aug 2026 04:50 WIB",
       "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Markets - Bloomberg.com",
-      "titleId": "",
+      "category": "Komoditas",
+      "title": "Trump’s Oil Deal Riles Both Sides of Venezuelan Political Divide - Bloomberg.com",
+      "titleId": "Trump’s Minyak Deal Riles Both Sides of Venezuelan Political Divide - Bloomberg.com",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pNktuQlgwVHhZeDU2dy1rU1VSOVhXNzlOZlJlbmxhTHJISGc4bW44c3p5elhUaG1iRnlMTFE1VXgtRmtGM0JlTA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOeWZITlNsdzhFTmRwdm11V2pOUURvX1B6QUpPRXFjWTRPbHE0azk3RjZyVXV3b3htT0xQUmdaN1RMTEJCbDB0T05vY1c4bWdfcndlWHVGWlNmRDJQZmVMZDJ5OTVBRHd1dWdodWtIbzBid2E5bVRJZVN0djF2YVk3YUFiQm1IZS15eVJFRjQ0b2g0aG9TRmF2cTc0Y2VtU1l1MUFpeElYYng1UXhFUURqWUVSVEUzQQ?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -567,18 +522,18 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 04:00 WIB",
-      "source": "Yahoo Finance",
-      "category": "Bank Sentral",
-      "title": "AI Is Driving Up Prices As Much As Tariffs, Fed Analysis Reveals - Yahoo Finance UK",
-      "titleId": "AI Is Driving Up Prices saat Much saat Tariffs, Fed Analysis Reveals - Yahoo Finance UK",
-      "impact": "HIGH",
-      "analysis": "Headline Fed berdampak tinggi, tetapi arah tidak aman disimpulkan tanpa konteks pernyataan dan reaksi yield.",
+      "publishedAtWib": "30 Aug 2026 04:40 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "TAC.Z - | Stock Price & Latest News",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOem1rb3o2WlVMVmpLZVRHNWEyMHUwOEV5RFlacGFRbDRZU2hLOUEzYjZ1bW5KNlJiMVYybXRScG00a3IxMDFlVnJBR0FfOW1zVUwzeXFHYk5BOUo4NVVvRkZVNFhacVFjXzg3SFhhZXJUc0ktakxkWVZhR2ZuME9HbGQ1QlktUQ?oc=5",
-      "publisherUrl": "https://uk.finance.yahoo.com",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VWkFhbXA3WEhOZmI0VkNJMHY2cTJXbDBvZGdaMVJhYVp3eWUyRGE5WVNwTkZrVmhEV3RDWWlmaVpNWDhQdUMtcF9xTUVGdEVGQzBGZU9iRUVFZXRtVVBHRWdSeUhJenNIOERmMXhhUzF6MkNBakdNUldIUnVUUQ?oc=5",
+      "publisherUrl": "https://www.reuters.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -609,6 +564,66 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzRnhocGtSaGtYM0VxTk1URzJXS29VY3RKVFVhUUtneVVLWENPVkZjQmhZUEVKVDZCS2J2b3huQkdVdkprWGw0TEstalplMklsODhLcQ?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 04:25 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "TRC2.SG",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ3drZDcyZ1Q4U3VpMm9zWWVJSVZuMW5hZ240SUFqQjBhLTl1aW0wb3VtMjJwRlAxWDI1WXNSNXRXVjlHYUlHY0RSVnZxWTRzd0NJcTRxZkdWRXhvbW1VZzB0NDRNeGtmSmthZXhsbXdmUEVQWGp2TlRxN3g2dDVGSQ?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "29 Aug 2026 08:05 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Coal Hits 9-week High",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE94X1ZHdzV1SnlJQWNrS2V6VnlPQXd2QlZFVFdQeFB0ODl6T2RieGRnVjNzTkg2STFzTmhpZWEwX0k4OFU3VGNKa2YtSHA0ckZfWndPeWM4b2FENEIyR1d1cnl1SnIzZw?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 04:15 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "GM union deal would invest C$1.1 bln in Canada auto factories amid US tariff pressure",
+      "titleId": "GM union deal would invest C$1.1 bln in Canada auto factories di tengah US tariff pressure",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPMDZ0M25LQzd4Y0NlQUxmUERXTE9tWkNiZjRvdUdORjJYcVdQX3VmWXJQdFFQV1dVaElRLXV6Vmo0X0taNGJEU0xQV1dyYmxsWFU3c3FUME5FcGI5N3JYc2prYnpYM2xzS1JjdHdGald0QXZsYUZ1ZEdtRGg3ZHdkTGpMT0ZaV2J2U0JQLVI4Qk9MZ2RmNmhPcHpPdUZCckI4LU96TWVxcnJUbW1ROGlfWjRrYXpDZVFIVjNraWlLeUtpbEd0TXBJVzZOZGY4a1pJakdOZjJTaS1jLWF4RFE?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 04:00 WIB",
+      "source": "Yahoo Finance",
+      "category": "Bank Sentral",
+      "title": "AI Is Driving Up Prices As Much As Tariffs, Fed Analysis Reveals - Yahoo Finance UK",
+      "titleId": "AI Is Driving Up Prices saat Much saat Tariffs, Fed Analysis Reveals - Yahoo Finance UK",
+      "impact": "HIGH",
+      "analysis": "Headline Fed berdampak tinggi, tetapi arah tidak aman disimpulkan tanpa konteks pernyataan dan reaksi yield.",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOem1rb3o2WlVMVmpLZVRHNWEyMHUwOEV5RFlacGFRbDRZU2hLOUEzYjZ1bW5KNlJiMVYybXRScG00a3IxMDFlVnJBR0FfOW1zVUwzeXFHYk5BOUo4NVVvRkZVNFhacVFjXzg3SFhhZXJUc0ktakxkWVZhR2ZuME9HbGQ1QlktUQ?oc=5",
+      "publisherUrl": "https://uk.finance.yahoo.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -655,21 +670,6 @@
       "contradictions": "Brent melawan tekanan fundamental rule-based; Bitcoin melawan tekanan fundamental rule-based",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPamVMbDdBZVU0Z3g0NTJkSkRpaTdKRERYZk5ZN3V4OUJrUFluYXVUYUl2eFlxcmdQZmNFb3RNdllsVDlLLVR6YS1hREFEQlJBbmkzMDA5OWNjWTF3ZFhGUTg4ZGhCbm9PejlVa2tNejVPcXltUzdQWG9FR2FLT3Q5S1lId181TTdPU0tnZUlTWHF0UdIBlwFBVV95cUxPQlR0ZnJBVThwY0wwTUNEZk55V1kxV1pHRXNQV2tZY1dmdnI3ZWNuRDJwdzNHWXFZOXdpLUstZG5iR1Ywc1lJZVV2MkZ6QzFLVklkVUZUbHU4Slg4N1dWOU82Z3NrUEFjYmFDNGJFU3Azd2lxR2dUTXJuZG1EYzhsWC0zdDZUbjNCREEwUEJmUDkzS3J6SWZZ?oc=5",
       "publisherUrl": "https://www.forexfactory.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "29 Aug 2026 08:05 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Coal Hits 9-week High",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE94X1ZHdzV1SnlJQWNrS2V6VnlPQXd2QlZFVFdQeFB0ODl6T2RieGRnVjNzTkg2STFzTmhpZWEwX0k4OFU3VGNKa2YtSHA0ckZfWndPeWM4b2FENEIyR1d1cnl1SnIzZw?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -730,6 +730,21 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQ3dib2k1NWdVV2I5WDFtY3JRSU9WdGNJVTdNNGRCWW82YmJZOHhva2h2Rmp1d0IxOHNoWmZqQmdjSXo5THNLbldvOURjUzJXWjY2MHI5NXE0WXY2b2dZN1ZSYkZiZHZldVQ5TkRocDN0eDZ0NkhqVXhyVDVjM2gtY2VKM21ndUFKNFd0M1ZPQ3Q5dw?oc=5",
       "publisherUrl": "https://finance.yahoo.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "30 Aug 2026 03:27 WIB",
+      "source": "Forex Factory",
+      "category": "Umum Trading",
+      "title": "Calendar",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZXdXRXgzd2dYQXRyZDlGRG1FOFg5ZThkanhZVjFITXhLdHdUNGJVYUJkX0lpSzBWNHpvNVVIRjVMQjBnUk1tM2o5NndfaFdkRzZzcGNUN2pQMUhzNEtEZktxQ0MyOUxYZmxnNEdZR2xMa056NkxldEpVQjFtWnFXekNIaFpCa05Wc2tISVZfcXYwbXhPV2FqREI3blduX1JvYmdpSFdybmJQM18tU1JBb05BYjNiTll3bTUtb29kM0IxWWE2NWQtaUhuWjVJWGZDalN1S1BtSVlnVU5PQS1F?oc=5",
+      "publisherUrl": "https://www.forexfactory.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -809,21 +824,6 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "30 Aug 2026 02:56 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Fixed Income - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9WZHE2QmxqWXkwZUlEeDVhOVFEMDFfbVFvWmVBV1dwS0hVNXp3WmlHSURJMDZtb0c1cHlJOHF0UmQxZmRwOGtOdHBWaU1qRU0?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
       "publishedAtWib": "30 Aug 2026 02:15 WIB",
       "source": "Reuters",
       "category": "Umum Trading",
@@ -869,6 +869,21 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "30 Aug 2026 02:04 WIB",
+      "source": "Bloomberg",
+      "category": "Umum Trading",
+      "title": "Markets - Bloomberg.com",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pNktuQlgwVHhZeDU2dy1rU1VSOVhXNzlOZlJlbmxhTHJISGc4bW44c3p5elhUaG1iRnlMTFE1VXgtRmtGM0JlTA?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "30 Aug 2026 02:00 WIB",
       "source": "Yahoo Finance",
       "category": "Saham",
@@ -897,82 +912,6 @@
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPLVkyclRnWGFrSHZ2c1ZGbkpsOTRHOG1Cb2M1MVVrZE9WOWpXeHBrV2NuWHdGR3ZEdFVyVFMyaUVCZkttRl82MGNmQmlEQWsyLUFNTlpUVjA5TlVwNFRXamRYVEp0MEwwZFd5anU2S0tISEZNYTIxdlNocHVNb0pnb1lsdEJiYVZXZ24yYXRoTlU0T1N0MEN1WnlkUXB6bURORE9MUG9VOF9DNjEtdzh6TFdCaw?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 01:51 WIB",
-      "source": "Reuters",
-      "category": "Umum Trading",
-      "title": "Norway's King Haakon honours 'dear father' Harald in first speech as sovereign",
-      "titleId": "Norway's King Haakon honours 'dear father' Harald in first speech saat sovereign",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcEtEeDkxNXc0Zks1OENiT3RZTl9oLWpXNjZfZndzdk9RbHo5RVczY2xvSXB2MHJvVkRPV0dob2ZMamFld00ydUt4VEdqVnQ3QkVxMjBGYWZrSThscjJvOXpjdlBmekUtSzRCRXdGNWpqNnJDaTR0VHFzZ213eVZjZWxkR0lwbFN5TlNlUlZGb0xOUXcxYVdpSGpMY2pMZUdpa0pB?oc=5",
-      "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 01:45 WIB",
-      "source": "Reuters",
-      "category": "Geopolitik",
-      "title": "Settler attacks deepen pressure on West Bank village of Qusra",
-      "titleId": "Settler attacks deepen pressure setelah West Bank village of Qusra",
-      "impact": "HIGH",
-      "analysis": "Eskalasi geopolitik/Hormuz cenderung menaikkan risk premium minyak dan permintaan safe haven. Efek akhir pada emas tetap perlu dikonfirmasi oleh DXY dan yield AS.",
-      "assetImpacts": [
-        {
-          "asset": "XAUUSD",
-          "direction": "↑",
-          "response": "MENGIKUTI"
-        },
-        {
-          "asset": "Silver",
-          "direction": "↑",
-          "response": "MENGIKUTI"
-        },
-        {
-          "asset": "Brent",
-          "direction": "↑",
-          "response": "MELAWAN"
-        },
-        {
-          "asset": "WTI",
-          "direction": "↑",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "US equities",
-          "direction": "↓",
-          "response": "TERTAHAN"
-        },
-        {
-          "asset": "Bitcoin",
-          "direction": "↓",
-          "response": "MELAWAN"
-        }
-      ],
-      "priceResponse": "XAUUSD MENGIKUTI • Silver MENGIKUTI • Brent MELAWAN",
-      "contradictions": "Brent melawan tekanan fundamental rule-based; Bitcoin melawan tekanan fundamental rule-based",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TSGVKdnZXR2lKcF9iOGMwSTc4Xy1fVGxxLXhYRHZtbXdhcnh1RHVVN0x1ZmhSOFVYWGtUMFZtU2hKbTVYUHQxU3hPRXhhOFJSZ3VsRVliT216TXJhY1dpNGprNURLUDA?oc=5",
-      "publisherUrl": "https://www.reuters.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "30 Aug 2026 01:27 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Butterfield FB Bhd - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WMDZSOU50UkhhMDlrb1VlSTdmaGZWWEF2endzQ2Z2djZHQ2dZZ1Q3WFBRZ0ZrMl9zM0tjZEpWSXlvWnhOUURNRENkdUlLRXR4MDB1eTNPaDJkRVMtQUhYbg?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
     }
   ],
   "calendar": [],
@@ -980,7 +919,7 @@
     "Reuters": 8,
     "Bloomberg": 9,
     "Yahoo Finance": 4,
-    "Trading Economics": 17,
+    "Trading Economics": 15,
     "Forex Factory": 3
   },
   "sources": {
