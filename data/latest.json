@@ -2,8 +2,8 @@
   "schemaVersion": 3,
   "freeMode": true,
   "demo": false,
-  "generatedAtWib": "06 Sep 2026 14:52 WIB",
-  "generatedAtIso": "2026-09-06T14:52:20.318594+07:00",
+  "generatedAtWib": "06 Sep 2026 15:28 WIB",
+  "generatedAtIso": "2026-09-06T15:28:31.470680+07:00",
   "coverageWindow": "24 jam berita • 7 hari kalender",
   "warnings": [
     "Mode gratis: analisis berita bersifat rule-based dari headline/metadata; isi paywall tidak direkonstruksi.",
@@ -21,10 +21,10 @@
     "nextCatalyst": "10 Sep 2026 19:15 WIB • Main Refinancing Rate",
     "bullScenario": "XAU menguat bila DXY dan US10Y melemah bersama, terutama setelah data AS lebih lunak. Oil menguat bila supply risk/geopolitik meningkat dan Brent-WTI mengonfirmasi.",
     "bearScenario": "XAU melemah bila DXY dan US10Y menguat bersama, terutama setelah data AS panas/kuat. Oil melemah bila supply normal dan Brent-WTI turun bersama.",
-    "confidencePct": 75,
+    "confidencePct": 77,
     "confidenceLabel": "RULE-BASED",
-    "analysisCount": 3,
-    "conflictCount": 2
+    "analysisCount": 5,
+    "conflictCount": 4
   },
   "marketSnapshot": [
     {
@@ -36,7 +36,7 @@
       "lastNumeric": 4429.8,
       "changePct": 0.517,
       "change": "+0.52%",
-      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
+      "source": "Yahoo Finance • futures proxy • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached • cached",
       "sourceUrl": "https://finance.yahoo.com/quote/GC%3DF",
       "referenceSource": "Trading Economics",
       "referenceUrl": "https://tradingeconomics.com/commodity/gold",
@@ -252,10 +252,10 @@
       "labelId": "Bitcoin",
       "category": "Crypto",
       "symbol": "BTC-USD",
-      "last": "79,819.04",
-      "lastNumeric": 79819.04,
-      "changePct": 0.116,
-      "change": "+0.12%",
+      "last": "79,808.68",
+      "lastNumeric": 79808.68,
+      "changePct": 0.191,
+      "change": "+0.19%",
       "source": "Yahoo Finance",
       "priceType": "SPOT/INDEX/REFERENCE",
       "comment": "Naik dalam ±24 jam",
@@ -266,6 +266,21 @@
     }
   ],
   "news": [
+    {
+      "publishedAtWib": "06 Sep 2026 11:26 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Fiji Imports of other bars and rods, angles, shapes, sections, of other alloy steel from Cameroon",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPeXEzYWE2OHpmU0Q4dXB0S3JEQkxLeEp6dWpnaWY4YjZZZUZVNzY5WXloQlhkVFp4SXd1VzRKbWt6bzdtZnRLYkJmTmVPSnNrYWJhZkpiMkZ4cHgwN3FNMGY3WTRYVjBFZlJkV2owTmJVLUpoVkg5UHlDdnB1N3dsMDluRHk?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
     {
       "publishedAtWib": "06 Sep 2026 10:00 WIB",
       "source": "Trading Economics",
@@ -282,6 +297,21 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "06 Sep 2026 15:00 WIB",
+      "source": "Bloomberg",
+      "category": "Umum Trading",
+      "title": "Nepal’s Request for Flood Payout Tests New Climate-Aid System - Bloomberg.com",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNelplZExDaEx0d2UzQm8wSVBvcXQxdzltZ21NT19YS1dlYXMtY250dVkxaXROYldJdGZsMTFUNHcyNDBMZkpHNEtHZEpyd2VuSjJ5TjFfX0s0ZlBvSzNyVk5hS29BTzYycjhCZEdmaUxEb1FnUW56bzVVWERYaG53NzJ0Q2pfeVBmVTBBUUV1SnJQQzd4VVBhRDhBcjNrM3dQY3VmNlVTREt6WW9wcW8wckhR?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "06 Sep 2026 09:49 WIB",
       "source": "Trading Economics",
       "category": "Umum Trading",
@@ -293,6 +323,21 @@
       "priceResponse": "",
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5lN2xMM1dXdUlyelNvakxZZHhZRFJvdE9kXy1rZW9lTXFLaTd1TDBSVkFiaWFwbVByUVNIWXAtZzNQcnoyQlhSR1dlZ3RLcjdkMXlEQ2FnNW5sMF96VVppS3E2UQ?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "06 Sep 2026 00:50 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Bolivia Exports of lead to Japan",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YRVRfczl6eF9VVkRuUmk5aGZobVNkZ0VUa0I3cWhjQ1J0dFhKZ1lUNVdhXzV6Q1dIRkdWdXIyYVhjcktTTzhmek5idkZ4N2gyS2tabWxpZExRREpZX3lfOU1nSXE4dw?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -312,21 +357,6 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "06 Sep 2026 00:50 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Bolivia Exports of lead to Japan",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1YRVRfczl6eF9VVkRuUmk5aGZobVNkZ0VUa0I3cWhjQ1J0dFhKZ1lUNVdhXzV6Q1dIRkdWdXIyYVhjcktTTzhmek5idkZ4N2gyS2tabWxpZExRREpZX3lfOU1nSXE4dw?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
       "publishedAtWib": "05 Sep 2026 23:13 WIB",
       "source": "Trading Economics",
       "category": "Umum Trading",
@@ -338,6 +368,66 @@
       "priceResponse": "",
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQX2ZINVdkTDdQa2FBYWc5TXRaUmpxZUpYSlg3UFVwY21BaHhMUG05YU12VnVXRXd3MEphVzZrOFQ1Ymp1cGNidXBhQlJiOWF5MEZBSnl4WkpNMVprdTl2QmVGVVExZzdlbDV1bFp4a3dVRk5NQTFxRGZiZ0hUMmZtTER5VUZiVnB0eUVVb3JuMmVxV0U1Z1VWRXIwQ0kwWDlfRHhJ?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "05 Sep 2026 22:35 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Mexico News",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ETWR0aXhzZXI0dUtGWExSc0dSMk50ZHNzcHd1dnZsa3hjaEluY0tzNlZtY0tWeG9qY19Ua2lOTlVScUg4WDYzUmptVW5Gdko1NFE?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "06 Sep 2026 14:33 WIB",
+      "source": "Yahoo Finance",
+      "category": "Saham",
+      "title": "2 top FTSE blue-chips to consider for a Stocks and Shares ISA - Yahoo Finance UK",
+      "titleId": "2 top FTSE blue-chips to consider for a saham and Shares ISA - Yahoo Finance UK",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4xeEtfMGV2c2M4dHpWNElVLVBIckQ1VklsVEhCSE1mZTl1Q3lfNEw2QnczWjdjOTJxZUJSTXJLVkJHdEIwYjF0YWdwZlhKRG5tTnRPSzRqOFNjOHhHRm1Qck9OTmloMlNxZE45REhHSC1KZGticDV5UVdR?oc=5",
+      "publisherUrl": "https://uk.finance.yahoo.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "05 Sep 2026 22:27 WIB",
+      "source": "Trading Economics",
+      "category": "Umum Trading",
+      "title": "Morocco Exports of nickel to Switzerland",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NeXA5Wl9oazZqU3NNMXlCSWJURjhUblRnWTZ2NDJVTWtkMXo0alVrU1BOcy1ERzFfclRwTHhxYVlacGtneTh2TDFSZjdqOGg0MjZpbWF2c1IyZ2xMUU5DaHh5Z3l3dFU2RlFPLUs5eUU?oc=5",
+      "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "05 Sep 2026 20:19 WIB",
+      "source": "Trading Economics",
+      "category": "Komoditas",
+      "title": "Commodity Copper News 494583",
+      "titleId": "Commodity Tembaga News 494583",
+      "impact": "MEDIUM",
+      "analysis": "Tembaga sensitif terhadap ekspektasi pertumbuhan global dan permintaan China; konfirmasi dengan DXY dan risk sentiment.",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TQVVIMUFYaG5MdlRYQjdEQzRyanN3MFdoX19rcEFhdE5MYzQyS1UxNWVubTBodDVoNHJDVzdoTzdJbmh2ZHpOcGxZQ3NzXzdNRnRNRW9fbHBNSzU0Q1hUaDRRS0xzZTJx?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -357,32 +447,32 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "05 Sep 2026 22:35 WIB",
+      "publishedAtWib": "05 Sep 2026 20:17 WIB",
       "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Mexico News",
-      "titleId": "",
+      "category": "Komoditas",
+      "title": "Commodity Crude Oil News 538941",
+      "titleId": "Commodity Minyak Mentah News 538941",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9ETWR0aXhzZXI0dUtGWExSc0dSMk50ZHNzcHd1dnZsa3hjaEluY0tzNlZtY0tWeG9qY19Ua2lOTlVScUg4WDYzUmptVW5Gdko1NFE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xLU1jTXpHdDkzZHNGRWM4cW5XZnFFYXk3MXhqdVR3UEtnX2REZUhLNGJYaGxLeDRPWnJhWVRad21aZTJ6d3ljZ3JqRFFZYUJCbld6ZHdaYW1SNHFnYmVLcUlsbWpkWnpUYjRROA?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "05 Sep 2026 22:27 WIB",
+      "publishedAtWib": "05 Sep 2026 19:56 WIB",
       "source": "Trading Economics",
       "category": "Umum Trading",
-      "title": "Morocco Exports of nickel to Switzerland",
+      "title": "Latest News Stream - Bhutan",
       "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NeXA5Wl9oazZqU3NNMXlCSWJURjhUblRnWTZ2NDJVTWtkMXo0alVrU1BOcy1ERzFfclRwTHhxYVlacGtneTh2TDFSZjdqOGg0MjZpbWF2c1IyZ2xMUU5DaHh5Z3l3dFU2RlFPLUs5eUU?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE40WFA5UC1Lc1dxTFFvejJfSTFBVkUyeU9IOTM1ajhjV2VvM2w5SkdscFdYUWZfVXJOaEV2a2JjVmwyak1iV20xNUJ1T3hPYl9KYS1iOWduNA?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -402,33 +492,109 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "05 Sep 2026 20:19 WIB",
+      "publishedAtWib": "05 Sep 2026 17:10 WIB",
       "source": "Trading Economics",
-      "category": "Komoditas",
-      "title": "Commodity Copper News 494583",
-      "titleId": "Commodity Tembaga News 494583",
-      "impact": "MEDIUM",
-      "analysis": "Tembaga sensitif terhadap ekspektasi pertumbuhan global dan permintaan China; konfirmasi dengan DXY dan risk sentiment.",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9TQVVIMUFYaG5MdlRYQjdEQzRyanN3MFdoX19rcEFhdE5MYzQyS1UxNWVubTBodDVoNHJDVzdoTzdJbmh2ZHpOcGxZQ3NzXzdNRnRNRW9fbHBNSzU0Q1hUaDRRS0xzZTJx?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "05 Sep 2026 20:17 WIB",
-      "source": "Trading Economics",
-      "category": "Komoditas",
-      "title": "Commodity Crude Oil News 538941",
-      "titleId": "Commodity Minyak Mentah News 538941",
+      "category": "Umum Trading",
+      "title": "Argentina Imports of made-up articles of textile materials nor specified elsewhere from Bosnia And Herzegovina",
+      "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xLU1jTXpHdDkzZHNGRWM4cW5XZnFFYXk3MXhqdVR3UEtnX2REZUhLNGJYaGxLeDRPWnJhWVRad21aZTJ6d3ljZ3JqRFFZYUJCbld6ZHdaYW1SNHFnYmVLcUlsbWpkWnpUYjRROA?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaUMyV1ZBcTd4clRZUnA0bWVSaHFDTlpIOTFvNmdVQ2xMYTEzbVNRYmkwWjU2X04xRG5TNzlJZmgtaFpGWEhjNE04N3ZnZXA4RFBtelJOcU9QSk56alFpdnYwRE5BaWNETGRWS0hiLUxOVFk2LVhDRUl0aDA5N3BhZUxndnpBamJXdmthLTFwRldFQnhvTlpzN1hqN19YWEdhOEE?oc=5",
       "publisherUrl": "https://tradingeconomics.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "06 Sep 2026 14:02 WIB",
+      "source": "Bloomberg",
+      "category": "Umum Trading",
+      "title": "Anita Slater, Skinbiotherapeutics PLC: Profile and Biography - Bloomberg.com",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE54QTd4cEdMemRrdHgtcFhJNDR0dHROU1ZrTVhTNlJwSEtnVFR5QVdRVE9RVmdrY1k5MGpna014ZFJSRDlOamtCM1phYmNqcmo2aGRNVFNPeTJWajZUcFE?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "06 Sep 2026 13:48 WIB",
+      "source": "Bloomberg",
+      "category": "Umum Trading",
+      "title": "Markets - Bloomberg.com",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pNktuQlgwVHhZeDU2dy1rU1VSOVhXNzlOZlJlbmxhTHJISGc4bW44c3p5elhUaG1iRnlMTFE1VXgtRmtGM0JlTA?oc=5",
+      "publisherUrl": "https://www.bloomberg.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "06 Sep 2026 13:36 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "US carrier Abraham Lincoln departs Thailand after respite visit",
+      "titleId": "US carrier Abraham Lincoln departs Thailand setelah respite visit",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNMjhwclJ2ZDZRMEdnU1NQQkwtRGNvMV9CZG9UaHBkSjJBRzZDX3UyOTBCUjBxU29Lc0U2ejl0a24wakRWX0tlM3oxUDlEWnJiYXVCekwxYVoyQ1B4VjhkX1ViOS1XWXJsU3VlaE1XVXdDVGIwYmFGbFp1ZWhUc3NFenBzSDVtVzJIOTdKMFUxcVlndzA5eUhKaHhCeTR6YXVFV2dOOGNyZjJiRGN0LUxKNnJqbWg3bXRLLUE?oc=5",
+      "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "06 Sep 2026 13:34 WIB",
+      "source": "Yahoo Finance",
+      "category": "Geopolitik",
+      "title": "U.S.-Iran tanker war escalates as Hormuz disruption deepens - Yahoo Finance Australia",
+      "titleId": "U.S.-Iran tanker perang escalates saat Hormuz disruption deepens - Yahoo Finance Australia",
+      "impact": "HIGH",
+      "analysis": "Eskalasi geopolitik/Hormuz cenderung menaikkan risk premium minyak dan permintaan safe haven. Efek akhir pada emas tetap perlu dikonfirmasi oleh DXY dan yield AS.",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↑",
+          "response": "MENGIKUTI"
+        },
+        {
+          "asset": "Silver",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "Brent",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "WTI",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "response": "MELAWAN"
+        }
+      ],
+      "priceResponse": "XAUUSD MENGIKUTI • Silver TERTAHAN • Brent TERTAHAN",
+      "contradictions": "Bitcoin melawan tekanan fundamental rule-based",
+      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdE5MUDdWZzMzRUQ0anhNOWxkUlNramJMVF9ZeWUyZXVpVER5MFhRaWtiR3UwU0NHc0hyTFdiU1BPeWtNeGlqVHVZTnR2SEdEb2dWZVNZcmNKUjY3R0I5Q2RGM184a0VMenBfVjZiT01BbXdycTcxbHJmYU8wRXJPeXlB?oc=5",
+      "publisherUrl": "https://au.finance.yahoo.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -478,36 +644,6 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "05 Sep 2026 19:56 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Latest News Stream - Bhutan",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE40WFA5UC1Lc1dxTFFvejJfSTFBVkUyeU9IOTM1ajhjV2VvM2w5SkdscFdYUWZfVXJOaEV2a2JjVmwyak1iV20xNUJ1T3hPYl9KYS1iOWduNA?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "05 Sep 2026 17:10 WIB",
-      "source": "Trading Economics",
-      "category": "Umum Trading",
-      "title": "Argentina Imports of made-up articles of textile materials nor specified elsewhere from Bosnia And Herzegovina",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaUMyV1ZBcTd4clRZUnA0bWVSaHFDTlpIOTFvNmdVQ2xMYTEzbVNRYmkwWjU2X04xRG5TNzlJZmgtaFpGWEhjNE04N3ZnZXA4RFBtelJOcU9QSk56alFpdnYwRE5BaWNETGRWS0hiLUxOVFk2LVhDRUl0aDA5N3BhZUxndnpBamJXdmthLTFwRldFQnhvTlpzN1hqN19YWEdhOEE?oc=5",
-      "publisherUrl": "https://tradingeconomics.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
       "publishedAtWib": "06 Sep 2026 12:38 WIB",
       "source": "Forex Factory",
       "category": "Saham",
@@ -541,6 +677,21 @@
       "publishedAtWib": "06 Sep 2026 12:28 WIB",
       "source": "Yahoo Finance",
       "category": "Saham",
+      "title": "Investors turn to Chinese stocks as alternative to crowded AI trades - Yahoo Finance Australia",
+      "titleId": "Investors turn to Chinese saham saat alternative to crowded AI trades - Yahoo Finance Australia",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQURZUGVEUVpvSERWOHlxZWpIdzM5Zk9kY0hqd01XY09HWFlXSlV6dUlIeHlWX1AwbjhkLWNWSG8tOUFXcGhoZ01kZ0tHTDdCVFJYaDMxdmY0TXRkeERvckRzUnZEaE1JemY4TWQ4S2EwR2hfS0drcS02dk5wSEcxQXhpWUE0YXhjNFAxYU0xMUJQUUx5?oc=5",
+      "publisherUrl": "https://au.finance.yahoo.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "06 Sep 2026 12:28 WIB",
+      "source": "Yahoo Finance",
+      "category": "Saham",
       "title": "Investors turn to Chinese stocks as alternative to crowded AI trades - Yahoo Finance UK",
       "titleId": "Investors turn to Chinese saham saat alternative to crowded AI trades - Yahoo Finance UK",
       "impact": "LOW",
@@ -550,6 +701,21 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbUhJU2QyNTVTejQwN3h3d3JMeGlEZ2xTR1dVM3FJSl9pbUp4RDJZWHprR2d5em9JNGZXRXBxSU5UcnNmeTBHZk5YdDdsZEQtQ0hqSzR4M0s4V3d5Q3RHUVlkR0V2U255MkZ6VmdYYms3c0xlZmxVc3pOeXZzT2xaNmJ5d1haQjNnRUNJVWZERkp0czFQ?oc=5",
       "publisherUrl": "https://uk.finance.yahoo.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "06 Sep 2026 12:21 WIB",
+      "source": "Reuters",
+      "category": "Umum Trading",
+      "title": "IDACU.OQ",
+      "titleId": "",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOZ0NLNGpkMXVwc0I4WmptQXhDV1ZZRVdpTFlDS2pNdWp0d1lNbHFxRWVEMldoTlVMMkJQUmprR0JRNGdwZC1lZ2lXWlMzVk54djRPblpzZURQdW84bnY0OG1oVnFEOWVTSV93d21CWTBaTHNMMy1rUGYtdGIxaU5wZA?oc=5",
+      "publisherUrl": "https://www.reuters.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -563,7 +729,7 @@
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMzFBNUg3Wm1yaWxKOXoyYXlrSlJtd2JBU3pHVU9jajktZnpxM0tqMDVBZ2k5MmF5U0pQOUJzbkltck1DdFR6dW1wbkJnd0tzQnFsazMtemExM3VmS3VLRUt5eUtFMFB1c1MxUGdmLTVhczA3TTNxUGlPdXVnY0JpZERUTk9WTWsyeEk3RFh3ZGoyMjVaOGpFSmdIRnRSVkMtcllWQWRlOTMtTlFpcXJWdWlWTQ?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPbTl4SjFIOHEzT3FUN3ZyeEhqZVZrQmFCTjlQUGo1WU95YVYwWVY2QjVzVndYUWd1WlZLdnlLbDJOMnc4d0R2TThaeHYwakJ1MUc0VXl4NnlqaG00N2hjWFMtemJUbDdLTHVWOVVFZDRGT2RWTXAzMGhVQ05NamVXLWJxWEdZSVBheDVXOGNZQ2RuY0F1YXVldHNyQkVfSVpyQ3AtYS1FSDVLLUlpdHl1ZHRIX05FeHFTOF9pMVpCT0k5UFRXaWRweGJRWGZ4c3poa0E?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
@@ -613,6 +779,67 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
+      "publishedAtWib": "06 Sep 2026 11:23 WIB",
+      "source": "Forex Factory",
+      "category": "Bank Sentral",
+      "title": "Week Ahead: Yen in Play, ECB Hikes, and US CPI to Impact FOMC",
+      "titleId": "",
+      "impact": "HIGH",
+      "analysis": "Inflasi yang lebih panas biasanya mengangkat yield/USD dan menekan emas serta aset berisiko.",
+      "assetImpacts": [
+        {
+          "asset": "XAUUSD",
+          "direction": "↓",
+          "response": "MELAWAN"
+        },
+        {
+          "asset": "Silver",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "DXY",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "US Treasury yields",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "USDJPY",
+          "direction": "↑",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "EURUSD",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "GBPUSD",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "US equities",
+          "direction": "↓",
+          "response": "TERTAHAN"
+        },
+        {
+          "asset": "Bitcoin",
+          "direction": "↓",
+          "response": "MELAWAN"
+        }
+      ],
+      "priceResponse": "XAUUSD MELAWAN • Silver TERTAHAN • DXY TERTAHAN",
+      "contradictions": "XAUUSD melawan tekanan fundamental rule-based; Bitcoin melawan tekanan fundamental rule-based",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOemh0LXpKUy1zRG1rUlhWNFJiVXZEdjFnTEVjX0xQb3duR1Uwb1VJUnp3NW1vcWVXbWhSdlNic21BVWQwbzc0TlRhUXhkbG9nMzFzaUtIb3Zfb3MxcVhCS25qWGZKbGdfVXhIcjVsU2lDalcwR3MxeWpNbWpKZjlpQjh1d1LSAYoBQVVfeXFMT3VPdHRmLV9UZDQyUXRsQnh4M20wX05leTdnWHVucklDdS1ZWDhPS2QtczFURWpoc3JnQTRITjZUN3hMYXI2WldGaGdLNUtpXzhpNXVCQ1RrMEFXTnFOdWFaRGlPTWxGVFNKUDRFX0pzMnE0OFJXa3NiMGhWS3RYUTZyQVRyWDNvdHFn?oc=5",
+      "publisherUrl": "https://www.forexfactory.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
       "publishedAtWib": "06 Sep 2026 11:15 WIB",
       "source": "Reuters",
       "category": "Geopolitik",
@@ -625,6 +852,21 @@
       "contradictions": "",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNi1QZjVMMzI3QlpNZ2pKMVNjZFNqU2RWb093aGtUS3ZmZWdBNHNjbXFMdVZZS2NkMnd3cWlQZlVqenBlRGpQdkFJSjNuMU5wVlNCa1pqNXVzV0NIRVFGc3Z6bGpMZXp3dzc1Y3dfM2xTNnZCSi0weHFlMUtaZG0yS2p6S2ZhWXRUeS0xYkFOOE5vLUlYaFJnMy1KdGh0ejFDbEpzOFRlaEs2ZG1ZY09hUW05WjhYYVBndHBtVjFIQ0szMVVOVzc4?oc=5",
       "publisherUrl": "https://www.reuters.com",
+      "verificationLevel": "HEADLINE_METADATA_ONLY"
+    },
+    {
+      "publishedAtWib": "06 Sep 2026 10:54 WIB",
+      "source": "Yahoo Finance",
+      "category": "Komoditas",
+      "title": "Austral Gold Limited (D3R.F) cash flow – Yahoo Finance - Yahoo Finance Singapore",
+      "titleId": "Austral Emas Limited (D3R.F) cash flow – Yahoo Finance - Yahoo Finance Singapore",
+      "impact": "LOW",
+      "analysis": "",
+      "assetImpacts": [],
+      "priceResponse": "",
+      "contradictions": "",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxeTVaYmQ5VDM2RXBWU1p1VEJzZEpQOXM3T2plYU5GNmZXbUFYM3NEaVhfS0ZjWHE4ZGRnRG9sbU9OQ0NmeEdmUFRDM2RCd0pEN1BGVE9qdmdQT3l5RUhhdA?oc=5",
+      "publisherUrl": "https://sg.finance.yahoo.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
@@ -674,168 +916,18 @@
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     },
     {
-      "publishedAtWib": "06 Sep 2026 09:31 WIB",
+      "publishedAtWib": "06 Sep 2026 09:46 WIB",
       "source": "Bloomberg",
       "category": "Umum Trading",
-      "title": "Hilde Slemdal Leinaas, Insr Insurance Group ASA: Profile and Biography - Bloomberg.com",
+      "title": "US Rejects Claim It Sought to Influence Malaysia’s Leadership - Bloomberg.com",
       "titleId": "",
       "impact": "LOW",
       "analysis": "",
       "assetImpacts": [],
       "priceResponse": "",
       "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1FcGVVSW5YVmxjTnNjUU9xZ3JBWV9DR1NDOS1PLTFtcENlenNhd1FPUjI4cTkwQkxjTGZXTGJieVBmTDJkU1IxcFR0MG1SWVpvLTl1ei1TOU52MldLcFE?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd2dvTjZta2ZnUGJkSHhpNGhiYm1BS3owUkxNQW9uMXhWM09ET2Z0ODFSQjhZR2o3UlV2MHFXUkJIOGRwV2JEN1NzNS1ZeXdRWkN6RkJTcktmWklDSUJiVnF4YkdmRHRVd1Vsd1dfMHhKRU01M214TFdDS0VzZnZ5M1RLVUxzZzdkTk52N0NRekN0eWdLazliSy1HX3VoZEYzNFZPdWhHNkRCZmZ1UzdzZzh4RHc0ek1RUjhuaTFBWW9oWnFXcC03NHY2M09jU0E?oc=5",
       "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "06 Sep 2026 09:30 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "NZ’s National Vows to Ease Deposit Rules for First-Home Buyers - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDd1TUdVQkM1WVJSQl96QU11X253bFZlNlRtWkt4T2dxODBNdVFJY2FRc3Q0QzZxQm9jR0RWZmFza002NDBpUFF5YUhjbFBHSFoyLWpkY2dISHF1LVVOMFgwWnRiTW1uYVR5YjN2WlVRc3VQaFJaUjhQU1JPV3hfTVpMOTVOR09YRC1MVU04STk0SHZqV0l4dEZLSnRkLURDbzZuR282RXpMNGVpNGVUUmNjZw?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "06 Sep 2026 09:29 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Nobuhiko Sanbuichi, Takagi Seiko Corp: Profile and Biography - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBRVFVlRkk4OEpCWnRaSWRhTmpyS2tSRUU3Y0RGanBVd0c0SnVRelU2aHQtdWFsNmdCZUZkYmN0UWdWMTNGTnZOb1hVUkJPX3lSMzJCR3R3UzlPVl9EM2c?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "06 Sep 2026 09:06 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Bijaya Dora, Zenotech Laboratories Ltd: Profile and Biography - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBybXctSFFJN2ZrRmYtcVAwVmJJbWhfeWtIZkthLXVDcTUwVHVLOUM3QUFtdDJFTnNZeHQ4c3F6aWpHQ08yemRFRjZEOUZsZWVNUk5mVWRZY0RqeUZ4ZlE?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "06 Sep 2026 09:00 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Li Zhi-Yu, Asia Metal Industries Inc: Profile and Biography - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIa1pGbnFERnhVNm9yUW91VWRYdWlrVTc1cG5GTnJqOWx0eU5jVEstZ0ZLSVlRTFVqVXA0T0Y4LTQ5UUpjSnNSeGZxTlplSFRidW01Z0wxZDlDYUNTMUE?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "06 Sep 2026 08:59 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Brittany Madeley, Agency Group Australia Ltd: Profile and Biography - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5Pal9GZUlyQUd5VWV3X1lHOFc0YW5WM3d5RGhtY1hNa0Q0QXFnQ0hBaVp4NlhzQjcybWprMnFiZ0tjWUV6ajB0NGFaNmFoUEN0bFBxWkczYW9nNG9BREE?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "06 Sep 2026 08:59 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Yang Xiaocui, Faw Jiefang Group Co Ltd: Profile and Biography - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94OWIzal93Uk1QbUM5aTM1SjVmMmNaQmRxUUNmaDhNLVpSWWpTTkJiNXJLa1dLNHVJaGU1bEZhVmVOS3JRVEdDR3dyWGVOUVNNR3dBOGlBNHRiZnJHcEE?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "06 Sep 2026 08:37 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Zhou Hongping, Linhai Co Ltd: Profile and Biography - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1ZdWZaX2RCSHVtXzdqNkhFLUl2empVNHFmc2FQbFdBaldnMTBnR1huS2lNcVZDQkc0cnBmaUdRVUZZMG90ekVCTW1adlJMM2JSdzBpMWxYTEZicFpqUFE?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "06 Sep 2026 08:35 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Kazutoyo Sakuda, Soda Nikka Co Ltd: Profile and Biography - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA4QmYtZm1ObzZ6d1RNbG55Y1dNb2F3U2VMZk9CbFdpNzZCNjEtU3ppd01Rd3BJRTg4c1ZkNmNRY2k3d2ZzOUE4aXBYaFJDemRMVkpoVWRzZFZ1bzRIS3c?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "06 Sep 2026 08:29 WIB",
-      "source": "Bloomberg",
-      "category": "Umum Trading",
-      "title": "Takashi Ooki, Soda Nikka Co Ltd: Profile and Biography - Bloomberg.com",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1JZnIwRlZ4WkNaN2p6WExVa203LWltUnhYajZySjQyYmFXWDJqcGN3Vnk1cmdQblpHQk1ybk9NZnhBVTIzdDEzbGg0aV9QM0Q3UXRmVVFBVDYtQ0piMWc?oc=5",
-      "publisherUrl": "https://www.bloomberg.com",
-      "verificationLevel": "HEADLINE_METADATA_ONLY"
-    },
-    {
-      "publishedAtWib": "06 Sep 2026 08:11 WIB",
-      "source": "Reuters",
-      "category": "Umum Trading",
-      "title": "IBQT.TO - | Stock Price & Latest News",
-      "titleId": "",
-      "impact": "LOW",
-      "analysis": "",
-      "assetImpacts": [],
-      "priceResponse": "",
-      "contradictions": "",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOX1V3RlRfTGVGOUxBMnhxeDFya042cWZESzdON1U4SDJWVThqc2dJV2k2aXFnMjdibXc5RDlZalAxTGhoaGJoR3pDWm5PV0ZpM1o3dUMwTTF1LWVVSlRPbWlTTjJnczNKd1ROZ3h0YmhBaG5jV0gyaG5JWFVzSFhBUVUzZVA?oc=5",
-      "publisherUrl": "https://www.reuters.com",
       "verificationLevel": "HEADLINE_METADATA_ONLY"
     }
   ],
@@ -2090,11 +2182,11 @@
     }
   ],
   "sourceStats": {
-    "Reuters": 4,
-    "Bloomberg": 14,
-    "Yahoo Finance": 2,
-    "Trading Economics": 10,
-    "Forex Factory": 4
+    "Reuters": 5,
+    "Bloomberg": 8,
+    "Yahoo Finance": 6,
+    "Trading Economics": 11,
+    "Forex Factory": 5
   },
   "sources": {
     "marketPrimary": "Yahoo Finance public chart endpoint",
